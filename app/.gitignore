@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.vite
+coverage
+# Local, uncommitted secrets (Google OAuth client id, etc.)
+.env
+.env.local
+src/config.local.ts

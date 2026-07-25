@@ -1,0 +1,3661 @@
+[
+ {
+  "id": "v2.receptive.1",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 1,
+  "textVi": "Nghe và chú Làm theo chỉ Hướng mắt và quay đầu về phía có âm thanh",
+  "startFor": [
+   0
+  ]
+ },
+ {
+  "id": "v2.receptive.2",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 2,
+  "textVi": "Nhìn về phía cha mẹ, hoặc người chăm sóc khi nghe thấy giọng nói của họ"
+ },
+ {
+  "id": "v2.receptive.3",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 3,
+  "textVi": "phản ứng khi nghe nói đến tên của mình (ví dụ: hướng về phía người nói, cười mỉm…)"
+ },
+ {
+  "id": "v2.receptive.4",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 4,
+  "textVi": "những biểu hiện chứng tỏ hiểu được nghĩa của từ \"không\", hoặc những cử chỉ tương đồng với nghĩa của từ này (ví dụ: ngừng hành động khi nghe nói \"không\")"
+ },
+ {
+  "id": "v2.receptive.5",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 5,
+  "textVi": "những biểu hiện chứng tỏ hiểu được nghĩa của từ \"có\", \"được\", hoặc những cử chỉ tương đồng với nghĩa của những từ này. (ví dụ: tiếp tục hành động, mỉm cười khi nghe nói \"được\", hoặc \"có\")"
+ },
+ {
+  "id": "v2.receptive.6",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 6,
+  "textVi": "Lắng nghe một câu chuyện trong vòng ít nhất 5 phút (nghĩa là, luôn giữ yên lặng và hướng chú đến người kể, hoặc người đọc trong vòng 5 phút)"
+ },
+ {
+  "id": "v2.receptive.7",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 7,
+  "textVi": "Chỉ đúng ít nhất 3 bộ phận chính trên cơ thể khi được yêu cầu (ví dụ: mũi, miệng, tay, chân"
+ },
+ {
+  "id": "v2.receptive.8",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 8,
+  "textVi": "Chỉ đúng những thứ thường thấy trong sách báo, hoặc tạp chí, khi người khác gọi tên chúng (ví dụ: chó, ôtô, chìa khoá…)"
+ },
+ {
+  "id": "v2.receptive.9",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 9,
+  "textVi": "Lắng nghe những chỉ dẫn"
+ },
+ {
+  "id": "v2.receptive.10",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 10,
+  "textVi": "Thực hiện được những chỉ dẫn về một hành động với một vật cụ thể (ví dụ: \"mang cuốn sách lại đây\", \"đóng cửa lại\"…)"
+ },
+ {
+  "id": "v2.receptive.11",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 11,
+  "textVi": "Chỉ đúng ít nhất 5 bộ phận nhỏ trên cơ thể, khi được yêu cầu (ví dụ: ngón tay, khuỷu tay, răng, ngón chân…)"
+ },
+ {
+  "id": "v2.receptive.12",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 12,
+  "textVi": "Thực hiện được những chỉ dẫn về 2 hành động, hoặc một hành động với 2 vật cụ thể (ví dụ: \"hãy mang giấy và màu vẽ lại đây\", \"hãy ngồi xuống và ăn đi\"…)"
+ },
+ {
+  "id": "v2.receptive.13",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 13,
+  "textVi": "Thực hiện được những chỉ dẫn mang tính điều kiện (ví dụ: \"nếu muốn đi chơi, hãy bỏ những thứ lại\"…)"
+ },
+ {
+  "id": "v2.receptive.14",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 14,
+  "textVi": "Lắng nghe một câu chuyện trong vòng ít nhất 15 phút"
+ },
+ {
+  "id": "v2.receptive.15",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 15,
+  "textVi": "Lắng nghe một câu chuyện trong vòng ít nhất 30 phút"
+ },
+ {
+  "id": "v2.receptive.16",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 16,
+  "textVi": "Thực hiện được những chỉ dẫn về 3 hành động kế tục (ví dụ: \"đánh răng, mặc quần áo, rồi thu dọn giường ngủ đi\"…)"
+ },
+ {
+  "id": "v2.receptive.17",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 17,
+  "textVi": "Thực hiện được những chỉ dẫn, hoặc hướng dẫn được nghe trước 5 phút"
+ },
+ {
+  "id": "v2.receptive.18",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 18,
+  "textVi": "Hiểu được hàm nghĩa những câu \"nói bóng\" (ví dụ: \"cho leo cây\", \"ngậm hột thị\"…)"
+ },
+ {
+  "id": "v2.receptive.19",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 19,
+  "textVi": "Lắng nghe những thông tin được truyền đạt trong vòng ít nhất 15 phút"
+ },
+ {
+  "id": "v2.receptive.20",
+  "subdomain": "receptive",
+  "domain": "communication",
+  "num": 20,
+  "textVi": "Lắng nghe những thông tin được truyền đạt trong vòng ít nhất 30 phút. Tổng số các Các mục trong Tổng số các mục trả lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận"
+ },
+ {
+  "id": "v2.expressive.1",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 1,
+  "textVi": "Khóc hoặc quấy khi đói hoặc bị ướt.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.2",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 2,
+  "textVi": "Cười đáp lại nụ cười của bạn",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.3",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 3,
+  "textVi": "Tạo ra những âm thanh thể hiện sự thích thú (ví dụ: gư gư, cười thành tiếng)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.4",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 4,
+  "textVi": "Tạo ra những âm thanh phi ngôn ngữ đặc trưng của trẻ nhỏ (nghĩa là bập bẹ, bi bô)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.5",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 5,
+  "textVi": "Tạo ra những âm thanh, hoặc cử chỉ (ví dụ: vẫy tay) được cha mẹ, hoặc người chăm sóc đến",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.6",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 6,
+  "textVi": "Tạo ra những âm thanh, hoặc cử chỉ (ví dụ: lắc đầu) khi muốn một hành động nào ngừng lại, hoặc tiếp tục",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.7",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 7,
+  "textVi": "Vẫy tay tạm biệt khi người khác vẫy tạm biệt, hoặc khi cha mẹ cũng như người chăm sóc yêu cầu",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.8",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 8,
+  "textVi": "Nói \"Ba-ba\", \"Ma-ma\", hoặc một từ khác gọi cha mẹ, cũng như người chăm sóc (gồm cả tên riêng, hoặc tên hiệu của cha",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.9",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 9,
+  "textVi": "mẹ, cũng như người chăm sóc). Chỉ vào thứ mà trẻ muốn nhưng lại không với tới",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.10",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 10,
+  "textVi": "Chỉ vào, hoặc có những cử chỉ thể hiện sự lựa chọn đối với một thứ gì (ví dụ: chỉ vào thứ mà trẻ lựa chọn khi được hỏi: \"Con muốn cái này, hay cái kia?\")",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.11",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 11,
+  "textVi": "Nhắc lại, hoặc cố gắng nhắc lại những từ thông dụng ngay sau khi được nghe (ví dụ:quả bóng, ôtô, đi…",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.12",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 12,
+  "textVi": "Gọi được ít nhất tên của ba thứ (ví dụ: chai, chó, ghế…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.13",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 13,
+  "textVi": "Nói yêu cầu của mình bằng một từ (ví dụ: nữa, đi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.14",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 14,
+  "textVi": "Biết sử dụng tên riêng, hoặc tên hiệu của anh, chị, em, hoặc bạn bè trong tiếp xúc hàng ngày; hoặc nói được tên của",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.15",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 15,
+  "textVi": "những người này khi được yêu cầu. Trả lời, hoặc cố gắng trả lời bằng từ ngữ khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.16",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 16,
+  "textVi": "Gọi được ít nhất tên của 10 thứ",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.17",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 17,
+  "textVi": "Nói được tên, hoặc tên hiệu của mình khi được hỏi (ví dụ: Tuấn, \"tít\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.18",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 18,
+  "textVi": "dụng những lời nói được kết cấu bởi một danh từ và một động từ (ví dụ: Nga ăn, đi nhà…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.19",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 19,
+  "textVi": "Đặt câu hỏi bằng cách biến tố từ ngữ, hoặc sử dụng những cụm từ đơn giản (ví dụ: \"của con?\", \"con đi?\"…); không cần",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.20",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 20,
+  "textVi": "chú trọng ngữ pháp. Nói rõ ít nhất 50 từ",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.21",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 21,
+  "textVi": "dụng những từ đơn giản mô tả các thứ (ví dụ: bẩn, đẹp, to…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.22",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 22,
+  "textVi": "dụng câu hỏi với các đại từ nghi vấn: \"cái gì\", \"ở đâu\" (ví dụ: \"Cái gì đấy?\", \"Bố đi đâu?\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.23",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 23,
+  "textVi": "(tiếp) nói Bắt đầu nói Lời nói tương tác Biểu đạt những phức tạp dụng các từ phủ định trong câu nói (ví dụ: \"con không đi\"; \"con sẽ không uống\"…); không cần chú trọng ngữ pháp",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.24",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 24,
+  "textVi": "lại những gì mình trải qua bằng những câu đơn giản (ví dụ: \"con và An chơi\"; \"An đọc sách cho con\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.25",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 25,
+  "textVi": "Nói đúng tuổi khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.26",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 26,
+  "textVi": "Nói rõ ít nhất 100 từ",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.27",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 27,
+  "textVi": "dụng các giới từ chỉ vị trí: \"trong\", \"trên\", \"dưới\" trong câu nói (ví dụ: \"quả bóng lăn dưới ghế\"; \"để nó trên bàn\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.28",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 28,
+  "textVi": "dụng liên từ: \"và\" trong câu nói (ví dụ: \"bố và mẹ\"; \"con muốn kem và bánh\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.29",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 29,
+  "textVi": "Nói đúng tên và họ khi được hỏi. Nhận biết đúng và gọi được tên những màu sắc thông thường",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.30",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 30,
+  "textVi": "(bao gồm các màu: xanh, đỏ, tím, vàng, cam, nâu, lục, và đen)",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu gọi đúng tên từ 6 đến 8 màu; 1 điểm, nếu gọi đúng tên từ 2 đến 5 màu; 0 điểm, nếu chỉ gọi đúng tên",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.31",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 31,
+  "textVi": "dưới 2 màu. dụng câu hỏi với các đại từ nghi vấn: \"ai\", \"tại sao\" (ví dụ: \"ai đó\"; \"tại sao con phải đi\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.32",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 32,
+  "textVi": "dụng thì hiện tại của các động từ quy tắc (ví dụ: \"is singing\"; \"is playing\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.33",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 33,
+  "textVi": "dụng các đại từ sở hữu trong câu nói (ví dụ: \"cuốn sách của bạn ấy\"; \"quả bóng này của Nam\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.34",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 34,
+  "textVi": "dụng các đại từ trong câu nói; các đại từ được sử dụng phải đúng về giống và hình thái, nhưng toàn bộ câu nói không nhất thiết phải đúng về ngữ pháp (ví dụ: \"bạn ấy làm nó\"; \"họ",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.35",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 35,
+  "textVi": "đi rồi\"…). dụng các câu hỏi với đại từ nghi vấn: \"khi nào\" (ví dụ: \"khi nào được ăn tối?\"; \"khi nào được về?\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.36",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 36,
+  "textVi": "dụng thì quá khứ của những động từ quy tắc (ví dụ: walked, baked…); có khi áp dụng quy tắc cả với những động từ bất quy tắc (ví dụ: \"runned away\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.37",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 37,
+  "textVi": "dụng các giới từ chỉ vị trí: \"phía sau\", \"phía trước\" trong câu nói (ví dụ: \"con đi trước bạn ấy\"; \"nó phía sau bạn\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.38",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 38,
+  "textVi": "Phát âm rõ và không bị ngọng (ví dụ: không nói \"con thọ\" thay vì \"con thỏ\"; \"on á\" thay vì \"con cá\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.39",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 39,
+  "textVi": "lại được nội dung chính của 1 câu chuyện, hoặc một chương trình truyền hình; không nhất thiết phải chi tiết và đúng",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.40",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 40,
+  "textVi": "trật tự. Nói đúng ngày tháng sinh khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.41",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 41,
+  "textVi": "Điều tiết hợp lý ngữ điệu, nhịp điệu và cường giọng nói (ví dụ: không phải lúc nào cũng nói quá to, quá nhỏ, hoặc đều đều)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.42",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 42,
+  "textVi": "(tiếp) nói Bắt đầu nói Lời nói tương tác Biểu đạt những phức tạp lại chi tiết những gì trải qua (ví dụ: kể được nơi diễn ra, thời điểm và những người tham gia…). thể hướng dẫn người khác những việc giản đơn (ví dụ:",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.43",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 43,
+  "textVi": "cách chơi một trò chơi, cách làm một thứ gì đó…)",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu hướng dẫn rõ người khác có thể làm theo; 1 điểm, nếu nói được quy trình, song không rõ người khác có thể thực hiện; 0 điểm, nếu chưa từng đưa ra những",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.44",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 44,
+  "textVi": "chỉ dẫn cho người khác. dụng giới từ \"giữa\" trong câu nói (ví dụ: \"quả bóng giữa những chiếc xe\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.45",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 45,
+  "textVi": "Nói đúng số điện thoại của nhà mình khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.46",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 46,
+  "textVi": "dàng chuyển chủ khi trò chuyện",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.47",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 47,
+  "textVi": "Luôn bám vào, hoặc không đi lệch khỏi một chủ khi trò chuyện",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.48",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 48,
+  "textVi": "Diễn đạt theo nhiều cách khác nhau (ví dụ: \"đây là cuốn sách hay\", \"đọc cuốn sách thật thú vị\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.49",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 49,
+  "textVi": "những cuộc trò chuyện kéo dài chừng 10 phút (ví dụ: liên hệ kinh nghiệm, đóng góp kiến, chia sẻ cảm nhận…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.50",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 50,
+  "textVi": "dụng chính xác các danh từ số nhiều bất quy tắc (ví dụ: children, geese, mice, women…)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.51",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 51,
+  "textVi": "Nói đầy địa chỉ nhà mình khi được hỏi (bao gồm, số nhà, tên đường, tên phường/xã, tỉnh hoặc thành phố)",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.52",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 52,
+  "textVi": "tả một mục tiêu trước mắt và những việc mình cần làm đạt được mục tiêu (ví dụ: \"con muốn được điểm 10 bài kiểm tra tới, vì vậy con sẽ cố học chăm\"…). Nêu được những chỉ dẫn phức tạp cho người khác (ví dụ:",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.53",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 53,
+  "textVi": "đường đến một nơi nào đó; thành phần và các bước làm một thứ gì đó)",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu chỉ dẫn rõ người khác thực hiện được; 1 điểm, nếu nêu được các thành tố cơ bản của chỉ dẫn, song không rõ người khác làm theo; 0 điểm, nếu chưa từng",
+  "draft": true
+ },
+ {
+  "id": "v2.expressive.54",
+  "subdomain": "expressive",
+  "domain": "communication",
+  "num": 54,
+  "textVi": "đưa ra các chỉ dẫn. tả một mục tiêu dài hạn và có tính khả thi trong vòng 6 tháng hoặc lâu hơn (ví dụ: \"con muốn mua 1 chiếc xe đạp, vì vậy con sẽ đi trông trẻ thuê, hoặc làm thuê những việc vặt kiếm số tiền cần thiết\"…). Tổng số các Các mục trong Tổng số mục trả các lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.written.1",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 1,
+  "textVi": "Nhận biết được một hoặc một vài chữ cái và phân biệt được chúng với các chữ số.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.written.2",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 2,
+  "textVi": "Nhận ra tên mình dưới hình thức chữ viết",
+  "draft": true
+ },
+ {
+  "id": "v2.written.3",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 3,
+  "textVi": "Nhận biết được ít nhất 10 chữ cái dưới hình thức chữ viết",
+  "draft": true
+ },
+ {
+  "id": "v2.written.4",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 4,
+  "textVi": "Viết chữ in, hoặc chữ thường theo đúng chiều quy định (ví dụ: chiều quy định trong tiếng Việt là từ trái qua phải; một vài",
+  "draft": true
+ },
+ {
+  "id": "v2.written.5",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 5,
+  "textVi": "ngôn ngữ khác là từ phải qua trái, hoặc từ trên xuống dưới). Chép lại được tên riêng của mình theo mẫu",
+  "draft": true
+ },
+ {
+  "id": "v2.written.6",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 6,
+  "textVi": "Nhận biết được toàn bộ các chữ cái dưới hình thức chữ viết thường và viết in",
+  "draft": true
+ },
+ {
+  "id": "v2.written.7",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 7,
+  "textVi": "Viết được ít nhất 3 từ đơn giản theo mẫu cho trước (ví dụ: mèo, nhìn, ong…)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.8",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 8,
+  "textVi": "Viết đúng họ tên của mình (tự nhớ và viết ra)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.9",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 9,
+  "textVi": "Đọc to được ít nhất 10 từ",
+  "draft": true
+ },
+ {
+  "id": "v2.written.10",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 10,
+  "textVi": "viết đúng ít nhất 10 từ đơn giản (ví dụ: mũ, bóng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.11",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 11,
+  "textVi": "Đọc to những câu chuyện đơn giản (nghĩa là, những câu chuyện bao gồm các câu được kết cấu bởi 3 đến 5 từ)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.12",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 12,
+  "textVi": "Viết được những câu đơn giản bao gồm 3 hoặc 4 từ; có thể còn mắc lỗi nhỏ về chính tả hoặc ngữ pháp",
+  "draft": true
+ },
+ {
+  "id": "v2.written.13",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 13,
+  "textVi": "viết được nhiều hơn 20 từ; có thể còn mắc lỗi nhỏ về chính tả",
+  "draft": true
+ },
+ {
+  "id": "v2.written.14",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 14,
+  "textVi": "Tối thiểu, đọc và hiểu được những bài đọc lớp hai",
+  "draft": true
+ },
+ {
+  "id": "v2.written.15",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 15,
+  "textVi": "Xắp xếp đúng trật tự các chữ cái theo bảng chữ cái",
+  "draft": true
+ },
+ {
+  "id": "v2.written.16",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 16,
+  "textVi": "Viết thư trao đổi thông thường với dài ít nhất 3 câu (ví dụ: bưu thiếp, lời cảm ơn, thư điện tử…)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.17",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 17,
+  "textVi": "Tối thiểu, đọc và hiểu được những bài đọc lớp bốn",
+  "draft": true
+ },
+ {
+  "id": "v2.written.18",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 18,
+  "textVi": "Viết các bài trần thuật, hoặc tự luận ngắn khoảng ít nhất 1 trang; có thể viết trên máy tính",
+  "draft": true
+ },
+ {
+  "id": "v2.written.19",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 19,
+  "textVi": "Viết đầy tên và địa chỉ người gửi, người nhận trên phong thư, hoặc bưu kiện",
+  "draft": true
+ },
+ {
+  "id": "v2.written.20",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 20,
+  "textVi": "Tối thiểu, đọc và hiểu được những bài đọc lớp sáu",
+  "draft": true
+ },
+ {
+  "id": "v2.written.21",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 21,
+  "textVi": "Đọc lại và tự sửa lỗi các bài viết của mình trước khi nộp (ví dụ, tự kiểm tra dấu câu, chính tả, ngữ pháp…)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.22",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 22,
+  "textVi": "Viết thư trao đổi thông thường trình cao, với dài ít nhất 10 câu; có thể viết trên máy tính",
+  "draft": true
+ },
+ {
+  "id": "v2.written.23",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 23,
+  "textVi": "Tối thiểu, đọc và hiểu được những bài đọc lớp 11",
+  "draft": true
+ },
+ {
+  "id": "v2.written.24",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 24,
+  "textVi": "Đọc ít nhất 2 bài báo mỗi tuần (báo viết hoặc điện tử)",
+  "draft": true
+ },
+ {
+  "id": "v2.written.25",
+  "subdomain": "written",
+  "domain": "communication",
+  "num": 25,
+  "textVi": "Viết thư trao đổi công việc (ví dụ: yêu cầu cung cấp thông tin; trao đổi thắc mắc; yêu cầu giao dịch…). Tổng số các Các mục trong Tổng số các mục trả lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.1",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 1,
+  "textVi": "Há miệng khi thức ăn được đưa lên miệng.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.personal.2",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 2,
+  "textVi": "Ăn thức ăn đặc (ví dụ: bột, rau hoặc thịt xay…)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.3",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 3,
+  "textVi": "Ngậm hoặc nhai thức ăn khô (ví dụ: bánh quy, bánh mỳ..)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.4",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 4,
+  "textVi": "Uống nước bằng ly hoặc cốc; có thể còn làm rớt nước",
+  "startFor": [
+   1
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.personal.5",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 5,
+  "textVi": "Báo cho người lớn biết khi bị ướt, hoặc bị bẩn quần áo, hoặc tã (ví dụ:chỉ tay, kêu, hoặc giật tã...)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.6",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 6,
+  "textVi": "xúc bằng thìa; có thể còn làm rơi vãi thức ăn",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.7",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 7,
+  "textVi": "Mút bằng ống hút",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.8",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 8,
+  "textVi": "cởi những mặc mở phía trước (ví dụ: áo khoác hoặc áo nỉ); không phải tự cởi cúc hoặc tự kéo khoá",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.9",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 9,
+  "textVi": "kéo được quần lưng chun (ví dụ: quần lót, quần ngủ..)",
+  "startFor": [
+   2
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.personal.10",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 10,
+  "textVi": "ăn bằng dĩa; có thể còn làm rơi vãi thức ăn",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.11",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 11,
+  "textVi": "uống bằng ly hoặc cốc mà không làm rớt nước ra",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.12",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 12,
+  "textVi": "xúc bằng thìa mà không làm rơi vãi thức ăn",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.13",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 13,
+  "textVi": "Đi tiểu trong nhà về sinh, hoặc ngồi ghế bô",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.personal.14",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 14,
+  "textVi": "mặc những mở phía trước (ví dụ: áo khoác hoặc áo nỉ…); không phải tự đóng cúc hoặc kéo khoá",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.15",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 15,
+  "textVi": "Đòi đi vệ sinh",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.16",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 16,
+  "textVi": "Đại tiện trong nhà vệ sinh, hoặc ngồi ghế bô. Chủ động được việc đái, ỉa vào ban ngày",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.17",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 17,
+  "textVi": "Chủ động được việc đái, ỉa vào ban ngày.",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu không đái dầm, ỉa đùn, tự đi vệ sinh mà không bị dây bẩn; 1 điểm, nếu vẫn cần người lớn giúp chùi, rửa, hoặc đôi khi đái dầm, ỉa đùn; 0 điểm, nếu thường xuyên đái dầm, ỉa",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.18",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 18,
+  "textVi": "đùn, hoặc luôn cần người lớn giúp. kéo được những khoá có một đầu cố định (ví dụ: khoá quần, khoá balô…)",
+  "startFor": [
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.personal.19",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 19,
+  "textVi": "Lau hoặc xì mũi bằng khăn giấy hoặc khăn mùi soa",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.20",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 20,
+  "textVi": "Chủ động việc đái ỉa vào ban đêm",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.21",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 21,
+  "textVi": "giầy đúng bên; chưa cần tự buộc giây",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.22",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 22,
+  "textVi": "Đóng khuy bấm",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.23",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 23,
+  "textVi": "Cầm thìa, dĩa và dao ăn đúng cách",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.24",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 24,
+  "textVi": "Rửa mặt và lau khô; có dùng xà bông và nước",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.25",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 25,
+  "textVi": "THƯỜNG (tiếp) Ăn và uống Đi vệ sinh Mặc sinh cá nhân Chăm sóc sức khoẻ Đánh răng",
+  "startFor": [
+   6
+  ],
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu tự lấy kem, bàn chải và tự đánh răng mà không cần người khác giúp, hoặc nhắc nhở; 1 điểm, nếu phải nhờ người khác lấy kem vào bàn chải hoặc đánh giúp, hoặc luôn cần người khác nhắc nhở; 0 điểm, nếu chưa từng tự mình đánh rằng",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.26",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 26,
+  "textVi": "mà không cần người khác giúp, hoặc nhắc nhở. Cài được những khuy to phía trước, đúng lỗ khuyết",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.27",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 27,
+  "textVi": "Che miệng và mũi khi ho hoặc hắt hơi",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.28",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 28,
+  "textVi": "Cài được những khuy nhỏ phía trước, đúng lỗ khuyết",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.29",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 29,
+  "textVi": "Móc hai bên khoá và kéo khoá đối với những khoá mở hai đầu (ví dụ: khoá áo vét, áo khoác…)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.30",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 30,
+  "textVi": "Văn vòi nước và điều chỉnh nhiệt thích hợp bằng cách thêm nước nóng, hoặc thêm nước lạnh",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.31",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 31,
+  "textVi": "Mặc quần áo phù hợp với thời tiết (ví dụ: mặc áo mưa khi trời mưa, áo ấm khi trời lạnh…)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.32",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 32,
+  "textVi": "tắm rửa và lau khô người:",
+  "startFor": [
+   7
+  ],
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu tự đóng mở nước và tự tắm rửa mà không cần người khác giúp; 1 điểm, nếu cần người khác giúp bất cứ khâu nào trong quá trình tắm rửa; 0 điểm, nếu chưa từng",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.33",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 33,
+  "textVi": "tự tắm rửa mà không cần người khác giúp hoặc nhắc nhở. Tìm và sử dụng nhà vệ sinh công cộng đúng với giới của mình",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.34",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 34,
+  "textVi": "Gội đầu và làm khô tóc (bằng khăn bông, hoặc máy sấy)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.35",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 35,
+  "textVi": "chăm sóc những vết thương nhẹ (ví dụ: rửa vết thương, quấn hoặc dán băng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.36",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 36,
+  "textVi": "Dùng thuốc theo đúng hướng dẫn (nghĩa là, sử dụng đúng liều lượng ghi trên nhãn)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.37",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 37,
+  "textVi": "Dùng nhiệt kế kiểm tra nhiệt cơ thể của mình hoặc người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.38",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 38,
+  "textVi": "Tìm kiếm sự hỗ trợ y tế trong trường hợp khẩn cấp (ví dụ: nhận biết được các dấu hiệu của bệnh, hoặc chấn thương trầm trọng như thở gấp, tức ngực, không cầm máu được…)",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.39",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 39,
+  "textVi": "Thực hiện chế độ chăm sóc sức khoẻ, ăn kiêng đặc biệt, hoặc điều trị bệnh.",
+  "guideVi": "Hướng dẫn chấm điểm: thể lựa chọn \"\", nếu cá nhân chưa từng rơi vào tình huống phải cấp cứu y tế. Thực hiện chế chăm sóc sức khoẻ, ăn kiêng đặc biệt, hoặc điều trị bệnh. Hướng dẫn chấm điểm: thể lựa chọn \"\", nếu cá nhân không có vấn",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.40",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 40,
+  "textVi": "về sức khoẻ đòi hỏi phải có chế chăm sóc đặc biệt, ăn kiêng, hoặc điều trị",
+  "draft": true
+ },
+ {
+  "id": "v2.personal.41",
+  "subdomain": "personal",
+  "domain": "dailyLiving",
+  "num": 41,
+  "textVi": "Hẹn khám sức khoẻ và kiểm tra răng miệng thường kỳ. Tổng số các Các mục trong Tổng số các mục trả Điểm thô lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.1",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 1,
+  "textVi": "Cẩn thận với những thứ nóng xung quanh (ví dụ: lửa, bếp…).",
+  "startFor": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.2",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 2,
+  "textVi": "Phụ giúp những việc vặt đơn giản trong nhà (ví dụ: lau bụi; xếp gọn quần áo, chơi; cho vật nuôi ăn…",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.3",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 3,
+  "textVi": "Thu dọn những không dễ vỡ trên góc bàn ăn của mình",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.4",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 4,
+  "textVi": "Dọn dẹp chỗ học, chỗ chơi của mình sau khi học hoặc chơi xong (ví dụ: xếp gọn màu vẽ, chơi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.5",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 5,
+  "textVi": "Cất những của riêng mình (ví dụ: chơi, sách vở…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.6",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 6,
+  "textVi": "Cẩn thận khi dùng những sắc, nhọn (ví dụ: dao, kéo…)",
+  "startFor": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.7",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 7,
+  "textVi": "Thu dọn những dễ vỡ trên góc bàn ăn của mình",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.8",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 8,
+  "textVi": "Phụ giúp chuẩn bị nấu nướng các món ăn đòi hỏi pha trộn, chế biến (ví dụ: nhào bột, nhặt và rửa rau…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.9",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 9,
+  "textVi": "dụng các công cụ bếp núc đơn giản (ví dụ: cái mở hộp, mở nút chai; bếp nướng bánh mỳ…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.10",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 10,
+  "textVi": "dụng lò vi sóng hâm nóng, nướng, hoặc nấu ăn (nghĩa là, chọn chức năng, đặt thời gian…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.11",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 11,
+  "textVi": "Cất quần áo sạch đúng chỗ (ví dụ: gấp để vào ngăn kéo, treo vào tủ quần áo…).",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\" nếu trong nhà không có lò vi sóng. Cất quần áo sạch đúng chỗ (ví dụ: gấp vào ngăn kéo, treo vào tủ quần áo…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.12",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 12,
+  "textVi": "dụng các công cụ (ví dụ: dùng búa đóng đinh, dùng tô vít vặn đinh vít…)",
+  "startFor": [
+   11
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.13",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 13,
+  "textVi": "Rửa bát đĩa bằng tay, hoặc xếp vào máy rửa rồi vận hành máy. Quét, lau, hoặc hút bụi sàn nhà sạch sẽ",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.14",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 14,
+  "textVi": "Quét, lau, hoặc hút bụi sàn nhà sạch sẽ.",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu quét, lau, hoặc hút bụi sạch đến mức người lớn không phải quét dọn lại; 1 điểm, nếu không thường xuyên làm sạch; 0 điểm, nếu chưa từng quét dọn, hoặc nếu có thì",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.15",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 15,
+  "textVi": "người khác luôn phải làm lại. Dọn sạch sẽ toàn bộ bàn ăn (ví dụ: sắp gọn thức ăn thừa, làm sạch và sắp chồng đĩa bát bẩn mang rửa…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.16",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 16,
+  "textVi": "dụng đúng cách các sản phẩm chức năng trong gia đình (ví dụ: bột giặt, nước rửa chén bát, nước lau gia dụng)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.17",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 17,
+  "textVi": "Nấu những ăn cơ bản không đòi hỏi chế biến, pha trộn (ví dụ: nấu cơm, luộc rau…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.18",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 18,
+  "textVi": "Dọn dẹp những phòng không phải phòng ngủ của riêng mình",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.19",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 19,
+  "textVi": "Dùng dao sắc chuẩn bị nấu nướng",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.20",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 20,
+  "textVi": "Dùng bếp, hoặc lò nướng hâm nóng, nướng hoặc nấu (nghĩa là, biết vặn lửa, đặt mức nhiệt…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.21",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 21,
+  "textVi": "Nấu các món ăn đòi hỏi phải định lượng và pha trộn các thành phần",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.22",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 22,
+  "textVi": "Giặt quần áo bẩn",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.23",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 23,
+  "textVi": "Sửa chữa và bảo trì các dùng trong nhà khi cần (ví dụ: thay bóng điện bị cháy, thay túi rác của máy hút bụi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.domestic.24",
+  "subdomain": "domestic",
+  "domain": "dailyLiving",
+  "num": 24,
+  "textVi": "Trù liệu và nấu bữa ăn chính trong ngày. Tổng số các Các mục trong Tổng số các mục trả Điểm thô lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.community.1",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 1,
+  "textVi": "Có những biểu hiện chứng tỏ đã hiểu chức năng của điện thoại (ví dụ: giả vờ nói chuyện điện thoại…).",
+  "startFor": [
+   1,
+   2,
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.community.2",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 2,
+  "textVi": "Nói chuyện với người quen qua điện thoại",
+  "draft": true
+ },
+ {
+  "id": "v2.community.3",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 3,
+  "textVi": "dụng hoặc đài không cần người khác giúp (ví dụ: bật mở, chọn kênh, chọn sóng, hoặc chọn chương trình…). 9",
+  "draft": true
+ },
+ {
+  "id": "v2.community.4",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 4,
+  "textVi": "Đếm được ít nhất 10 đồ vật; đếm từng đồ vật một.",
+  "startFor": [
+   4
+  ],
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu trong nhà không có TV/đài. Đếm được ít nhất 10 vật; đếm từng vật một",
+  "draft": true
+ },
+ {
+  "id": "v2.community.5",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 5,
+  "textVi": "những biểu hiện cho thấy thức về hành vi phù hợp khi ngồi trên xe (ví dụ: túm áo, hoặc ôm chặt người ngồi trước; hạn chế ảnh hưởng đến người điều khiển xe…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.6",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 6,
+  "textVi": "những biểu hiện chứng tỏ hiểu chức năng của tiền (ví dụ: nói \"tiền dùng mua các thứ cửa hàng\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.7",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 7,
+  "textVi": "Đi bộ hoặc sử dụng các phương tiện đi lại như ván trượt, xe đạp… bên lề đường hoặc trên vỉa hè",
+  "draft": true
+ },
+ {
+  "id": "v2.community.8",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 8,
+  "textVi": "những biểu hiện chứng tỏ hiểu chức năng của đồng hồ (ví dụ: nói \"đồng hồ cho biết thời gian\"; \"mấy giờ thì mình đi?\")",
+  "startFor": [
+   6
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.community.9",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 9,
+  "textVi": "Tuân thủ các quy tắc trong nhà (ví dụ: không chạy thẳng vào nhà; không nhảy lên đạc…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.10",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 10,
+  "textVi": "những kỹ năng cần thiết chơi game, hoặc khởi động các chương trình trên một máy tính đang hoạt động; chưa cần tự khởi động máy tính",
+  "draft": true
+ },
+ {
+  "id": "v2.community.11",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 11,
+  "textVi": "Kêu người được gọi đến nghe điện, hoặc thông báo cho người gọi biết người nghe không có mặt (ví dụ: \"điện thoại gọi cho bố\"; \"bố cháu không có nhà\"…).",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu trong nhà không có máy tính. Kêu người được gọi đến nghe điện, hoặc thông báo cho người gọi biết, người nghe không có mặt (ví dụ: nói \"điện thoại gọi cho bố\"; \"bố cháu không có nhà\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.12",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 12,
+  "textVi": "Nhận biết các đồng tiền xu 1000, 2000, 5000 khi được hỏi; chưa cần biết giá trị của những đồng xu này",
+  "draft": true
+ },
+ {
+  "id": "v2.community.13",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 13,
+  "textVi": "Nhìn cả 2 phía khi sang đường",
+  "draft": true
+ },
+ {
+  "id": "v2.community.14",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 14,
+  "textVi": "Nói được hôm nay là thứ mấy, khi được hỏi",
+  "startFor": [
+   7
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.community.15",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 15,
+  "textVi": "[Mục 15 — nội dung trống trong bản scan; bổ sung từ phiếu gốc]",
+  "draft": true
+ },
+ {
+  "id": "v2.community.16",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 16,
+  "textVi": "Biết các số điện thoại cần gọi trong trường hợp khẩn cấp, khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.community.17",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 17,
+  "textVi": "Nói được giờ dựa trên đồng hồ điện tử, hoặc đồng hồ thường",
+  "draft": true
+ },
+ {
+  "id": "v2.community.18",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 18,
+  "textVi": "Nói đúng giá trị của các đồng xu?????",
+  "startFor": [
+   8
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.community.19",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 19,
+  "textVi": "Phân biệt được mệnh giá của các đồng tiền giấy (ví dụ: cập đến 1000, 5000, hoặc 1000 đồng khi trò chuyện…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.20",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 20,
+  "textVi": "Tuân thủ tín hiệu đèn giao thông (Đi dừng lại)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.21",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 21,
+  "textVi": "Chỉ đúng ngày tháng trong lịch khi được hỏi",
+  "draft": true
+ },
+ {
+  "id": "v2.community.22",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 22,
+  "textVi": "Hiểu được rằng, một số thứ đắt hơn những thứ khác (ví dụ: nói \"từng này tiền chỉ mua được1 chiếc kẹo, chứ không mua được chiếc áo\"; \"chiếc bút nào rẻ hơn?\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.23",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 23,
+  "textVi": "[Mục 23 — nội dung trống trong bản scan; bổ sung từ phiếu gốc]",
+  "startFor": [
+   9,
+   10,
+   11
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.community.24",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 24,
+  "textVi": "Gọi điện cho người khác bằng điện thoại bàn, hoặc di động",
+  "draft": true
+ },
+ {
+  "id": "v2.community.25",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 25,
+  "textVi": "gọi đầy những món cần cho bữa ăn cửa hàng ăn nhanh",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu cá nhân chưa từng ăn một nhà hàng ăn nhanh",
+  "draft": true
+ },
+ {
+  "id": "v2.community.26",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 26,
+  "textVi": "THƯỜNG (tiếp) thoại Các quy tắc, quyền và sự an toàn Thời gian 9 Kỹ năng sử dụng tiền Kỹ năng nhà hàng và đài Mang hoặc giữ tiền một cách an toàn (ví dụ: cất trong ví, hoặc hầu bao…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.27",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 27,
+  "textVi": "[Mục 27 — nội dung trống trong bản scan; bổ sung từ phiếu gốc]",
+  "draft": true
+ },
+ {
+  "id": "v2.community.28",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 28,
+  "textVi": "Tuân thủ giờ giấc do cha mẹ hoặc người chăm sóc quy định",
+  "draft": true
+ },
+ {
+  "id": "v2.community.29",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 29,
+  "textVi": "Xem hoặc nghe các chương trình nắm bắt thông tin (ví dụ: dự báo thời tiết, tin tức, chương trình giáo dục…). 9",
+  "draft": true
+ },
+ {
+  "id": "v2.community.30",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 30,
+  "textVi": "Đếm tiền được trả lại, khi mua thứ gì đó.",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu trong nhà không có TV/đài. Đếm tiền được trả lại, khi mua thứ gì đó",
+  "draft": true
+ },
+ {
+  "id": "v2.community.31",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 31,
+  "textVi": "những kỹ năng máy tính cần thiết thực hiện các nhiệm vụ phức tạp (ví dụ: soạn thảo văn bản, truy cập internet, cài",
+  "draft": true
+ },
+ {
+  "id": "v2.community.32",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 32,
+  "textVi": "đặt phần mềm…). Đánh giá chất lượng và giá cả khi chọn mua thứ gì đó",
+  "draft": true
+ },
+ {
+  "id": "v2.community.33",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 33,
+  "textVi": "Tuân thủ giới hạn thời gian của những giờ nghỉ (ví dụ: nghỉ giải lao, nghỉ ăn trưa",
+  "draft": true
+ },
+ {
+  "id": "v2.community.34",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 34,
+  "textVi": "đến những nơi quen thuộc các nhà tối thiểu 10 đến 15km (nghĩa là, tự đi bằng xe đạp, xe máy; sử dụng phương tiện giao thông công cộng, hoặc tự lái ôtô…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.35",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 35,
+  "textVi": "những biểu hiện chứng tỏ hiểu quyền khiếu nại, hoặc tố cáo những vấn liên quan đến thủ tục hoặc pháp lý, khi những yêu cầu chính đáng không được giải quyết thoả đáng",
+  "draft": true
+ },
+ {
+  "id": "v2.community.36",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 36,
+  "textVi": "Báo cáo nhà trường hoặc người có trách khi đến muộn, hoặc vắng mặt",
+  "draft": true
+ },
+ {
+  "id": "v2.community.37",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 37,
+  "textVi": "dụng tài khoản ngân hàng của mình một cách có thức (ví dụ: duy trì một khoản tiền nhất định trong tài khoản, cẩn thận kiểm tra số dư…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.38",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 38,
+  "textVi": "Đến những nơi xa lạ cách nhà tối thiểu 10 đến 15km (nghĩa là, tự đi bằng xe đạp, xe máy; sử dụng phương tiện giao thông công cộng, hoặc tự lái ôtô…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.39",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 39,
+  "textVi": "Kiếm tiền nhờ làm việc bán thời gian trong vòng ít nhất 1 năm (nghĩa là làm thêm ít nhất 10 giờ/1 tuần)",
+  "guideVi": "Hướng dẫn chấm điểm: Không chấm 1 điểm",
+  "noScoreOne": true,
+  "draft": true
+ },
+ {
+  "id": "v2.community.40",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 40,
+  "textVi": "gắng cải thiện năng lực làm việc của mình khi nhận được những góp mang tính xây dựng của cấp trên",
+  "draft": true
+ },
+ {
+  "id": "v2.community.41",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 41,
+  "textVi": "Tự quản lý tiền bạc của mình (ví dụ: tự mình trả tiền, tự dùng séc hoặc tiền mặt để mua bán…).",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu cá nhân chưa đi làm. quản lý tiền bạc của mình (ví dụ: tự mình trả tiền, tự dùng séc hoặc tiền mặt mua bán…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.42",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 42,
+  "textVi": "đi làm chính thức được ít nhất 1 năm. điểm",
+  "guideVi": "Hướng dẫn chấm điểm: Không chấm 1",
+  "draft": true
+ },
+ {
+  "id": "v2.community.43",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 43,
+  "textVi": "hạch toán chi tiêu hàng tháng (ví dụ: chi phí dịch vụ, thuê nhà…)",
+  "draft": true
+ },
+ {
+  "id": "v2.community.44",
+  "subdomain": "community",
+  "domain": "dailyLiving",
+  "num": 44,
+  "textVi": "dụng thẻ tín dụng một cách có trách nhiệm (ví dụ: không dùng quá giới hạn tín dụng cho phép, trả đúng hạn…). Tổng số các Các mục trong Tổng số các mục trả Điểm thô lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.1",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 1,
+  "textVi": "Nhìn mặt người chăm sóc.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.2",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 2,
+  "textVi": "Dõi mắt theo những người đi ngang qua chỗ mình nằm (cũi hoặc giường) trong vòng 5 giây hoặc lâu hơn",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.3",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 3,
+  "textVi": "Biểu đạt được ít nhất 2 sắc thái cảm xúc (ví dụ: cười, khóc, gào thét…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.4",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 4,
+  "textVi": "Cười, hoặc tạo ra những âm thanh thể hiện sự vui sướng khi người thân lại gần",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.5",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 5,
+  "textVi": "Thiết lập, hoặc cố gắng thiết lập các mối tương tác xã hội (ví dụ: cười, gây tiếng ồn…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.6",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 6,
+  "textVi": "Vươn về phía người thân khi người này đưa tay ra đón trẻ",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.7",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 7,
+  "textVi": "Thể hiện thái lựa chọn đối với một số vật hoặc người nào (ví dụ: cười, với tay, hoặc di chuyển về phía người hoặc vật đó)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.8",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 8,
+  "textVi": "Thể hiện sự quý mến đối với những người thân quen (ví dụ: lại gần, ôm, hôn, nép mình vào…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.9",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 9,
+  "textVi": "Bắt chước, hoặc cố gắng bắt chước những biểu cảm trên khuôn mặt của cha mẹ hoặc người chăm sóc (ví dụ: tươi cười, cau mày…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.10",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 10,
+  "textVi": "Loanh quanh kiếm tìm cha mẹ, người chăm sóc, hoặc những người thân khác gần mình",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.11",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 11,
+  "textVi": "Thể hiện sự quan tâm đối với những trẻ khác cùng tuổi, thay vì chỉ quan tâm đến anh chị em trong gia đình (ví dụ: dõi theo, hoặc mỉm cười với những trẻ khác…)",
+  "startFor": [
+   1,
+   2
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.12",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 12,
+  "textVi": "Bắt chước những cử chỉ đơn giản (ví dụ: vỗ tay, vẫy tay tạm biệt…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.13",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 13,
+  "textVi": "Dùng hành động bày tỏ niềm vui, hoặc sự quan tâm lo lắng cho người khác (ví dụ: ôm, tét tay, nắm tay người khác…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.14",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 14,
+  "textVi": "Thể hiện mong muốn làm vui lòng người khác (ví dụ: chia sẻ bánh kẹo, chơi; cố giúp người khác, ngay cả khi không khả năng giúp…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.15",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 15,
+  "textVi": "những hành vi thể hiện sự chủ động tìm kiếm bạn cùng tuổi (ví dụ: hỏi: \"bạn có muốn chơi không?\" hoặc cầm tay bạn)",
+  "startFor": [
+   3,
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.16",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 16,
+  "textVi": "Bắt chước những hành động tương đối phức tạp sau khi quan sát người khác thực hiện (ví dụ: cạo râu, trang điểm, sơn móng tay…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.17",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 17,
+  "textVi": "Biết cách trả lời khi người quen hỏi chuyện (ví dụ: nếu được hỏi \"cháu dạo này thế nào\", trả lời \"cháu khoẻ ạ\"; nếu được khen \"cháu ngoan quá\", trả lời \"cháu cảm ơn…\")",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.18",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 18,
+  "textVi": "Lặp lại những câu nghe được từ người lớn (ví dụ: \"bố-mẹ về\"; \"Không ăn món tráng miệng trước khi ăn hết thức ăn\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.19",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 19,
+  "textVi": "dụng từ ngữ bày tỏ cảm xúc của mình (ví dụ: \"cháu vi lắm\", \"cháu sợ lắm\"…). bạn thân, hoặc thể hiện sự quý mến hơn đối với một vài",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.20",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 20,
+  "textVi": "Có bạn thân, hoặc thể hiện sự quý mến hơn đối với một vài bạn nào đó so với những bạn khác",
+  "blankScore": true,
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.21",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 21,
+  "textVi": "bạn nào so với những bạn khác. Bắt chước những hành động phức tạp sau thời điểm được quan sát người khác thực hiện chừng vài giờ (ví dụ: cạo râu, trang điểm, cắt tỉa móng tay…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.22",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 22,
+  "textVi": "(tiếp) khác Nhận biết và biểu đạt cảm xúc Bắt chước Chín chắn Quan hệ bầu bạn Hẹn hò dụng từ ngữ bày tỏ sự vui mừng, hoặc sự quan tâm lo lắng cho người khác (ví dụ, nói: \"oh, bạn chiến thắng\", \"bạn không sao đấy chứ?\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.23",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 23,
+  "textVi": "Giúp khi người khác cần (ví dụ: giữ cửa mở cho người khác, nhặt giúp người khác làm rơi….)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.24",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 24,
+  "textVi": "Nhận biết được những thứ người khác thích, hoặc không thích (ví dụ, nói: \"Chiến thích bóng\", \"Sâm thích ăn pizza\"…)",
+  "startFor": [
+   6,
+   7,
+   8
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.25",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 25,
+  "textVi": "Thể hiện mức cảm xúc tương đồng với những người xung quanh (ví dụ: không quá coi nhẹ, hoặc trầm trọng hoá tình huống…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.26",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 26,
+  "textVi": "Duy trì khoảng cách phù hợp đối với người khác trong các tình huống tiếp xúc xã hội (ví dụ: không sán quá gần khi trò chuyện với người khác…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.27",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 27,
+  "textVi": "Chuyện trò chia sẻ những sở thích chung của mình với mọi người (ví dụ: thể thao, chương trình truyền hình, kế hoạch hè..)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.28",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 28,
+  "textVi": "Chủ động bắt chuyện khi gặp những người quen biết (ví dụ, chủ động hỏi: \"bạn thế nào?\", \"có gì mới không?\"…)",
+  "startFor": [
+   9
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.29",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 29,
+  "textVi": "Đều đặn gặp gỡ bạn bè",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.30",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 30,
+  "textVi": "Không nói những điều xấu xa, tục tĩu, hoặc hỏi những điều ngớ ngẩn nơi công cộng",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.31",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 31,
+  "textVi": "Đặt ra những yêu cầu hợp lý trong quan hệ bè bạn (ví dụ: không đòi hỏi ai chỉ được chơi với mình hoặc luôn phải có mặt khi cần…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.32",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 32,
+  "textVi": "Hiểu được rằng, người khác không biết được suy nghĩ của mình nếu mình không nói với họ",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.33",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 33,
+  "textVi": "Thận trọng khi nói đến những điều mang tính cá nhân",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.34",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 34,
+  "textVi": "Hợp tác với người khác xây dựng kế hoạch cho một hoạt động nào (ví dụ: tổ chức tiệc sinh nhật, sự kiện thể thao…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.35",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 35,
+  "textVi": "những biểu hiện cho thấy hiểu được hàm nghĩa của những dấu hiện phi ngôn ngữ hoặc lời nói ẩn khi trò chuyện (ví dụ: biết rằng \"ngáp\" có nghĩa là \"đã mệt mỏi\", nhanh chóng chuyển chủ nghĩa là \"không muốn nói đến điều này\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.36",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 36,
+  "textVi": "Bắt đầu cuộc trò chuyện bằng việc nói đến những điều mà người khác quan tâm (ví dụ:\"Tiến cho mình biết bạn rất thích",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.37",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 37,
+  "textVi": "máy tính\"…). Hẹn hò với nhóm bạn",
+  "draft": true
+ },
+ {
+  "id": "v2.interpersonal.38",
+  "subdomain": "interpersonal",
+  "domain": "socialization",
+  "num": 38,
+  "textVi": "Hẹn hò riêng tư với một người nào đó. Tổng số các mục Các trong Tổng số các mục trả Điểm thô về lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.play.1",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 1,
+  "textVi": "Đáp lại sự vui đùa của cha mẹ hoặc người chăm sóc (ví dụ: cười, vỗ tay…).",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.2",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 2,
+  "textVi": "Thể hiện sự tò mò, quan tâm đối với nơi mình đang (ví dụ: nhìn quanh hoặc đi lại ngó nghiêng, sờ mó các thứ…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.3",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 3,
+  "textVi": "Hưởng ứng các trò chơi mang tính tương tác giản đơn (ví dụ: chơi oà, trốn tìm…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.4",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 4,
+  "textVi": "Chơi cạnh một trẻ khác, nhưng mỗi trẻ chơi một thứ riêng",
+  "startFor": [
+   1,
+   2
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.5",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 5,
+  "textVi": "Chơi cùng với những trẻ khác (ví dụ: không đứng ngoài nhóm bạn, không né tránh bạn…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.6",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 6,
+  "textVi": "Chơi hoà thuận với những trẻ khác trong khoảng 5 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.play.7",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 7,
+  "textVi": "Chơi hoà thuận với những trẻ khác trong khoảng thời gian lâu hơn 5 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.play.8",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 8,
+  "textVi": "Tiếp tục chơi với bạn và ít quấy nhiễu, khóc đòi khi cha mẹ hoặc người chăm sóc rời đi",
+  "draft": true
+ },
+ {
+  "id": "v2.play.9",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 9,
+  "textVi": "Chia sẻ chơi hoặc những thứ của mình với bạn khi được e yêu cầu",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.10",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 10,
+  "textVi": "Chơi với người khác mà không cần nhiều sự trông nom, giám sát",
+  "draft": true
+ },
+ {
+  "id": "v2.play.11",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 11,
+  "textVi": "dụng những vật thông thường trong nhà làm vật thay thế trong các trò chơi nhập vai (ví dụ: lấy chiếc hộp nhỏ giả làm ôtô, hoặc lấy chiếc hộp to giả làm ngôi nhà…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.12",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 12,
+  "textVi": "bảo vệ mình bằng cách tránh xa những trẻ hay phá hoại đồ, hoặc làm đau người khác (ví dụ: những trẻ hay quăng quật đạc, cắn, đánh, hoặc túm tóc bạn…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.13",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 13,
+  "textVi": "Tham gia cùng người khác trong những trò chơi nhập vai đơn giản (ví dụ: hoá trang, giả làm người hùng…)",
+  "startFor": [
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.14",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 14,
+  "textVi": "Tìm kiếm người khác cùng chơi hoặc kết thân (ví dụ: rủ bạn đến nhà chơi, đến chơi nhà bạn, chơi cùng bạn trên sân chơi)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.15",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 15,
+  "textVi": "Chơi đúng lượt nếu được nhắc, khi tham gia các trò chơi. e",
+  "draft": true
+ },
+ {
+  "id": "v2.play.16",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 16,
+  "textVi": "Chơi những trò chơi thông thường ngoài trời (ví dụ: đuổi bắt, nhảy dây…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.17",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 17,
+  "textVi": "Chia sẻ nhữn thứ mình có với mọi người mà không cần người e khác nhắc",
+  "draft": true
+ },
+ {
+  "id": "v2.play.18",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 18,
+  "textVi": "Tuân thủ đúng luật chơi khi tham gia những trò chơi đơn giản (ví dụ:chạy tiếp sức, chữ…",
+  "startFor": [
+   5,
+   6
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.19",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 19,
+  "textVi": "Chơi đúng lượt mà không cần người khác nhắc. e",
+  "draft": true
+ },
+ {
+  "id": "v2.play.20",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 20,
+  "textVi": "Chơi các loại bài hoặc cờ dựa trên những nguyên tắc giản đơn mang tính ngẫu nhiên (ví dụ:",
+  "draft": true
+ },
+ {
+  "id": "v2.play.21",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 21,
+  "textVi": "Đi đâu cùng bạn bè vào ban ngày và có người lớn đi kèm (ví dụ: đi siêu thị, công viên, trung tâm giải trí…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.22",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 22,
+  "textVi": "Xin phép trước khi dùng những thứ không phải của mình, hoặc e những thứ mà người khác đang sử dụng",
+  "draft": true
+ },
+ {
+  "id": "v2.play.23",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 23,
+  "textVi": "(tiếp) và hợp tác Đi đâu với bạn bè Nhận biết các dấu hiệu xã hội Ngừng tham gia một nhóm nào khi nhận ra những dấu hiệu cho mình không được chào đón",
+  "draft": true
+ },
+ {
+  "id": "v2.play.24",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 24,
+  "textVi": "Chơi những trờ đơn giản đòi hỏi phải tính điểm (ví dụ: bóng, bóng rổ…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.25",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 25,
+  "textVi": "Thể hiện tinh thần thể thao (nghĩa là, tuân thủ luật chơi, không quá hung hăng, chúc mừng khi đội bạn thắng cuộc, không quá tức tối khi thua cuộc)",
+  "startFor": [
+   13
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.play.26",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 26,
+  "textVi": "Chơi nhiều thể loại bài, cờ, hoặc các trò chơi điện tử đòi hỏi kỹ năng chơi và kỹ năng ra quyết định (ví dụ:",
+  "draft": true
+ },
+ {
+  "id": "v2.play.27",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 27,
+  "textVi": "Đi đâu với bạn bè vào buổi tối, có người lớn đi kèm (ví dụ: đi nghe nhạc, xem phim, xem thi đấu thể thao…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.28",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 28,
+  "textVi": "Tuân thủ đúng luật chơi trong những trò chơi, hoặc những môn thể thao phức tạp (ví dụ: bóng đá, bóng chuyền…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.29",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 29,
+  "textVi": "Đi đâu cùng bạn bè vào ban ngày, không có người lớn đi kèm (ví dụ: đi mua sắm, công viên, đến trung tâm giải trí…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.30",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 30,
+  "textVi": "Lập kế hoạch cho những hoạt động giải trí đòi hỏi sự sắp xếp công việc cụ thể (ví dụ: một chuyến đi biển, hoặc đi chơi công viên đòi hỏi phải sắp xếp việc đi lại, ăn, dụng cụ vui chơi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.play.31",
+  "subdomain": "play",
+  "domain": "socialization",
+  "num": 31,
+  "textVi": "Đi đâu cùng bạn bè và buổi tối, mà không có người lớn đi kèm (ví dụ: đi nghe nhạc, xem phim, xem thi đấu thể thao…). Tổng số các Các mục trong Tổng số các mục trả",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.1",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 1,
+  "textVi": "Chuyển từ hành động này sang hành động khác một cách dễ dàng.",
+  "startFor": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.coping.2",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 2,
+  "textVi": "Nói \"cảm ơn\" khi nhận được thứ gì từ người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.3",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 3,
+  "textVi": "Thay đổi hành vi tuỳ theo mức quen biết với những người xung quanh (ví dụ: hành động khác nhau tuỳ theo những người",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.4",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 4,
+  "textVi": "xung quanh là người trong nhà, hay người lạ). Ngậm miệng khi nhai",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.5",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 5,
+  "textVi": "Nói \"xin vui lòng\" khi yêu cầu ai thứ gì đó",
+  "startFor": [
+   5,
+   6,
+   7
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.coping.6",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 6,
+  "textVi": "Kết thúc các cuộc trò chuyện đúng cách (ví dụ: nói \"tạm biệt\", \"hẹn gặp\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.7",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 7,
+  "textVi": "Rửa hoặc lau mặt và tay trong, cũng như sau bữa ăn",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.8",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 8,
+  "textVi": "Phản ứng thích hợp đối với những thay đổi mang tính hợp lý trong những công việc thường ngày (ví dụ: không ca thán…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.9",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 9,
+  "textVi": "(tiếp) lỗi k Trách nhiệm thức về những cảnh báo xã hội năng tự chủ Giữ bí mật Biết nói xin lỗi khi vô tình mắc lỗi (ví dụ: xô ngã người khác…)",
+  "startFor": [
+   8
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.coping.10",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 10,
+  "textVi": "Không chế nhạo, chọc ghẹo, hoặc bắt nạt người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.11",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 11,
+  "textVi": "Hành động phù hợp khi được giới thiệu với người mới gặp lần đầu (ví dụ: gật đầu, mỉm cười, bắt tay, chào hỏi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.12",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 12,
+  "textVi": "Thay đổi cường lời nói phù hợp với bối cảnh, hoặc tình huống (ví dụ: trong thư viện, khi xem phim…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.13",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 13,
+  "textVi": "Nói xin lỗi sau khi làm tổn thương lòng tự ái của người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.14",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 14,
+  "textVi": "Không nói khi đang có thức ăn trong miệng",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.15",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 15,
+  "textVi": "Không ngắt lời hoặc tỏ ra khiếm nhã khi trò chuyện với người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.16",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 16,
+  "textVi": "Tiếp nhận những gợi ý, chỉ bảo hữu ích từ phía người khác",
+  "startFor": [
+   9,
+   10,
+   11,
+   12
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.coping.17",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 17,
+  "textVi": "Kiểm soát được sự khó chịu, bực dọc khi kế hoạch bị thay đổi vì những lý do bất khả kháng (ví dụ: thời tiết xấu, xe hỏng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.18",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 18,
+  "textVi": "Giữ kín bí mật, hoặc những chuyện riêng lâu hơn 1 ngày",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.19",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 19,
+  "textVi": "vô tình gạt người khác ra ngoài cuộc chơi…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.20",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 20,
+  "textVi": "Hiểu được rằng, những lời châm chọc nhẹ nhàng với bạn bè hoặc người thân cũng là một hình thức hài hước, tình cảm",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.21",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 21,
+  "textVi": "Nói với cha mẹ, hoặc người chăm sóc về những kế hoạch của k mình (ví dụ: sẽ đi đâu và trở về vào lúc mấy giờ, nơi đến…)",
+  "startFor": [
+   13
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.coping.22",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 22,
+  "textVi": "Biết tránh những hành động nguy hiểm, liều lĩnh (ví dụ: nhảy từ những nơi cao xuống, chạy xe ẩu…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.23",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 23,
+  "textVi": "Kiểm soát được sự tức giận, hoặc cảm giác khó chịu khi các thứ không theo mình (ví dụ: khi không được phép xem Tivi, hoặc đi dự tiệc, khi bị từ chối các yêu cầu…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.24",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 24,
+  "textVi": "Thực hiện các kế hoạch và dự định sắp đặt (ví dụ: hẹn k gặp ai đó, sẽ đến gặp đúng hẹn….)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.25",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 25,
+  "textVi": "Ngừng hoặc tránh xa các mối quan hệ phức tạp, hoặc những tình huống nguy hiểm có thể gậy hại cho bản thân (ví dụ: những tình huống dễ bị chọc ghẹo, bắt nạt; bị lạm dụng tình dục, hoặc lợi dụng tiền bạc…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.26",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 26,
+  "textVi": "Kiểm soát được sự tức giận, hoặc cảm giác khó chịu trước những phê phán mang tính xây dựng (ví dụ: góp sửa lỗi, trao",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.27",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 27,
+  "textVi": "Giữ kín bí mật hoặc chuyện riêng lâu đến mức cần thiết",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.28",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 28,
+  "textVi": "Suy nghĩ về những điều có thể xảy ra trước khi quyết định làm việc gì (ví dụ: kiềm chế hành động một cách nóng vội, nghĩ đến những thông tin quan trọng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.29",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 29,
+  "textVi": "thức được những nguy hiểm tiềm ẩn và quan tâm đến các cảnh báo trước những tình huống xã hội mang tính nguy cơ (ví dụ: các cuộc nhậu hết mình, phòng tán ngẫu qua mạng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.coping.30",
+  "subdomain": "coping",
+  "domain": "socialization",
+  "num": 30,
+  "textVi": "ra tôn trọng đối với bạn bè đồng nghiệp (ví dụ: không phiền k nhiễu hoặc gây trở ngại khi bạn đang làm việc, đúng hẹn…). Tổng số các Các mục trong Tổng số các mục trả lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.1",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 1,
+  "textVi": "Giữ thẳng đầu trong vòng ít nhất 15 giây, khi được bế đứng.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.gross.2",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 2,
+  "textVi": "Ngồi có trợ giúp (ví dụ: trong ghế, với gối…) trong vòng ít nhất 1 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.3",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 3,
+  "textVi": "Ngồi không cần trợ giúp trong vòng ít nhâất1 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.4",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 4,
+  "textVi": "Trườn hoặc di chuyển bằng bụng trên mặt sàn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.5",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 5,
+  "textVi": "Ngồi không cần trợ giúp trong vòng ít nhất 10 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.6",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 6,
+  "textVi": "ngồi dậy và giữ tư thế ngồi không cần trợ giúp trong vòng ít nhất 1 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.7",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 7,
+  "textVi": "bằng tay và đầu gối được ít nhất 1,5m (bụng không chạm sàn)",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.8",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 8,
+  "textVi": "chuyển mình lên tư thế đứng",
+  "startFor": [
+   1
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.gross.9",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 9,
+  "textVi": "được lên bậc cầu thang, hoặc bậc thềm",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.10",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 10,
+  "textVi": "Đi được ít nhất 2 bước",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.11",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 11,
+  "textVi": "Đứng không bám, vịn trong vòng 1 đến 3 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.12",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 12,
+  "textVi": "Lăn được quả bóng khi đang tư thế ngồi",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.13",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 13,
+  "textVi": "Leo lên và leo xuống các vật thấp (ví dụ: ghế ngồi, bậc lên xuống)",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.14",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 14,
+  "textVi": "xuống cầu thang, hoặc bậc thềm",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.15",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 15,
+  "textVi": "Đứng trong vòng ít nhất 5 phút",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.16",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 16,
+  "textVi": "Đi lại trong phòng, có thể chưa vững và hay bị ngã",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.17",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 17,
+  "textVi": "Ném được quả bóng",
+  "startFor": [
+   2
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.gross.18",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 18,
+  "textVi": "Đi lại không cần bám, vịn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.19",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 19,
+  "textVi": "Leo lên và xuống ghế ngồi của người lớn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.20",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 20,
+  "textVi": "Chạy không bị ngã; có thể còn chưa vững và chưa thật nhịp nhàng",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.21",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 21,
+  "textVi": "Đi lên cầu thang, bước cả 2 chân lên mỗi bậc và có thể vẫn bám vào tay vịn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.22",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 22,
+  "textVi": "được quả bóng",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.23",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 23,
+  "textVi": "Chạy vững, không bị ngã",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.gross.24",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 24,
+  "textVi": "Đi xuống cầu thang, nhìn về phía trước, bước cả 2 chân lên mỗi bậc, có thể vẫn bám tay vịn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.25",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 25,
+  "textVi": "Giậm nhảy cả 2 chân trên mặt sàn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.26",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 26,
+  "textVi": "Ném quả bóng với bất kỳ kích thước nào theo một hướng cụ thể",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.27",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 27,
+  "textVi": "Bắt được quả bóng có kích thước lớn, được tung đến từ khoảng cách chừng 50cm đến 1m, bằng cả 2 tay",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.28",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 28,
+  "textVi": "Đi lên cầu thang, bước mỗi chân một bậc, có thể vẫn bám tay vịn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.29",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 29,
+  "textVi": "Đạp xe đạp 3 bánh, hoặc chơi 3 bánh khác được ít nhất 2m",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu cá nhân chưa từng có xe đạp hoặc chơi 3 bánh. Tuy nhiên, nếu cá nhân có song lại chưa từng đi vì một lý do nào đó, chấm điểm \"0\"",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.30",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 30,
+  "textVi": "Nhảy lên, hoặc nhảy 1 chân về phía trước được ít nhất 3 lần",
+  "blankScore": true,
+  "draft": true
+ },
+ {
+  "id": "v2.gross.31",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 31,
+  "textVi": "(tiếp) Đi và chạy Hành động chơi Đứng Trườn và Nhảy lên, hoặc nhảy 1 chân về phía trước được ít nhất 3 lần. Nhảy lò cò được ít nhất 1 lần mà không bị ngã, có thể bám vào đâu giữ thăng bằng",
+  "startFor": [
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.gross.32",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 32,
+  "textVi": "Leo lên và leo xuống những vật cao (ví dụ: khu leo trèo cho trẻ nhỏ trong công viên, bậc thang lên cầu trượt…)",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.33",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 33,
+  "textVi": "Đi xuống cầu thang, bước mỗi chân một bậc, có thể vẫn bám tay vịn",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.34",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 34,
+  "textVi": "Chạy vững, có đổi hướng và thay đổi tốc độ",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.35",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 35,
+  "textVi": "Đi xe đạp có bánh phụ được ít nhất 3,5m",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu cá nhân chưa từng có xe đạp có bánh phụ. Tuy nhiên, nếu cá nhân có song lại chưa từng",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.36",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 36,
+  "textVi": "đi vì một lý do nào đó, chấm điểm \"0\". Bắt được quả bóng cỡ lớn (được tung đến từ khoảng cách chừng 2m) bằng hai tay",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.37",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 37,
+  "textVi": "Nhảy lò cò về phía trước một cách dễ dàng",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.38",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 38,
+  "textVi": "Nhảy cách quãng được ít nhất 1,5m",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.39",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 39,
+  "textVi": "Bắt được quả bóng có kích thước bằng quả bóng tennis (được tung đến từ khoảng cách chừng 3,5m), di chuyển bắt nếu cần",
+  "draft": true
+ },
+ {
+  "id": "v2.gross.40",
+  "subdomain": "gross",
+  "domain": "motor",
+  "num": 40,
+  "textVi": "Đi xe đạp không có bánh phụ mà không bị ngã",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu cá nhân chưa từng có xe đạp. Tuy nhiên, nếu cá nhân có song lại chưa từng đi vì một lý do nào đó, chấm điểm \"0\". Tổng số các Các mục trong Tổng số mục trả các",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.1",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 1,
+  "textVi": "Với đồ chơi, hoặc các đồ vật.",
+  "startFor": [
+   0
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.fine.2",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 2,
+  "textVi": "Lấy được những vật nhỏ (kích thước mỗi bề không quá 2cm), có thể dùng cả hai tay",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.3",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 3,
+  "textVi": "Chuyển vật từ tay này sang tay kia",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.4",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 4,
+  "textVi": "Bóp những chơi có tính năng phát ra tiếng kêu \"chít, chít\"",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.5",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 5,
+  "textVi": "Lấy được những vật nhỏ bằng ngón cái và các ngón tay khác",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.6",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 6,
+  "textVi": "Lấy được vật (ví dụ: kẹp quần áo, khối hộp nhỏ…) ra khỏi hộp, hoặc chứa",
+  "startFor": [
+   1,
+   2
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.fine.7",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 7,
+  "textVi": "vật (ví dụ: kẹp quần áo, khối hộp nhỏ…) vào hộp, hoặc đựng",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.8",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 8,
+  "textVi": "Lật mở được bảng gấp, nếp gấp, hoặc từng trang sách",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.9",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 9,
+  "textVi": "Xếp chồng được ít nhất 4 khối hộp nhỏ, hoặc các vật nhỏ khác mà không bị đổ",
+  "startFor": [
+   3,
+   4
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.fine.10",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 10,
+  "textVi": "Biết vặn núm cửa mở cửa",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.11",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 11,
+  "textVi": "Biết mở gói những vật nhỏ (ví dụ: kẹo cao su, kẹo…)",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.12",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 12,
+  "textVi": "(tiếp) tác với vật và cắt bằng kéo dụng bàn phím Xếp đúng những hình ghép đơn giản gồm ít nhất 2 miếng ghép",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.13",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 13,
+  "textVi": "Lật giở được từng trang sách, hoặc trang tạp chí",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.14",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 14,
+  "textVi": "Biết dùng tay vặn các vật (ví dụ: vặn cót chơi, vặn nắp mở nắp bình…)",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.15",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 15,
+  "textVi": "Cầm bút chì đúng cách viết hoặc vẽ",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.16",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 16,
+  "textVi": "màu được những hình đơn giản, có thể còn tô ra ngoài hình",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.17",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 17,
+  "textVi": "Xếp được những kết cấu không gian 3 chiều (ví dụ: nhà, cầu, xe cộ…) với ít nhất 5 khối hộp nhỏ",
+  "startFor": [
+   5
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.fine.18",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 18,
+  "textVi": "Dùng được kéo cắt bằng 1 tay",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.19",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 19,
+  "textVi": "Dán hoặc dính (bằng keo hoặc hồ dán) 2 hoặc nhiều mảnh lại với nhau",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.20",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 20,
+  "textVi": "Dùng băng dính dính các thứ với nhau",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.21",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 21,
+  "textVi": "được nhiều hơn 1 hình có nghĩa (ví dụ: người, nhà, cây..)",
+  "guideVi": "Hướng dẫn chấm điểm: 2 điểm, nếu vẽ được từ 2 hình có nghĩa trở lên; 1 điểm, nếu chỉ vẽ được một hình; 0 điểm, nếu không vẽ được",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.22",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 22,
+  "textVi": "hình nào có nghĩa. Viết/vẽ được gần đúng những chữ cái hoặc chữ số",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.23",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 23,
+  "textVi": "Vừa nhìn mẫu, vừa vẽ hình tròn bằng tay",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.24",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 24,
+  "textVi": "Dùng kéo cắt ngang tờ giấy theo đúng một đường thẳng",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.25",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 25,
+  "textVi": "màu những hình đơn giản; màu tô nằm trong phạm vi hình",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.26",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 26,
+  "textVi": "Cắt được những hình đơn giản (ví dụ: hình tròn, vuông…)",
+  "startFor": [
+   6
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.fine.27",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 27,
+  "textVi": "Tẩy không làm rách giấy",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.28",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 28,
+  "textVi": "Vừa nhìn mẫu, vừa vẽ hình vuông bằng tay",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.29",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 29,
+  "textVi": "Vừa nhìn mẫu, vừa vẽ hình tam giác bằng tay",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.30",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 30,
+  "textVi": "Biết thắt nút",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.31",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 31,
+  "textVi": "đường thẳng bằng thước hoặc những vật thẳng khác",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.32",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 32,
+  "textVi": "Vặn mở khoá, hoặc những thứ tương tự đòi hỏi vặn mở",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu nhà không có khoá hoặc những thứ tương tự khoá",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.33",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 33,
+  "textVi": "Cắt được những hình phức tạp (ví dụ: ngội sao, con vật, chữ cái…)",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.34",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 34,
+  "textVi": "Dùng bàn phím, máy chữ, hoặc phím cảm ứng gõ tên mình hoặc những từ ngắn, có thể vẫn nhìn phím gõ",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu nhà không có máy tính",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.35",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 35,
+  "textVi": "Biết thắt nơ",
+  "draft": true
+ },
+ {
+  "id": "v2.fine.36",
+  "subdomain": "fine",
+  "domain": "motor",
+  "num": 36,
+  "textVi": "Đánh bằng bàn phím được khoảng 10 dòng, có thể vẫn nhìn phím bấm",
+  "guideVi": "Hướng dẫn chấm điểm: thể chọn \"\", nếu nhà không có máy tính. Tổng số các Các mục trong Tổng số các mục trả Điểm thô về lời và không trả lời nhiều hơn 2, không tính điểm cho lĩnh vực bộ phận",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.1",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 1,
+  "textVi": "Quá lệ thuộc (nghĩa là, bám riết người chăm sóc hoặc anh chị…).",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.2",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 2,
+  "textVi": "mọi người và thích được một mình",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.3",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 3,
+  "textVi": "về ăn uống (ví dụ: ăn quá nhanh hoặc quá chậm, ngậm thức ăn, nhiều hoặc biếng ăn…)",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.4",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 4,
+  "textVi": "với việc ngủ (ví dụ: mộng du, thường gặp ác mộng, ngủ quá hoặc quá ít so với mức trung bình theo tuổi)",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.5",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 5,
+  "textVi": "chịu đi học hoặc đi làm vì sợ, vì cảm giác bị tẩy chay hoặc cô độc",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.6",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 6,
+  "textVi": "lắng, hoặc quá hoảng sợ",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.7",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 7,
+  "textVi": "khóc, hoặc dễ cười",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.8",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 8,
+  "textVi": "xúc bằng mắt với mọi người (nghĩa là, không nhìn hoặc hướng vào khác khi trò chuyện)",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.9",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 9,
+  "textVi": "vô cớ",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.10",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 10,
+  "textVi": "tiếp xúc xã hội",
+  "draft": true
+ },
+ {
+  "id": "v2.internalizing.11",
+  "subdomain": "internalizing",
+  "domain": "maladaptive",
+  "num": 11,
+  "textVi": "sinh khi, thiếu hào hứng với các thứ xung quanh",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.1",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 1,
+  "textVi": "Bộp chộp (nghĩa là, hành động thiếu suy nghĩ).",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.2",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 2,
+  "textVi": "quá mức",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.3",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 3,
+  "textVi": "nghe lời và coi thường những người có quyền uy với mình",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.4",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 4,
+  "textVi": "chọc ghẹo, hoặc bắt nạt người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.5",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 5,
+  "textVi": "bén, không tâm đến người khác",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.6",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 6,
+  "textVi": "lừa dối, hoặc ăn trộm",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.7",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 7,
+  "textVi": "hăng (ví dụ: đấm, đá, cắn…)",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.8",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 8,
+  "textVi": "bướng hoặc trơ ì",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.9",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 9,
+  "textVi": "hỏi những điều đáng ngượng nơi đông người (ví dụ: \"bạn béo thế\", gì trên mũi bạn thế?\"…)",
+  "draft": true
+ },
+ {
+  "id": "v2.externalizing.10",
+  "subdomain": "externalizing",
+  "domain": "maladaptive",
+  "num": 10,
+  "textVi": "động không thích hợp khi nài nỉ ai điều gì đó",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.1",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 1,
+  "textVi": "Mút ngón tay.",
+  "startFor": [
+   3
+  ],
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.2",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 2,
+  "textVi": "hoặc phải mặc bỉm vào buổi tối",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.3",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 3,
+  "textVi": "quá thân mật với người lạ (ví dụ: quàng tay, ôm hôn, ngồi lên lòng…)",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.4",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 4,
+  "textVi": "tay",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.5",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 5,
+  "textVi": "máy, giật (ví dụ: nháy mắt liên hồi, giật đầu…)",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.6",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 6,
+  "textVi": "răng vào ban ngày hoặc ban đêm",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.7",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 7,
+  "textVi": "trung chú ý",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.8",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 8,
+  "textVi": "động so với những trẻ khác cùng tuổi",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.9",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 9,
+  "textVi": "bất hợp lệ những vật dụng chung của nhà trường hoặc cơ quan (ví thoại, internet, các văn phòng phẩm…) cho mục đích cá nhân",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.10",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 10,
+  "textVi": "Chửi thề.",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.11",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 11,
+  "textVi": "đi (nghĩa là, biến mất quá 24 giờ hoặc lâu hơn)",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.12",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 12,
+  "textVi": "hoặc trốn làm",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.13",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 13,
+  "textVi": "hoặc không tâm đến mọ người xung quanh",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.14",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 14,
+  "textVi": "tiền bạc hoặc quà tặng mua chuộc tình cảm",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveOther.15",
+  "subdomain": "maladaptiveOther",
+  "domain": "maladaptive",
+  "num": 15,
+  "textVi": "bia rượu hoặc dùng ma tuý vào những ngày làm việc hoặc đi học. Điểm Điểm nội hoá Điểm ngoại hoá Điểm nhóm Điểm thô về hành vi kém",
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.1",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 1,
+  "textVi": "Có những hành vi kích dục không phù hợp (ví dụ: khoe cơ thể, thủ dâm nơi công cộng, sàm sỡ…).",
+  "startFor": [
+   3
+  ],
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.2",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 2,
+  "textVi": "ảnh bởi những hành động hoặc vật nào (ví dụ: luôn lặp đi những từ hoặc cụm từ nào đó, đầu óc luôn vướng bận điều gì",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.3",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 3,
+  "textVi": "những nghĩ vô nghĩa (ví dụ: hoang tưởng, kể lại những điều từ \"giọng nói vang lên trong đầu\"…)",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.4",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 4,
+  "textVi": "thói quen hoặc kiểu cách khác người (ví dụ: liên tục tạo ra tiếng ồn, có những cử động chân tay kỳ quặc…)",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.5",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 5,
+  "textVi": "những vật hơn mọi người (ví dụ: nhiều đến các vật người xung quanh…)",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.6",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 6,
+  "textVi": "hành vi gây đau đớn cho chính mình (ví dụ: đập đầu, cắn da mình…)",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.7",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 7,
+  "textVi": "hỏng những thứ của mình hoặc của người khác",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.8",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 8,
+  "textVi": "hành động lời nói khác lạ (ví dụ: tự nói với mình nơi đông nói những câu vô nghĩa, lặp đi, lặp lại những từ hoặc câu gì",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.9",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 9,
+  "textVi": "thức được những thứ đang xảy ra xung quanh mình (ví dụ: ngơ không biết gì, nhìn trống rỗng, vô định",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.10",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 10,
+  "textVi": "lặp lại những cử động giật lắc cơ thể",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.11",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 11,
+  "textVi": "một cách không bình thường những âm thanh, vật, hoặc tình huống thông thường",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.12",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 12,
+  "textVi": "tiết những thông tin vặt vãnh hàng năm trời",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.13",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 13,
+  "textVi": "thể hoàn tất trọn vẹn một ngày học hoặc làm việc bình thường đau đớn, mệt mỏi mãn tính",
+  "isCritical": true,
+  "draft": true
+ },
+ {
+  "id": "v2.maladaptiveCritical.14",
+  "subdomain": "maladaptiveCritical",
+  "domain": "maladaptive",
+  "num": 14,
+  "textVi": "thể hoàn tất trọn vẹn một ngày học hoặc làm việc bình thường triệu chứng tâm lý. các mục hành vi kém thích ứng cốt yếu. tích hợp phần này lại những đánh giá về tần xuất và mức của các hành vi kém",
+  "isCritical": true,
+  "draft": true
+ }
+]
