@@ -130,6 +130,24 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .dummyDesc { font-size: .74rem; color: var(--muted); }
 .demoNormsRow { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: .2rem 0 .5rem; }
 
+/* Coverage map */
+.coverage { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .5rem .7rem; margin-bottom: 1rem; }
+.covSummary { font-weight: 400; font-size: .8rem; color: var(--muted); margin-left: .6rem; }
+.covTables { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin: .5rem 0; }
+.covPill { font-size: .74rem; padding: .1rem .5rem; border-radius: 999px; border: 1px solid var(--line); }
+.covPill.ok { background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); border: none; }
+.covPill.miss { background: var(--err-bg); color: var(--err-ink); border: none; }
+.coverage .legend { margin-left: auto; display: inline-flex; align-items: center; gap: .3rem; font-size: .72rem; color: var(--muted); }
+.coverage .legend .sw { width: 11px; height: 11px; border-radius: 3px; margin: 0 .15rem 0 .5rem; }
+.coverage .legend .sw.ok, .cov.ok { background: #2f8f6a; }
+.coverage .legend .sw.miss, .cov.miss { background: #d9534f; }
+.coverage .legend .sw.na, .cov.na { background: var(--line); }
+.covScroll { overflow: auto; max-height: 55vh; border: 1px solid var(--line); border-radius: 8px; }
+.covGrid { border-collapse: collapse; font-size: .7rem; }
+.covGrid th { position: sticky; top: 0; background: var(--bg); color: var(--muted); font-weight: 600; padding: .2rem .3rem; z-index: 1; }
+.covGrid .covBandHead { position: sticky; left: 0; z-index: 2; background: var(--bg); text-align: right; white-space: nowrap; font-weight: 600; color: var(--ink); }
+.covGrid td.cov { width: 20px; height: 16px; border: 1px solid var(--panel); }
+
 /* Norms bar */
 .normsBar { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .7rem; margin-bottom: 1rem; }
 .normsRow { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; }
@@ -147,6 +165,8 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .tbLeft button.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
 .tbRight select { padding: .3rem .4rem; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); }
 .fileTag { font-size: .78rem; color: var(--muted); font-family: ui-monospace, monospace; }
+.verifyBtn { border: 1px solid var(--line); background: var(--bg); color: var(--muted); border-radius: 7px; padding: .3rem .6rem; font-size: .8rem; }
+.verifyBtn.on { background: var(--accent); color: #fff; border-color: var(--accent); }
 .bandInfo { font-size: .8rem; color: var(--muted); min-width: 44px; text-align: center; }
 .bandHeader { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; font-size: .84rem; color: var(--muted); margin-bottom: .4rem; }
 .bandHeader strong { color: var(--ink); }

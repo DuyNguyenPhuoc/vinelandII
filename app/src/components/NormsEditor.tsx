@@ -186,6 +186,20 @@ export function NormsEditor({ edition, value, onChange }: Props) {
     };
   };
 
+  const toggleVerified = async () => {
+    if (!pack) return;
+    const out = { ...pack, verified: !pack.verified };
+    setPack(out);
+    saveNorms(edition, out);
+    onChange(out);
+    if (handleRef.current) {
+      try { await saveToHandle(handleRef.current, out); } catch { /* ignore */ }
+    }
+    setMsg({ ok: true, text: out.verified
+      ? T("Đã đánh dấu ĐÃ KIỂM ĐỊNH.", "Marked as VERIFIED.")
+      : T("Đã bỏ đánh dấu kiểm định.", "Marked as unverified.") });
+  };
+
   const save = async () => {
     const out = buildOutPack();
     if (!out) return;
@@ -218,6 +232,9 @@ export function NormsEditor({ edition, value, onChange }: Props) {
         <div className="tbLeft">
           {fsApi && <button className="ghost small" onClick={openFile}>📂 {T("Mở file", "Open file")}</button>}
           <button className="primary small" onClick={save}>💾 {handleRef.current ? T("Lưu vào file", "Save to file") : T("Tải xuống", "Download")}{dirty ? " *" : ""}</button>
+          <button className={pack.verified ? "verifyBtn on" : "verifyBtn"} onClick={toggleVerified}>
+            {pack.verified ? `✓ ${T("Đã kiểm định", "Verified")}` : `☐ ${T("Chưa kiểm định", "Unverified")}`}
+          </button>
           {handleRef.current && <span className="fileTag">{handleRef.current.name}</span>}
         </div>
         <div className="tbRight">

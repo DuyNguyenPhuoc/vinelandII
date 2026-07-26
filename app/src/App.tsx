@@ -13,6 +13,7 @@ import { Results } from "./components/Results";
 import { DriveBar } from "./components/DriveBar";
 import { NormsBar } from "./components/NormsBar";
 import { NormsEditor } from "./components/NormsEditor";
+import { NormsCoverage } from "./components/NormsCoverage";
 import { DummyDataBar } from "./components/DummyDataBar";
 
 type Step = "setup" | "interview" | "results";
@@ -104,6 +105,7 @@ export default function App() {
         {step === "results" && (
           <>
             <NormsBar edition={edition} onChange={setNorms} />
+            <NormsCoverage norms={norms} />
             <NormsEditor edition={edition} value={norms} onChange={setNorms} />
           </>
         )}

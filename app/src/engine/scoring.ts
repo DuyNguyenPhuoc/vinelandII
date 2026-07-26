@@ -261,11 +261,19 @@ export function computeReport(
   }
 
   // --- Domains ---
+  // Minimum applicable age (months) per subdomain — e.g. Written starts at 3:0,
+  // so it's excluded from the Communication total for younger children rather
+  // than blanking the whole domain.
+  const minAgeMonths = new Map(
+    pack.subdomains.map((s) => [s.id, (s.minAgeYears ?? 0) * 12]),
+  );
   const domainResults: DomainResult[] = [];
   for (const dom of pack.domains) {
     if (dom.id === "maladaptive") continue;
-    const subs = subResults.filter((s) =>
-      dom.subdomains.includes(s.subdomain),
+    const subs = subResults.filter(
+      (s) =>
+        dom.subdomains.includes(s.subdomain) &&
+        ageMonths >= (minAgeMonths.get(s.subdomain) ?? 0), // skip not-yet-applicable subdomains
     );
     const vScales = subs.map((s) => s.vScale);
     const allHaveV = vScales.length > 0 && vScales.every((v) => v !== null);
