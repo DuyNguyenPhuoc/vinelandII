@@ -1,37 +1,40 @@
-import { useMemo, useState } from "react";
-import type { AgeBand, DomainId, DomainStandardRow, Edition, NormsPack, RangeRow, SubdomainId } from "../types";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { DomainId, DomainStandardRow, Edition, NormsPack, SubdomainId } from "../types";
 import { useLang } from "../i18n";
-import { loadNorms, saveNorms, validateNormsPack } from "../data/normsStore";
+import { loadNorms, normalizeNormsPack, saveNorms, validateNormsPack } from "../data/normsStore";
 
 // ---------------------------------------------------------------------------
-// Manual norms entry, laid out like the manual's tables (Table B.1 = a grid of
-// v-scale rows × subdomain columns; B.2 / Composite = range rows). The user
-// types the values from their OWN licensed manual; the app validates and saves
-// them locally (browser storage) — no copyrighted data is bundled or committed.
+// Norms table viewer/editor, laid out like the manual's Table B.1:
+//   columns = subdomains grouped under their domain
+//   rows    = v-scale scores (24 → 1)
+//   cell    = the raw-score range for that (subdomain, v-scale)
+//
+// - Navigate age bands (compare each against the matching manual page).
+// - Suspicious cells are highlighted (min>max, or non-increasing ranges) so
+//   OCR errors are easy to spot against the PDF.
+// - Open / save the file directly (File System Access API) — edits persist to
+//   norms.vineland2.local.json; download fallback where the API is unavailable.
 // ---------------------------------------------------------------------------
 
-const SUBS: { id: SubdomainId; label: string }[] = [
-  { id: "receptive", label: "Tiếp nhận" },
-  { id: "expressive", label: "Diễn đạt" },
-  { id: "written", label: "Văn bản" },
-  { id: "personal", label: "Cá nhân" },
-  { id: "domestic", label: "Gia đình" },
-  { id: "community", label: "Cộng đồng" },
-  { id: "interpersonal", label: "Liên cá nhân" },
-  { id: "play", label: "Vui chơi" },
-  { id: "coping", label: "Ứng xử" },
-  { id: "gross", label: "VĐ thô" },
-  { id: "fine", label: "VĐ tinh" },
+const GROUPS: { domain: DomainId; label: string; subs: { id: SubdomainId; label: string }[] }[] = [
+  { domain: "communication", label: "Giao tiếp / Communication", subs: [
+    { id: "receptive", label: "Tiếp nhận" }, { id: "expressive", label: "Diễn đạt" }, { id: "written", label: "Văn bản" },
+  ] },
+  { domain: "dailyLiving", label: "Sinh hoạt / Daily Living", subs: [
+    { id: "personal", label: "Cá nhân" }, { id: "domestic", label: "Gia đình" }, { id: "community", label: "Cộng đồng" },
+  ] },
+  { domain: "socialization", label: "Xã hội hóa / Socialization", subs: [
+    { id: "interpersonal", label: "Liên cá nhân" }, { id: "play", label: "Vui chơi" }, { id: "coping", label: "Ứng xử" },
+  ] },
+  { domain: "motor", label: "Vận động / Motor", subs: [
+    { id: "gross", label: "VĐ thô" }, { id: "fine", label: "VĐ tinh" },
+  ] },
 ];
-const DOMAINS: { id: DomainId; label: string }[] = [
-  { id: "communication", label: "Giao tiếp" },
-  { id: "dailyLiving", label: "Sinh hoạt" },
-  { id: "socialization", label: "Xã hội hóa" },
-  { id: "motor", label: "Vận động" },
-];
+const ALL_SUBS = GROUPS.flatMap((g) => g.subs);
 const VSCALES = Array.from({ length: 24 }, (_, i) => 24 - i); // 24 → 1
 
-/** Parse "13-40" or "13" into [min,max]; empty/invalid → null. */
+type StdRow = { sumVMin: string; sumVMax: string; standard: string; percentile: string };
+
 function parseRange(s: string): [number, number] | null {
   const t = s.trim();
   if (!t) return null;
@@ -41,252 +44,276 @@ function parseRange(s: string): [number, number] | null {
   return null;
 }
 
+function monthsLabel(m: number): string {
+  return `${Math.floor(m / 12)}:${m % 12}`;
+}
+
+async function saveToHandle(handle: FileSystemFileHandle, data: unknown): Promise<void> {
+  const w = await handle.createWritable();
+  await w.write(JSON.stringify(data, null, 2));
+  await w.close();
+}
+function downloadJson(data: unknown, name: string): void {
+  const url = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], { type: "application/json" }));
+  const a = document.createElement("a");
+  a.href = url; a.download = name; a.click();
+  URL.revokeObjectURL(url);
+}
+
 interface Props {
   edition: Edition;
+  /** The app's current norms (from import, demo, or file) — the editor syncs to this. */
+  value: NormsPack | null;
   onChange: (pack: NormsPack | null) => void;
 }
 
-type StdRow = { sumVMin: string; sumVMax: string; standard: string; percentile: string };
-
-// --- Convert a saved pack back into editor state (so it can be VIEWED/edited) ---
-
-function cellsFromBand(band: AgeBand | undefined): Record<string, string> {
-  const c: Record<string, string> = {};
-  if (!band) return c;
-  for (const sid of Object.keys(band.rawToVScale) as SubdomainId[]) {
-    for (const row of band.rawToVScale[sid]!) {
-      c[`${sid}:${row.value}`] = row.min === row.max ? `${row.min}` : `${row.min}-${row.max}`;
-    }
-  }
-  return c;
-}
-
-function stdRowsFrom(rows: DomainStandardRow[] | undefined): StdRow[] {
-  return (rows ?? []).map((r) => ({
-    sumVMin: String(r.sumVMin), sumVMax: String(r.sumVMax),
-    standard: String(r.standard), percentile: String(r.percentile),
-  }));
-}
-
-function initialFrom(pack: NormsPack | null) {
-  const band = pack?.ageBands?.[0];
-  return {
-    minM: band ? String(band.minMonths) : "48",
-    maxM: band ? String(band.maxMonths) : "59",
-    cells: cellsFromBand(band),
-    domRows: {
-      communication: stdRowsFrom(pack?.domainStandard?.communication),
-      dailyLiving: stdRowsFrom(pack?.domainStandard?.dailyLiving),
-      socialization: stdRowsFrom(pack?.domainStandard?.socialization),
-      motor: stdRowsFrom(pack?.domainStandard?.motor),
-    } as Partial<Record<DomainId, StdRow[]>>,
-    compRows: stdRowsFrom(pack?.composite),
-    bandCount: pack?.ageBands?.length ?? 0,
-  };
-}
-
-export function NormsEditor({ edition, onChange }: Props) {
+export function NormsEditor({ edition, value, onChange }: Props) {
   const lang = useLang();
   const T = (vi: string, en: string) => (lang === "vi" ? vi : en);
 
-  const init = useMemo(() => initialFrom(loadNorms(edition)), [edition]);
-  const [minM, setMinM] = useState(init.minM);
-  const [maxM, setMaxM] = useState(init.maxM);
-  const [cells, setCells] = useState<Record<string, string>>(init.cells);
-  const [domRows, setDomRows] = useState<Partial<Record<DomainId, StdRow[]>>>(init.domRows);
-  const [compRows, setCompRows] = useState<StdRow[]>(init.compRows);
+  const [pack, setPack] = useState<NormsPack | null>(value ?? loadNorms(edition));
+  const [bandIndex, setBandIndex] = useState(0);
+  const [dirty, setDirty] = useState(false);
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
+  const [domRows, setDomRows] = useState<Partial<Record<DomainId, StdRow[]>>>({});
+  const [compRows, setCompRows] = useState<StdRow[]>([]);
+  const handleRef = useRef<FileSystemFileHandle | null>(null);
+  const fsApi = typeof window !== "undefined" && "showOpenFilePicker" in window;
 
-  /** Reload the saved band matching the current "from" months (or the first band). */
-  const reloadSaved = () => {
-    const pack = loadNorms(edition);
-    if (!pack) { setMsg({ ok: false, text: T("Chưa có bảng chuẩn đã lưu.", "No saved norms yet.") }); return; }
-    const band = pack.ageBands.find((b) => b.minMonths === Number(minM)) ?? pack.ageBands[0];
-    setMinM(String(band.minMonths));
-    setMaxM(String(band.maxMonths));
-    setCells(cellsFromBand(band));
+  const loadStdEditorsFrom = (p: NormsPack | null) => {
     setDomRows({
-      communication: stdRowsFrom(pack.domainStandard?.communication),
-      dailyLiving: stdRowsFrom(pack.domainStandard?.dailyLiving),
-      socialization: stdRowsFrom(pack.domainStandard?.socialization),
-      motor: stdRowsFrom(pack.domainStandard?.motor),
+      communication: stdRowsFrom(p?.domainStandard?.communication),
+      dailyLiving: stdRowsFrom(p?.domainStandard?.dailyLiving),
+      socialization: stdRowsFrom(p?.domainStandard?.socialization),
+      motor: stdRowsFrom(p?.domainStandard?.motor),
     });
-    setCompRows(stdRowsFrom(pack.composite));
-    setMsg({ ok: true, text: T("Đã tải dữ liệu đã lưu.", "Loaded saved data.") });
+    setCompRows(stdRowsFrom(p?.composite));
   };
 
-  const cellKey = (sid: SubdomainId, v: number) => `${sid}:${v}`;
-  const setCell = (sid: SubdomainId, v: number, val: string) =>
-    setCells((c) => ({ ...c, [cellKey(sid, v)]: val }));
+  // Sync to the app's current norms whenever it changes (unless there are unsaved edits).
+  useEffect(() => {
+    if (dirty) return;
+    setPack(value ?? null);
+    loadStdEditorsFrom(value ?? null);
+    setBandIndex(0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [value]);
 
-  const buildStdRows = (rows: StdRow[]): DomainStandardRow[] =>
-    rows
-      .filter((r) => r.sumVMin && r.sumVMax && r.standard)
-      .map((r) => ({
-        sumVMin: Number(r.sumVMin), sumVMax: Number(r.sumVMax),
-        standard: Number(r.standard), percentile: Number(r.percentile || 0),
-      }));
+  const bands = pack?.ageBands ?? [];
+  const band = bands[Math.min(bandIndex, Math.max(0, bands.length - 1))];
 
-  const save = () => {
-    const rawToVScale: Partial<Record<SubdomainId, RangeRow<number>[]>> = {};
-    for (const s of SUBS) {
-      const rows: RangeRow<number>[] = [];
-      for (const v of VSCALES) {
-        const r = parseRange(cells[cellKey(s.id, v)] ?? "");
-        if (r) rows.push({ min: r[0], max: r[1], value: v });
-      }
-      if (rows.length) rawToVScale[s.id] = rows.sort((a, b) => a.min - b.min);
+  const cellText = (sid: SubdomainId, v: number): string => {
+    const r = band?.rawToVScale?.[sid]?.find((x) => x.value === v);
+    if (!r) return "";
+    return r.min === r.max ? `${r.min}` : `${r.min}-${r.max}`;
+  };
+
+  const setCell = (sid: SubdomainId, v: number, text: string) => {
+    if (!pack || !band) return;
+    const range = parseRange(text);
+    const nextBands = [...pack.ageBands];
+    const nextBand = { ...band, rawToVScale: { ...band.rawToVScale } };
+    let rows = [...(nextBand.rawToVScale[sid] ?? [])].filter((r) => r.value !== v);
+    if (range || text.trim() === "") {
+      if (range) rows.push({ min: range[0], max: range[1], value: v });
+    } else {
+      // unparseable but non-empty → keep a marker row so it shows as bad
+      rows.push({ min: NaN, max: NaN, value: v });
     }
+    rows.sort((a, b) => a.value - b.value);
+    nextBand.rawToVScale[sid] = rows;
+    nextBands[bandIndex] = nextBand;
+    setPack({ ...pack, ageBands: nextBands });
+    setDirty(true);
+  };
 
+  // Flag suspicious cells for the current band.
+  const flags = useMemo(() => {
+    const m: Record<string, "bad" | "warn"> = {};
+    if (!band) return m;
+    for (const s of ALL_SUBS) {
+      const rows = [...(band.rawToVScale[s.id] ?? [])].sort((a, b) => a.value - b.value);
+      let prevMax = -1;
+      for (const r of rows) {
+        if (Number.isNaN(r.min) || Number.isNaN(r.max) || r.min > r.max) m[`${s.id}:${r.value}`] = "bad";
+        else if (r.min <= prevMax) m[`${s.id}:${r.value}`] = "warn";
+        if (!Number.isNaN(r.max)) prevMax = Math.max(prevMax, r.max);
+      }
+    }
+    return m;
+  }, [band]);
+
+  const stats = useMemo(() => {
+    let filled = 0, bad = 0, warn = 0;
+    if (band) for (const s of ALL_SUBS) {
+      for (const r of band.rawToVScale[s.id] ?? []) {
+        filled++;
+        const f = flags[`${s.id}:${r.value}`];
+        if (f === "bad") bad++; else if (f === "warn") warn++;
+      }
+    }
+    return { filled, bad, warn };
+  }, [band, flags]);
+
+  const openFile = async () => {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const [h] = await (window as any).showOpenFilePicker({
+        types: [{ description: "JSON", accept: { "application/json": [".json"] } }],
+      });
+      const data = normalizeNormsPack(JSON.parse(await (await h.getFile()).text()) as NormsPack);
+      const res = validateNormsPack(data, edition);
+      if (!res.ok) { setMsg({ ok: false, text: res.errors.join(" ") }); return; }
+      handleRef.current = h;
+      setPack(data); setBandIndex(0); loadStdEditorsFrom(data);
+      saveNorms(edition, data); onChange(data); setDirty(false);
+      setMsg({ ok: true, text: T(`Đã mở ${h.name}: ${data.ageBands.length} dải tuổi.`, `Opened ${h.name}: ${data.ageBands.length} bands.`) });
+    } catch { /* user cancelled */ }
+  };
+
+  const buildOutPack = (): NormsPack | null => {
+    if (!pack) return null;
     const domainStandard: Partial<Record<DomainId, DomainStandardRow[]>> = {};
-    for (const d of DOMAINS) {
-      const rows = buildStdRows(domRows[d.id] ?? []);
-      if (rows.length) domainStandard[d.id] = rows;
+    for (const g of GROUPS) {
+      const rows = buildStdRows(domRows[g.domain] ?? []);
+      if (rows.length) domainStandard[g.domain] = rows;
     }
     const composite = buildStdRows(compRows);
-
-    // Merge with any previously saved pack (keep other age bands / tables).
-    const existing = loadNorms(edition);
-    const bands = (existing?.ageBands ?? []).filter((b) => b.minMonths !== Number(minM));
-    const pack: NormsPack = {
-      edition,
-      source: "Nhập tay từ sổ tay có bản quyền (dữ liệu cục bộ) / Entered from licensed manual (local)",
-      verified: false,
-      ageBands: [...bands, { minMonths: Number(minM), maxMonths: Number(maxM), rawToVScale }],
-      domainStandard: Object.keys(domainStandard).length ? domainStandard : (existing?.domainStandard ?? {}),
-      composite: composite.length ? composite : existing?.composite,
-      ageEquivalent: existing?.ageEquivalent,
+    return {
+      ...pack,
+      domainStandard: Object.keys(domainStandard).length ? domainStandard : pack.domainStandard,
+      composite: composite.length ? composite : pack.composite,
     };
-
-    const res = validateNormsPack(pack, edition);
-    if (!res.ok) {
-      setMsg({ ok: false, text: res.errors.join(" ") });
-      return;
-    }
-    saveNorms(edition, pack);
-    onChange(pack);
-    setMsg({
-      ok: true,
-      text: T(
-        `Đã lưu cục bộ: dải ${minM}-${maxM} tháng, ${Object.keys(rawToVScale).length} tiểu lĩnh vực.`,
-        `Saved locally: ${minM}-${maxM} months, ${Object.keys(rawToVScale).length} subdomains.`,
-      ),
-    });
   };
 
+  const save = async () => {
+    const out = buildOutPack();
+    if (!out) return;
+    saveNorms(edition, out); onChange(out); setPack(out);
+    if (handleRef.current) {
+      try { await saveToHandle(handleRef.current, out); setDirty(false); setMsg({ ok: true, text: T("Đã lưu vào file.", "Saved to file.") }); }
+      catch (e) { setMsg({ ok: false, text: String(e) }); }
+    } else {
+      downloadJson(out, "norms.vineland2.local.json");
+      setDirty(false);
+      setMsg({ ok: true, text: T("Đã tải xuống. Dùng 'Mở file' để ghi trực tiếp lần sau.", "Downloaded. Use 'Open file' to write in place next time.") });
+    }
+  };
+
+  if (!pack) {
+    return (
+      <div className="normsEditor">
+        <div className="editorNote">
+          {T("Chưa có bảng chuẩn. Bấm 'Mở file' để nạp norms.vineland2.local.json, hoặc dùng 'Nạp bảng chuẩn' ở trên.",
+             "No norms yet. Click 'Open file' to load norms.vineland2.local.json, or use 'Import norms' above.")}
+        </div>
+        {fsApi && <button className="primary" onClick={openFile}>{T("📂 Mở file", "📂 Open file")}</button>}
+      </div>
+    );
+  }
+
   return (
-    <details className="normsEditor" open={init.bandCount > 0}>
-      <summary>
-        ✍️ {T("Xem / nhập bảng chuẩn (bố cục như sổ tay)", "View / enter norms (manual-style layout)")}
-        {init.bandCount > 0 && (
-          <span className="badge verified"> {T(`${init.bandCount} dải đã lưu`, `${init.bandCount} band(s) saved`)}</span>
-        )}
-      </summary>
-
-      <p className="editorNote">
-        {T(
-          "Nhập giá trị từ SỔ TAY CÓ BẢN QUYỀN của bạn. Mỗi ô là khoảng điểm thô ứng với điểm v (ví dụ \"13-40\" hoặc \"21\"). Dữ liệu chỉ lưu cục bộ trên máy bạn.",
-          "Type values from YOUR licensed manual. Each cell is the raw-score range for that v-scale (e.g. \"13-40\" or \"21\"). Data is stored only locally on your machine.",
-        )}
-      </p>
-
-      <div className="bandRow">
-        <label>{T("Tuổi từ (tháng)", "Age from (months)")}
-          <input value={minM} onChange={(e) => setMinM(e.target.value)} style={{ width: 70 }} />
-        </label>
-        <label>{T("đến (tháng)", "to (months)")}
-          <input value={maxM} onChange={(e) => setMaxM(e.target.value)} style={{ width: 70 }} />
-        </label>
-        <button className="ghost small" onClick={reloadSaved} style={{ alignSelf: "flex-end" }}>
-          ↻ {T("Tải lại dữ liệu đã lưu", "Reload saved data")}
-        </button>
+    <div className="normsEditor">
+      <div className="normsToolbar">
+        <div className="tbLeft">
+          {fsApi && <button className="ghost small" onClick={openFile}>📂 {T("Mở file", "Open file")}</button>}
+          <button className="primary small" onClick={save}>💾 {handleRef.current ? T("Lưu vào file", "Save to file") : T("Tải xuống", "Download")}{dirty ? " *" : ""}</button>
+          {handleRef.current && <span className="fileTag">{handleRef.current.name}</span>}
+        </div>
+        <div className="tbRight">
+          <button className="ghost small" disabled={bandIndex === 0} onClick={() => setBandIndex((i) => Math.max(0, i - 1))}>◀</button>
+          <select value={bandIndex} onChange={(e) => setBandIndex(Number(e.target.value))}>
+            {bands.map((b, i) => (
+              <option key={i} value={i}>
+                {monthsLabel(b.minMonths)}–{monthsLabel(b.maxMonths)} ({b.minMonths}-{b.maxMonths} mo)
+              </option>
+            ))}
+          </select>
+          <button className="ghost small" disabled={bandIndex >= bands.length - 1} onClick={() => setBandIndex((i) => Math.min(bands.length - 1, i + 1))}>▶</button>
+          <span className="bandInfo">{bandIndex + 1}/{bands.length}</span>
+        </div>
       </div>
 
-      {/* Table B.1 — v-scale × subdomain grid */}
+      <div className="bandHeader">
+        {T("Bảng B.1 · Điểm v theo điểm thô", "Table B.1 · v-scale by raw score")} —
+        <strong> {T("Tuổi", "Ages")} {monthsLabel(band.minMonths)}–{monthsLabel(band.maxMonths)}</strong>
+        <span className="statPill">{stats.filled} {T("ô", "cells")}</span>
+        {stats.bad > 0 && <span className="statPill bad">⛔ {stats.bad} {T("lỗi", "errors")}</span>}
+        {stats.warn > 0 && <span className="statPill warn">⚠ {stats.warn} {T("nghi ngờ", "suspect")}</span>}
+        <span className="legend">
+          <span className="sw warn" /> {T("không tăng dần", "not increasing")}
+          <span className="sw bad" /> {"min > max"}
+        </span>
+      </div>
+
       <div className="gridScroll">
-        <table className="normGrid">
+        <table className="pdfGrid">
           <thead>
             <tr>
-              <th className="vcol">{T("Điểm v", "v")}</th>
-              {SUBS.map((s) => <th key={s.id}>{s.label}</th>)}
+              <th className="vcol" rowSpan={2}>v</th>
+              {GROUPS.map((g) => <th key={g.domain} className="groupHead" colSpan={g.subs.length}>{g.label}</th>)}
+            </tr>
+            <tr>
+              {ALL_SUBS.map((s) => <th key={s.id} className="subHead">{s.label}</th>)}
             </tr>
           </thead>
           <tbody>
             {VSCALES.map((v) => (
               <tr key={v}>
                 <th className="vcol">{v}</th>
-                {SUBS.map((s) => (
-                  <td key={s.id}>
-                    <input
-                      className="cellInput"
-                      value={cells[cellKey(s.id, v)] ?? ""}
-                      onChange={(e) => setCell(s.id, v, e.target.value)}
-                      placeholder="—"
-                    />
-                  </td>
-                ))}
+                {ALL_SUBS.map((s) => {
+                  const f = flags[`${s.id}:${v}`];
+                  const val = cellText(s.id, v);
+                  return (
+                    <td key={s.id} className={f ? `cell ${f}` : val ? "cell filled" : "cell"}>
+                      <input className="cellInput" value={val} onChange={(e) => setCell(s.id, v, e.target.value)} placeholder="·" />
+                    </td>
+                  );
+                })}
               </tr>
             ))}
           </tbody>
         </table>
       </div>
 
-      {/* Table B.2 — domain standard scores */}
-      <h4>{T("Điểm chuẩn lĩnh vực (Bảng B.2) + Bách phân vị (C.3)", "Domain standard scores (B.2) + %ile (C.3)")}</h4>
-      {DOMAINS.map((d) => (
-        <StdRowsEditor
-          key={d.id}
-          title={d.label}
-          rows={domRows[d.id] ?? []}
-          setRows={(rows) => setDomRows((s) => ({ ...s, [d.id]: rows }))}
-          T={T}
-          sumLabel={T("Tổng điểm v", "Sum of v")}
-        />
-      ))}
+      {msg && <div className={msg.ok ? "banner info" : "banner error"} style={{ marginTop: ".6rem" }}>{msg.text}</div>}
 
-      {/* Composite */}
-      <h4>{T("Tổng hợp (ABC)", "Composite (ABC)")}</h4>
-      <StdRowsEditor title="ABC" rows={compRows} setRows={setCompRows} T={T} sumLabel={T("Tổng điểm chuẩn", "Sum of standards")} />
-
-      <div className="editorActions">
-        <button className="primary" onClick={save}>{T("Lưu cục bộ", "Save locally")}</button>
-        {msg && <span className={msg.ok ? "okMsg" : "errMsg"}>{msg.text}</span>}
-      </div>
-    </details>
+      <details className="stdSection">
+        <summary>{T("Bảng B.2 (điểm chuẩn) & ABC — không theo tuổi", "Table B.2 (standard scores) & ABC — age-independent")}</summary>
+        {GROUPS.map((g) => (
+          <StdRowsEditor key={g.domain} title={g.label} rows={domRows[g.domain] ?? []}
+            setRows={(rows) => { setDomRows((s) => ({ ...s, [g.domain]: rows })); setDirty(true); }}
+            T={T} sumLabel={T("Tổng điểm v", "Sum of v")} />
+        ))}
+        <StdRowsEditor title="ABC" rows={compRows} setRows={(r) => { setCompRows(r); setDirty(true); }} T={T} sumLabel={T("Tổng điểm chuẩn", "Sum of standards")} />
+      </details>
+    </div>
   );
 }
 
-function StdRowsEditor({
-  title, rows, setRows, T, sumLabel,
-}: {
-  title: string;
-  rows: StdRow[];
-  setRows: (r: StdRow[]) => void;
-  T: (vi: string, en: string) => string;
-  sumLabel: string;
+// --- helpers ---------------------------------------------------------------
+
+function stdRowsFrom(rows: DomainStandardRow[] | undefined): StdRow[] {
+  return (rows ?? []).map((r) => ({ sumVMin: String(r.sumVMin), sumVMax: String(r.sumVMax), standard: String(r.standard), percentile: String(r.percentile) }));
+}
+function buildStdRows(rows: StdRow[]): DomainStandardRow[] {
+  return rows.filter((r) => r.sumVMin && r.sumVMax && r.standard).map((r) => ({
+    sumVMin: Number(r.sumVMin), sumVMax: Number(r.sumVMax), standard: Number(r.standard), percentile: Number(r.percentile || 0),
+  }));
+}
+function StdRowsEditor({ title, rows, setRows, T, sumLabel }: {
+  title: string; rows: StdRow[]; setRows: (r: StdRow[]) => void;
+  T: (vi: string, en: string) => string; sumLabel: string;
 }) {
   const add = () => setRows([...rows, { sumVMin: "", sumVMax: "", standard: "", percentile: "" }]);
-  const upd = (i: number, patch: Partial<StdRow>) =>
-    setRows(rows.map((r, j) => (j === i ? { ...r, ...patch } : r)));
+  const upd = (i: number, patch: Partial<StdRow>) => setRows(rows.map((r, j) => (j === i ? { ...r, ...patch } : r)));
   const del = (i: number) => setRows(rows.filter((_, j) => j !== i));
-
   return (
     <div className="stdBlock">
-      <div className="stdHead">
-        <strong>{title}</strong>
-        <button className="ghost small" onClick={add}>+ {T("thêm dòng", "add row")}</button>
-      </div>
+      <div className="stdHead"><strong>{title}</strong><button className="ghost small" onClick={add}>+ {T("dòng", "row")}</button></div>
       {rows.length > 0 && (
         <table className="stdTable">
-          <thead>
-            <tr>
-              <th>{sumLabel} {T("từ", "min")}</th>
-              <th>{T("đến", "max")}</th>
-              <th>{T("Điểm chuẩn", "Standard")}</th>
-              <th>%ile</th>
-              <th></th>
-            </tr>
-          </thead>
+          <thead><tr><th>{sumLabel} {T("từ", "min")}</th><th>{T("đến", "max")}</th><th>{T("Điểm chuẩn", "Standard")}</th><th>%ile</th><th></th></tr></thead>
           <tbody>
             {rows.map((r, i) => (
               <tr key={i}>

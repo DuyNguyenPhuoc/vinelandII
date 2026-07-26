@@ -138,19 +138,42 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .normsLabel .none { color: var(--muted); }
 .fileOpen.small { font-size: .82rem; padding: .3rem .6rem; }
 
-/* Norms editor (manual entry, manual-style layout) */
-.normsEditor { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .8rem; margin-bottom: 1rem; }
-.normsEditor > summary { cursor: pointer; font-weight: 700; font-size: .92rem; }
+/* Norms editor (manual-style Table B.1 viewer/editor) */
+.normsEditor { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .7rem .8rem; margin-bottom: 1rem; }
 .editorNote { font-size: .82rem; color: var(--muted); margin: .5rem 0; }
-.bandRow { display: flex; gap: 1rem; margin-bottom: .6rem; }
-.bandRow label { flex-direction: row; align-items: center; gap: .4rem; font-size: .82rem; }
-.gridScroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
-.normGrid { border-collapse: collapse; font-size: .78rem; }
-.normGrid th, .normGrid td { border: 1px solid var(--line); padding: 0; text-align: center; }
-.normGrid thead th { background: var(--bg); padding: .3rem .35rem; color: var(--muted); font-weight: 600; position: sticky; top: 0; white-space: nowrap; }
-.normGrid .vcol { background: var(--bg); font-weight: 700; color: var(--brand); min-width: 34px; position: sticky; left: 0; z-index: 1; }
-.cellInput { width: 62px; border: none; background: transparent; color: var(--ink); text-align: center; padding: .28rem .2rem; font-size: .76rem; }
-.cellInput:focus { outline: 2px solid var(--brand); background: var(--info-bg); }
+.normsToolbar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: .5rem; }
+.tbLeft, .tbRight { display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
+.tbLeft button, .tbRight button { border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 7px; padding: .3rem .6rem; }
+.tbLeft button.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
+.tbRight select { padding: .3rem .4rem; border: 1px solid var(--line); border-radius: 7px; background: var(--bg); color: var(--ink); }
+.fileTag { font-size: .78rem; color: var(--muted); font-family: ui-monospace, monospace; }
+.bandInfo { font-size: .8rem; color: var(--muted); min-width: 44px; text-align: center; }
+.bandHeader { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; font-size: .84rem; color: var(--muted); margin-bottom: .4rem; }
+.bandHeader strong { color: var(--ink); }
+.statPill { font-size: .74rem; padding: .08rem .45rem; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); }
+.statPill.bad { background: var(--err-bg); color: var(--err-ink); border: none; }
+.statPill.warn { background: var(--warn-bg); color: var(--warn-ink); border: none; }
+.legend { display: inline-flex; align-items: center; gap: .35rem; margin-left: auto; font-size: .72rem; }
+.legend .sw { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin: 0 .1rem 0 .5rem; vertical-align: middle; }
+.legend .sw.warn { background: var(--warn-bg); border: 1px solid var(--warn-ink); }
+.legend .sw.bad { background: var(--err-bg); border: 1px solid var(--err-ink); }
+
+.gridScroll { overflow: auto; max-height: 70vh; border: 1px solid var(--line); border-radius: 8px; }
+.pdfGrid { border-collapse: collapse; font-size: .76rem; }
+.pdfGrid th, .pdfGrid td { border: 1px solid var(--line); text-align: center; padding: 0; }
+.pdfGrid thead th { position: sticky; top: 0; z-index: 2; background: var(--bg); color: var(--muted); font-weight: 700; padding: .28rem .3rem; white-space: nowrap; }
+.pdfGrid .groupHead { background: var(--info-bg); color: var(--info-ink); }
+.pdfGrid .subHead { top: 26px; font-weight: 600; }
+.pdfGrid .vcol { position: sticky; left: 0; z-index: 1; background: var(--bg); color: var(--brand); font-weight: 700; min-width: 30px; }
+.pdfGrid thead .vcol { z-index: 3; }
+.pdfGrid td.cell.filled { background: color-mix(in srgb, var(--brand) 6%, transparent); }
+.pdfGrid td.cell.warn { background: var(--warn-bg); }
+.pdfGrid td.cell.bad { background: var(--err-bg); }
+.cellInput { width: 58px; border: none; background: transparent; color: var(--ink); text-align: center; padding: .26rem .15rem; font-size: .74rem; }
+.cellInput:focus { outline: 2px solid var(--brand); background: var(--panel); }
+
+.stdSection { margin-top: .8rem; border-top: 1px dashed var(--line); padding-top: .5rem; }
+.stdSection > summary { cursor: pointer; font-weight: 600; font-size: .86rem; }
 .stdBlock { margin: .5rem 0; }
 .stdHead { display: flex; align-items: center; gap: .8rem; margin-bottom: .2rem; }
 .stdTable { border-collapse: collapse; font-size: .8rem; }
@@ -158,10 +181,6 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .stdTable td { padding: .1rem .2rem; }
 .numIn { width: 64px; padding: .3rem; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--ink); font-size: .8rem; }
 .ghost.small { font-size: .74rem; padding: .2rem .45rem; }
-.editorActions { display: flex; align-items: center; gap: 1rem; margin-top: .7rem; }
-.okMsg { color: var(--accent); font-size: .84rem; }
-.errMsg { color: var(--err-ink); font-size: .84rem; }
-.normsEditor h4 { margin: .8rem 0 .3rem; font-size: .86rem; }
 
 /* Interview */
 .interviewHint { color: var(--muted); font-size: .88rem; margin-bottom: .3rem; }

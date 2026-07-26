@@ -104,7 +104,7 @@ export default function App() {
         {step === "results" && (
           <>
             <NormsBar edition={edition} onChange={setNorms} />
-            <NormsEditor edition={edition} onChange={setNorms} />
+            <NormsEditor edition={edition} value={norms} onChange={setNorms} />
           </>
         )}
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import type { Edition, NormsPack } from "../types";
 import { useLang } from "../i18n";
-import { clearNorms, loadNorms, saveNorms, validateNormsPack, type ValidationResult } from "../data/normsStore";
+import { clearNorms, loadNorms, normalizeNormsPack, saveNorms, validateNormsPack, type ValidationResult } from "../data/normsStore";
 
 interface Props {
   edition: Edition;
@@ -24,10 +24,10 @@ export function NormsBar({ edition, onChange }: Props) {
       setResult({ ok: false, errors: [T("File JSON không hợp lệ.", "Invalid JSON file.")], warnings: [], summary: { ageBands: 0, subdomainsCovered: 0, domainsCovered: 0 } });
       return;
     }
-    const res = validateNormsPack(data, edition);
+    const pack = normalizeNormsPack(data as NormsPack);
+    const res = validateNormsPack(pack, edition);
     setResult(res);
     if (res.ok) {
-      const pack = data as NormsPack;
       saveNorms(edition, pack);
       onChange(pack);
     }

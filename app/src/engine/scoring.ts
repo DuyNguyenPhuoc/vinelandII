@@ -184,7 +184,7 @@ export function maladaptiveLevelFromVScale(v: number | null): MaladaptiveLevel {
 // ---- Norms lookups ----------------------------------------------------------
 
 function lookupRange<T>(rows: RangeRow<T>[] | undefined, raw: number): T | null {
-  if (!rows) return null;
+  if (!Array.isArray(rows)) return null; // defensive: tolerate malformed norms data
   for (const r of rows) if (raw >= r.min && raw <= r.max) return r.value;
   return null;
 }
@@ -277,7 +277,7 @@ export function computeReport(
     let normsMissing = true;
 
     if (norms && sumV !== null) {
-      const rows = norms.domainStandard[dom.id];
+      const rows = norms.domainStandard?.[dom.id];
       normsMissing = rows === undefined;
       if (rows) {
         const row = rows.find((r) => sumV >= r.sumVMin && sumV <= r.sumVMax);

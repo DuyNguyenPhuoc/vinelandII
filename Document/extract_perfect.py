@@ -8,7 +8,15 @@ import io
 
 API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC0zUZoPTUaen9qOByYG1Z-UVB-lbOXhjI")
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-3.5-flash')
+MODELS = ['gemini-3.5-flash', 'gemini-3.1-flash-lite', 'gemini-3.5-flash-lite']
+current_model_idx = 0
+model = genai.GenerativeModel(MODELS[current_model_idx])
+
+def switch_model():
+    global current_model_idx, model
+    current_model_idx = (current_model_idx + 1) % len(MODELS)
+    print(f"  Switching to {MODELS[current_model_idx]}...")
+    model = genai.GenerativeModel(MODELS[current_model_idx])
 
 def pdf_page_to_image(pdf_path, page_num):
     doc = fitz.open(pdf_path)
@@ -53,7 +61,7 @@ def verify_table(table):
                     errors.append(f"{sub}: GAP! V={prev_v} max is {prev_max}, but next V={v} min is {min_v}")
     return errors
 
-def extract_page_with_retry(pdf_path, page_num, max_retries=10):
+def extract_page_with_retry(pdf_path, page_num, max_retries=100):
     img = pdf_page_to_image(pdf_path, page_num)
     
     base_prompt = """
@@ -104,6 +112,13 @@ def extract_page_with_retry(pdf_path, page_num, max_retries=10):
                 prompt = base_prompt + "\n\nYOUR PREVIOUS OUTPUT HAD LOGICAL ERRORS. PLEASE FIX THEM:\n" + "\n".join(all_errors)
         except Exception as e:
             print(f"  Error on attempt {attempt+1}: {e}")
+            if "429" in str(e) or "Quota exceeded" in str(e) or "ResourceExhausted" in str(e):
+                print("  API Rate limit hit!")
+                switch_model()
+                if current_model_idx == 0:
+                    print("  All models exhausted! Sleeping 1 hour...")
+                    time.sleep(3600)
+                continue
             prompt = base_prompt + f"\n\nJSON Parse Error: {e}"
             
         time.sleep(5) # Respect limits
@@ -113,17 +128,35 @@ def extract_page_with_retry(pdf_path, page_num, max_retries=10):
 
 def main():
     pdf_path = "Vineland-II scoring.pdf"
-    output_b1 = []
     
-    for page_num in range(3, 50): # Pages 3 to 49 (inclusive) for Table B.1
+    # Load existing to append
+    output_b1 = []
+    if os.path.exists("table_b1_perfect.json"):
+        with open("table_b1_perfect.json", "r", encoding="utf-8") as f:
+            output_b1 = json.load(f)
+            
+    progress = []
+    if os.path.exists("b1_progress.json"):
+        with open("b1_progress.json", "r") as f:
+            progress = json.load(f)
+            
+    pages_to_process = [17, 18, 19, 20] + list(range(31, 50))
+            
+    for page_num in pages_to_process:
+        if page_num in progress:
+            continue
+            
         print(f"Processing Page {page_num} with Flash Loop Validation...")
         data = extract_page_with_retry(pdf_path, page_num)
         if data:
             output_b1.extend(data)
+            progress.append(page_num)
             
-            # Save incrementally to avoid losing data if it crashes
+            # Save incrementally
             with open("table_b1_perfect.json", "w", encoding="utf-8") as f:
                 json.dump(output_b1, f, indent=2, ensure_ascii=False)
+            with open("b1_progress.json", "w") as f:
+                json.dump(progress, f)
                 
     print("Done! Completely extracted Table B.1 to table_b1_perfect.json")
 

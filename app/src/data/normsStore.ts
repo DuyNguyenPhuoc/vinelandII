@@ -8,7 +8,7 @@
 // (coverage, monotonicity) and stored locally in the browser — never uploaded.
 // ---------------------------------------------------------------------------
 
-import type { DomainId, Edition, NormsPack, SubdomainId } from "../types";
+import type { DomainId, Edition, NormsPack, RangeRow, SubdomainId } from "../types";
 
 const KEY_PREFIX = "vineland.norms.";
 
@@ -86,6 +86,79 @@ export function validateNormsPack(data: unknown, edition: Edition): ValidationRe
   };
 }
 
+// --- Format normalization ---------------------------------------------------
+// Accept alternate shapes some converters produce and coerce to the canonical
+// NormsPack (so users don't have to re-transcribe). Currently handles
+// `ageEquivalent` given as { "<rawScore>": "<Y:M>"|<months> } instead of
+// [ { min, max, value(months) } ].
+
+function toMonths(v: unknown): number | null {
+  if (typeof v === "number") return v;
+  if (typeof v === "string") {
+    const s = v.trim();
+    const m = s.match(/^(\d+)\s*:\s*(\d+)$/);
+    if (m) return Number(m[1]) * 12 + Number(m[2]);
+    if (/^\d+$/.test(s)) return Number(s);
+  }
+  return null;
+}
+
+function normalizeAgeEq(val: unknown): RangeRow<number>[] {
+  if (Array.isArray(val)) {
+    return val
+      .map((r) => ({ min: r.min, max: r.max, value: toMonths(r.value) ?? r.value }))
+      .filter((r) => typeof r.value === "number");
+  }
+  if (val && typeof val === "object") {
+    const entries: [number, number][] = [];
+    for (const [k, v] of Object.entries(val as Record<string, unknown>)) {
+      const raw = Number(k);
+      const months = toMonths(v);
+      if (!Number.isNaN(raw) && months !== null) entries.push([raw, months]);
+    }
+    entries.sort((a, b) => a[0] - b[0]);
+    const rows: RangeRow<number>[] = [];
+    for (const [raw, months] of entries) {
+      const last = rows[rows.length - 1];
+      if (last && last.value === months && raw === last.max + 1) last.max = raw;
+      else rows.push({ min: raw, max: raw, value: months });
+    }
+    return rows;
+  }
+  return [];
+}
+
+// Accept `sumStandardMin/Max` (used for the ABC composite, which sums standard
+// scores) as aliases for the canonical `sumVMin/Max`.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function normalizeStdRows(rows: any): any {
+  if (!Array.isArray(rows)) return rows;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return rows.map((r: any) => ({
+    ...r,
+    sumVMin: r.sumVMin ?? r.sumStandardMin ?? r.sumScoreMin,
+    sumVMax: r.sumVMax ?? r.sumStandardMax ?? r.sumScoreMax,
+  }));
+}
+
+/** Coerce a parsed file into the canonical NormsPack shape. */
+export function normalizeNormsPack<T extends Partial<NormsPack>>(input: T): T {
+  const p = input;
+  if (p.ageEquivalent && typeof p.ageEquivalent === "object") {
+    const norm: Partial<Record<SubdomainId, RangeRow<number>[]>> = {};
+    for (const [sid, val] of Object.entries(p.ageEquivalent)) {
+      norm[sid as SubdomainId] = normalizeAgeEq(val);
+    }
+    p.ageEquivalent = norm;
+  }
+  if (p.composite) p.composite = normalizeStdRows(p.composite);
+  if (p.domainStandard && typeof p.domainStandard === "object") {
+    const ds = p.domainStandard as Record<string, unknown>;
+    for (const k of Object.keys(ds)) ds[k] = normalizeStdRows(ds[k]);
+  }
+  return p;
+}
+
 export function saveNorms(edition: Edition, pack: NormsPack): void {
   localStorage.setItem(KEY_PREFIX + edition, JSON.stringify(pack));
 }
@@ -93,7 +166,7 @@ export function saveNorms(edition: Edition, pack: NormsPack): void {
 export function loadNorms(edition: Edition): NormsPack | null {
   try {
     const raw = localStorage.getItem(KEY_PREFIX + edition);
-    return raw ? (JSON.parse(raw) as NormsPack) : null;
+    return raw ? normalizeNormsPack(JSON.parse(raw) as NormsPack) : null;
   } catch {
     return null;
   }
