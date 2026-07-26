@@ -1,0 +1,2540 @@
+[
+  {
+    "ageBandRaw": "0:0:0-0:0:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 8,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 21
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 17
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 15
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 13
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "expressive": [
+        {
+          "min": 12,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 10,
+          "max": 11,
+          "value": 22
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "value": 18
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 13
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 12
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 9
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 5,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 23
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 21
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 16
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 12
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 9
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 21,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "value": 22
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "value": 21
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "value": 20
+        },
+        {
+          "min": 13,
+          "max": 17,
+          "value": 19
+        },
+        {
+          "min": 11,
+          "max": 12,
+          "value": 18
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 17
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "value": 16
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "value": 15
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 14
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 12
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 9
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 8
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "play": [
+        {
+          "min": 9,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 23
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 22
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "value": 21
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 18
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 15
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 13
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 11
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 5,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 19
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 18
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 16
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 15
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 14
+        }
+      ],
+      "fine": [
+        {
+          "min": 5,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 23
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 22
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 20
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "ageBandRaw": "0:1:0-0:1:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 8,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 18
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 14
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 12
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 9
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "expressive": [
+        {
+          "min": 12,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 21
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 20
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 19
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 17
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 16
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 15
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 14
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 12
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 11
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 8
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 5,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 22
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 19
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 15
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 8
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 21,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "value": 21
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "value": 20
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "value": 19
+        },
+        {
+          "min": 16,
+          "max": 17,
+          "value": 18
+        },
+        {
+          "min": 13,
+          "max": 15,
+          "value": 17
+        },
+        {
+          "min": 11,
+          "max": 12,
+          "value": 16
+        },
+        {
+          "min": 7,
+          "max": 10,
+          "value": 15
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "value": 14
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 12
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 10
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 8
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 7
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "play": [
+        {
+          "min": 9,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 22
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 21
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 20
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 19
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 17
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 16
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 14
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 12
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 10
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 6,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 22
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 17
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 15
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 14
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 12
+        }
+      ],
+      "fine": [
+        {
+          "min": 6,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 22
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 21
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 20
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 18
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "ageBandRaw": "0:2:0-0:2:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 8,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 19
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 18
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 15
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 13
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 12
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 10
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 8
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "expressive": [
+        {
+          "min": 16,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 12,
+          "max": 15,
+          "value": 23
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 20
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 19
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 18
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 16
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 15
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 14
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 13
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 12
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 10
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 9
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 7
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 10,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 6,
+          "max": 9,
+          "value": 23
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 22
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 20
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 18
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 14
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 8
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 25,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 21,
+          "max": 24,
+          "value": 23
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "value": 20
+        },
+        {
+          "min": 18,
+          "max": 19,
+          "value": 19
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "value": 18
+        },
+        {
+          "min": 15,
+          "max": 16,
+          "value": 17
+        },
+        {
+          "min": 13,
+          "max": 14,
+          "value": 16
+        },
+        {
+          "min": 11,
+          "max": 12,
+          "value": 15
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 14
+        },
+        {
+          "min": 7,
+          "max": 8,
+          "value": 13
+        },
+        {
+          "min": 5,
+          "max": 6,
+          "value": 12
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 11
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 9
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "value": 7
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "play": [
+        {
+          "min": 10,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 23
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 22
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 18
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 15
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 13
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 10
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 16,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 8,
+          "max": 15,
+          "value": 23
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 22
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 20
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 15
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 13
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 12
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 10
+        }
+      ],
+      "fine": [
+        {
+          "min": 11,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "value": 23
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 22
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 20
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 19
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 18
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 16
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "ageBandRaw": "0:3:0-0:3:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 12,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 22
+        },
+        {
+          "min": 8,
+          "max": 10,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 19
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 15
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 12
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 10
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 8
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 7
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "expressive": [
+        {
+          "min": 17,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 15,
+          "max": 16,
+          "value": 23
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "value": 22
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 21
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 20
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 18
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 17
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 16
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 14
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 12
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 11
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 10
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 8
+        },
+        {
+          "min": 1,
+          "max": 2,
+          "value": 7
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 10,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 22
+        },
+        {
+          "min": 6,
+          "max": 8,
+          "value": 21
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 20
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 18
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 17
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 14
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 10
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 7
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 25,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "value": 23
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "value": 22
+        },
+        {
+          "min": 21,
+          "max": 22,
+          "value": 21
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "value": 20
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "value": 19
+        },
+        {
+          "min": 18,
+          "max": 18,
+          "value": 18
+        },
+        {
+          "min": 16,
+          "max": 17,
+          "value": 17
+        },
+        {
+          "min": 14,
+          "max": 15,
+          "value": 16
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 15
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 14
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 13
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 12
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 11
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "value": 10
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 8
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 7
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 6
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 5
+        }
+      ],
+      "play": [
+        {
+          "min": 10,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 23
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 17
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 14
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 13
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 9
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 17,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 14,
+          "max": 16,
+          "value": 23
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 22
+        },
+        {
+          "min": 8,
+          "max": 11,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 18
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 15
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 13
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 11
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 10
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 8
+        }
+      ],
+      "fine": [
+        {
+          "min": 11,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 22
+        },
+        {
+          "min": 8,
+          "max": 9,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 18
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 17
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 16
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 14
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 11
+        }
+      ]
+    }
+  },
+  {
+    "ageBandRaw": "0:4:0-0:4:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 14,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 11,
+          "max": 13,
+          "value": 21
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 20
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 19
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 18
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 14
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 11
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 9
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 7
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 6
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 5
+        }
+      ],
+      "expressive": [
+        {
+          "min": 17,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "value": 23
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "value": 22
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "value": 21
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 20
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 19
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 17
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 16
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 15
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 13
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 11
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 9
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 8
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 7
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 6
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 5
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 4
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 10,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 21
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 20
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 19
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 18
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 17
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 16
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 13
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 10
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 7
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 25,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 24,
+          "max": 24,
+          "value": 22
+        },
+        {
+          "min": 23,
+          "max": 23,
+          "value": 21
+        },
+        {
+          "min": 21,
+          "max": 22,
+          "value": 20
+        },
+        {
+          "min": 20,
+          "max": 20,
+          "value": 19
+        },
+        {
+          "min": 18,
+          "max": 19,
+          "value": 18
+        },
+        {
+          "min": 17,
+          "max": 17,
+          "value": 17
+        },
+        {
+          "min": 15,
+          "max": 16,
+          "value": 16
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "value": 15
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 14
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 13
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 12
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 11
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 10
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "value": 9
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 7
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 6
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 5
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 4
+        }
+      ],
+      "play": [
+        {
+          "min": 10,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 22
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 21
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 19
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 18
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 16
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 15
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 13
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 12
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 10
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 9
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 17,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "value": 23
+        },
+        {
+          "min": 14,
+          "max": 15,
+          "value": 22
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 21
+        },
+        {
+          "min": 10,
+          "max": 11,
+          "value": 20
+        },
+        {
+          "min": 8,
+          "max": 9,
+          "value": 19
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 18
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 16
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 14
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 12
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 10
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 9
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "fine": [
+        {
+          "min": 11,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 21
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 20
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 19
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 18
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 16
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 15
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 14
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 12
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "ageBandRaw": "0:5:0-0:5:30",
+    "rawToVScale": {
+      "receptive": [
+        {
+          "min": 16,
+          "max": 40,
+          "value": 24
+        },
+        {
+          "min": 15,
+          "max": 15,
+          "value": 23
+        },
+        {
+          "min": 12,
+          "max": 14,
+          "value": 21
+        },
+        {
+          "min": 10,
+          "max": 11,
+          "value": 20
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 19
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 18
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 17
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 16
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 13
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 10
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 8
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 7
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 6
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 5
+        }
+      ],
+      "expressive": [
+        {
+          "min": 26,
+          "max": 108,
+          "value": 24
+        },
+        {
+          "min": 22,
+          "max": 25,
+          "value": 23
+        },
+        {
+          "min": 17,
+          "max": 21,
+          "value": 22
+        },
+        {
+          "min": 16,
+          "max": 16,
+          "value": 21
+        },
+        {
+          "min": 14,
+          "max": 15,
+          "value": 20
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 19
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 18
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 16
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 15
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 14
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 12
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 10
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 9
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 8
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 7
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 6
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 5
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 4
+        }
+      ],
+      "written": [],
+      "personal": [
+        {
+          "min": 19,
+          "max": 82,
+          "value": 24
+        },
+        {
+          "min": 13,
+          "max": 18,
+          "value": 23
+        },
+        {
+          "min": 10,
+          "max": 12,
+          "value": 22
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 20
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 19
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 18
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 17
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 15
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 14
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 12
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 9
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 7
+        }
+      ],
+      "domestic": [],
+      "community": [],
+      "interpersonal": [
+        {
+          "min": 30,
+          "max": 76,
+          "value": 24
+        },
+        {
+          "min": 27,
+          "max": 29,
+          "value": 23
+        },
+        {
+          "min": 25,
+          "max": 26,
+          "value": 22
+        },
+        {
+          "min": 23,
+          "max": 24,
+          "value": 20
+        },
+        {
+          "min": 22,
+          "max": 22,
+          "value": 19
+        },
+        {
+          "min": 20,
+          "max": 21,
+          "value": 18
+        },
+        {
+          "min": 19,
+          "max": 19,
+          "value": 17
+        },
+        {
+          "min": 17,
+          "max": 18,
+          "value": 16
+        },
+        {
+          "min": 15,
+          "max": 16,
+          "value": 15
+        },
+        {
+          "min": 14,
+          "max": 14,
+          "value": 14
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 13
+        },
+        {
+          "min": 11,
+          "max": 11,
+          "value": 12
+        },
+        {
+          "min": 9,
+          "max": 10,
+          "value": 11
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 10
+        },
+        {
+          "min": 6,
+          "max": 7,
+          "value": 9
+        },
+        {
+          "min": 4,
+          "max": 5,
+          "value": 8
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 7
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 6
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 5
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 4
+        }
+      ],
+      "play": [
+        {
+          "min": 23,
+          "max": 62,
+          "value": 24
+        },
+        {
+          "min": 15,
+          "max": 22,
+          "value": 23
+        },
+        {
+          "min": 10,
+          "max": 14,
+          "value": 22
+        },
+        {
+          "min": 8,
+          "max": 9,
+          "value": 20
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 18
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 17
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 15
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 14
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 12
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 11
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 9
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 8
+        }
+      ],
+      "coping": [],
+      "gross": [
+        {
+          "min": 20,
+          "max": 80,
+          "value": 24
+        },
+        {
+          "min": 18,
+          "max": 19,
+          "value": 22
+        },
+        {
+          "min": 16,
+          "max": 17,
+          "value": 21
+        },
+        {
+          "min": 14,
+          "max": 15,
+          "value": 20
+        },
+        {
+          "min": 12,
+          "max": 13,
+          "value": 19
+        },
+        {
+          "min": 10,
+          "max": 11,
+          "value": 18
+        },
+        {
+          "min": 8,
+          "max": 9,
+          "value": 17
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 16
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 15
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 14
+        },
+        {
+          "min": 4,
+          "max": 4,
+          "value": 13
+        },
+        {
+          "min": 3,
+          "max": 3,
+          "value": 11
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 9
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 8
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 6
+        }
+      ],
+      "fine": [
+        {
+          "min": 22,
+          "max": 72,
+          "value": 24
+        },
+        {
+          "min": 17,
+          "max": 21,
+          "value": 23
+        },
+        {
+          "min": 14,
+          "max": 16,
+          "value": 22
+        },
+        {
+          "min": 11,
+          "max": 13,
+          "value": 21
+        },
+        {
+          "min": 10,
+          "max": 10,
+          "value": 19
+        },
+        {
+          "min": 9,
+          "max": 9,
+          "value": 18
+        },
+        {
+          "min": 8,
+          "max": 8,
+          "value": 17
+        },
+        {
+          "min": 7,
+          "max": 7,
+          "value": 16
+        },
+        {
+          "min": 6,
+          "max": 6,
+          "value": 15
+        },
+        {
+          "min": 5,
+          "max": 5,
+          "value": 14
+        },
+        {
+          "min": 3,
+          "max": 4,
+          "value": 13
+        },
+        {
+          "min": 2,
+          "max": 2,
+          "value": 12
+        },
+        {
+          "min": 1,
+          "max": 1,
+          "value": 11
+        },
+        {
+          "min": 0,
+          "max": 0,
+          "value": 9
+        }
+      ]
+    }
+  }
+]

@@ -48,7 +48,7 @@ no engine changes.
 |------|--------|
 | Vineland-II items — **structure** | **✅ Verified.** All **433 items** across 15 subdomains: correct subdomains, numbering, age start-points, the 2 blank-score items (interpersonal #20, gross #30), and K/P flags — extracted by a coordinate-based parse of the form and count-validated. |
 | Vineland-II items — **text** | `receptive` (20) is **hand-verified**. The other subdomains carry **machine-extracted draft** Vietnamese text (readable, but with some layout artifacts like leading cluster-labels or a leaked item number). Flagged `draft` and badged in the UI; **proofread against the paper form** before clinical use. Best done subdomain-by-subdomain (see `data/vineland2.items.json`). |
-| Vineland-II norms (Tables B.1–C.5) | **Not loaded.** Copyrighted; must be digitized from the licensed manual into `src/data/norms.vineland2.json` (shape = `NormsPack` in `types.ts`) and set `verified: true`. Until then the app shows **raw scores only**. Recommended first step: digitize + verify the single age band you need (e.g. 48–60 months). |
+| Vineland-II norms (Tables B.1–C.5) | **Not shipped (copyright).** The app does not include Pearson's norm tables. Instead, **import them yourself**: on the Results step use **"Import norms (.json)"**. Prepare the file from your licensed manual using [`docs/norms.template.json`](docs/norms.template.json) as the format guide. The app **validates** (coverage, min≤max, monotonic ranges) and stores it locally in your browser — nothing is uploaded. Start with just the age band(s) you need (e.g. 48–59 months). |
 | Vineland-3 items + norms | **Not loaded.** Framework ready (edition-pluggable). |
 
 The engine already handles missing norms and empty subdomains gracefully (raw scores

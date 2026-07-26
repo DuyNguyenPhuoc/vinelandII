@@ -1,0 +1,36 @@
+{
+  "_README": "TEMPLATE ONLY. The numbers below are SYNTHETIC PLACEHOLDERS, not real Vineland norms. Replace every value with the figures from YOUR licensed Vineland manual (Tables B.1, B.2, C.3, C.5). Then import this file via the app's 'Import norms' button. Keep the file local; do not redistribute — the tables are Pearson's copyright. Set verified:true only after you have checked every value against the manual.",
+  "edition": "vineland2",
+  "source": "Digitized from <your licensed manual> by <name>, <date>.",
+  "verified": false,
+  "ageBands": [
+    {
+      "_comment": "One age band. minMonths/maxMonths are INCLUSIVE. Add one object per band you need (e.g. 48-59 for ages 4:0-4:11).",
+      "minMonths": 48,
+      "maxMonths": 59,
+      "rawToVScale": {
+        "receptive": [
+          { "min": 0, "max": 9, "value": 1 },
+          { "min": 10, "max": 12, "value": 2 },
+          { "min": 13, "max": 40, "value": 9 }
+        ],
+        "expressive": [
+          { "min": 0, "max": 20, "value": 5 }
+        ]
+      }
+    }
+  ],
+  "domainStandard": {
+    "communication": [
+      { "sumVMin": 0, "sumVMax": 40, "standard": 67, "percentile": 1, "ci95": [61, 76] }
+    ]
+  },
+  "ageEquivalent": {
+    "receptive": [
+      { "min": 0, "max": 21, "value": 21 }
+    ]
+  },
+  "composite": [
+    { "sumVMin": 0, "sumVMax": 400, "standard": 65, "percentile": 1 }
+  ]
+}
