@@ -1,0 +1,50 @@
+{
+  "_INSTRUCTIONS": "Fill each [] with rows from YOUR licensed manual, then rename this file (e.g. norms.vineland2.local.json) and import it via the app's 'Nạp bảng chuẩn (.json)' button on the Results tab. Numbers here are 0/empty placeholders. Ranges are INCLUSIVE. Keep the _comment keys or delete them — the app ignores unknown keys. Add more objects to ageBands for more age bands. Set verified to true only after you have checked every value against the manual.",
+  "edition": "vineland2",
+  "source": "Typed from licensed Vineland-II manual by <name>, <date>",
+  "verified": false,
+  "ageBands": [
+    {
+      "_comment_band": "One age band. minMonths/maxMonths inclusive, in months. Example: ages 4:0-4:11 => 48 to 59.",
+      "minMonths": 48,
+      "maxMonths": 59,
+      "_comment_b1": "Table B.1. For each subdomain, list {min,max,value}: min-max = raw-score range, value = v-scale (1-24).",
+      "rawToVScale": {
+        "receptive": [],
+        "expressive": [],
+        "written": [],
+        "personal": [],
+        "domestic": [],
+        "community": [],
+        "interpersonal": [],
+        "play": [],
+        "coping": [],
+        "gross": [],
+        "fine": []
+      }
+    }
+  ],
+  "_comment_b2": "Table B.2 (+ C.3 percentile). Per domain: {sumVMin,sumVMax,standard,percentile}. sumV = sum of that domain's subdomain v-scales. Optional ci95:[low,high].",
+  "domainStandard": {
+    "communication": [],
+    "dailyLiving": [],
+    "socialization": [],
+    "motor": []
+  },
+  "_comment_ageeq": "Optional. Per subdomain: {min,max,value} where value = age-equivalent in MONTHS (1:9 => 21).",
+  "ageEquivalent": {
+    "receptive": [],
+    "expressive": [],
+    "written": [],
+    "personal": [],
+    "domestic": [],
+    "community": [],
+    "interpersonal": [],
+    "play": [],
+    "coping": [],
+    "gross": [],
+    "fine": []
+  },
+  "_comment_composite": "Optional. ABC: {sumVMin,sumVMax,standard,percentile}. sumV = sum of the 4 (or 3 for age 7+) domain standard scores.",
+  "composite": []
+}
