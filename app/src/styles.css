@@ -246,3 +246,20 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 
 /* Footer */
 .foot { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .topbar { flex-direction: column; align-items: flex-start; gap: 0.8rem; }
+  .topControls { width: 100%; justify-content: space-between; }
+  .steps { flex-direction: column; gap: 0.5rem; }
+  .stepTab { text-align: center; }
+  .domainResHead { flex-direction: column; align-items: stretch; }
+  .domainScores { justify-content: space-between; margin-top: 0.5rem; }
+  .scoreTable { display: block; overflow-x: auto; white-space: nowrap; }
+  .driveFile { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .actions { flex-direction: column; }
+  .actions button { width: 100%; }
+  .dummyGrid { grid-template-columns: 1fr; }
+  .normsToolbar { flex-direction: column; align-items: stretch; }
+  .tbLeft, .tbRight { width: 100%; justify-content: space-between; }
+}
