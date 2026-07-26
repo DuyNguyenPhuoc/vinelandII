@@ -88922,2068 +88922,2068 @@
   },
   "composite": [
     {
-      "sumStandardMin": 62,
-      "sumStandardMax": 76,
       "standard": 20,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 62,
+      "sumVMax": 76
     },
     {
-      "sumStandardMin": 64,
-      "sumStandardMax": 76,
       "standard": 20,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 64,
+      "sumVMax": 76
     },
     {
-      "sumStandardMin": 68,
-      "sumStandardMax": 76,
       "standard": 20,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 68,
+      "sumVMax": 76
     },
     {
-      "sumStandardMin": 69,
-      "sumStandardMax": 76,
       "standard": 20,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 69,
+      "sumVMax": 76
     },
     {
-      "sumStandardMin": 77,
-      "sumStandardMax": 78,
       "standard": 21,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 77,
+      "sumVMax": 78
     },
     {
-      "sumStandardMin": 79,
-      "sumStandardMax": 81,
       "standard": 22,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 79,
+      "sumVMax": 81
     },
     {
-      "sumStandardMin": 80,
-      "sumStandardMax": 82,
       "standard": 20,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 80,
+      "sumVMax": 82
     },
     {
-      "sumStandardMin": 82,
-      "sumStandardMax": 83,
       "standard": 23,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 82,
+      "sumVMax": 83
     },
     {
-      "sumStandardMin": 83,
-      "sumStandardMax": 86,
       "standard": 21,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 83,
+      "sumVMax": 86
     },
     {
-      "sumStandardMin": 84,
-      "sumStandardMax": 86,
       "standard": 24,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 84,
+      "sumVMax": 86
     },
     {
-      "sumStandardMin": 87,
-      "sumStandardMax": 88,
       "standard": 25,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 87,
+      "sumVMax": 88
     },
     {
-      "sumStandardMin": 89,
-      "sumStandardMax": 91,
       "standard": 26,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 89,
+      "sumVMax": 91
     },
     {
-      "sumStandardMin": 91,
-      "sumStandardMax": 94,
       "standard": 23,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 91,
+      "sumVMax": 94
     },
     {
-      "sumStandardMin": 92,
-      "sumStandardMax": 93,
       "standard": 27,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 92,
+      "sumVMax": 93
     },
     {
-      "sumStandardMin": 94,
-      "sumStandardMax": 96,
       "standard": 28,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 94,
+      "sumVMax": 96
     },
     {
-      "sumStandardMin": 95,
-      "sumStandardMax": 98,
       "standard": 24,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 95,
+      "sumVMax": 98
     },
     {
-      "sumStandardMin": 97,
-      "sumStandardMax": 98,
       "standard": 29,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 97,
+      "sumVMax": 98
     },
     {
-      "sumStandardMin": 99,
-      "sumStandardMax": 101,
       "standard": 30,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 99,
+      "sumVMax": 101
     },
     {
-      "sumStandardMin": 102,
-      "sumStandardMax": 103,
       "standard": 31,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 102,
+      "sumVMax": 103
     },
     {
-      "sumStandardMin": 103,
-      "sumStandardMax": 106,
       "standard": 26,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 103,
+      "sumVMax": 106
     },
     {
-      "sumStandardMin": 104,
-      "sumStandardMax": 106,
       "standard": 32,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 104,
+      "sumVMax": 106
     },
     {
-      "sumStandardMin": 107,
-      "sumStandardMax": 108,
       "standard": 33,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 107,
+      "sumVMax": 108
     },
     {
-      "sumStandardMin": 109,
-      "sumStandardMax": 111,
       "standard": 34,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 109,
+      "sumVMax": 111
     },
     {
-      "sumStandardMin": 112,
-      "sumStandardMax": 113,
       "standard": 35,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 112,
+      "sumVMax": 113
     },
     {
-      "sumStandardMin": 114,
-      "sumStandardMax": 116,
       "standard": 36,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 114,
+      "sumVMax": 116
     },
     {
-      "sumStandardMin": 117,
-      "sumStandardMax": 118,
       "standard": 37,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 117,
+      "sumVMax": 118
     },
     {
-      "sumStandardMin": 119,
-      "sumStandardMax": 121,
       "standard": 38,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 119,
+      "sumVMax": 121
     },
     {
-      "sumStandardMin": 121,
-      "sumStandardMax": 124,
       "standard": 30,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 121,
+      "sumVMax": 124
     },
     {
-      "sumStandardMin": 122,
-      "sumStandardMax": 123,
       "standard": 39,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 122,
+      "sumVMax": 123
     },
     {
-      "sumStandardMin": 124,
-      "sumStandardMax": 126,
       "standard": 40,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 124,
+      "sumVMax": 126
     },
     {
-      "sumStandardMin": 125,
-      "sumStandardMax": 128,
       "standard": 31,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 125,
+      "sumVMax": 128
     },
     {
-      "sumStandardMin": 127,
-      "sumStandardMax": 128,
       "standard": 41,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 127,
+      "sumVMax": 128
     },
     {
-      "sumStandardMin": 129,
-      "sumStandardMax": 131,
       "standard": 42,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 129,
+      "sumVMax": 131
     },
     {
-      "sumStandardMin": 132,
-      "sumStandardMax": 133,
       "standard": 43,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 132,
+      "sumVMax": 133
     },
     {
-      "sumStandardMin": 134,
-      "sumStandardMax": 136,
       "standard": 44,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 134,
+      "sumVMax": 136
     },
     {
-      "sumStandardMin": 136,
-      "sumStandardMax": 139,
       "standard": 34,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 136,
+      "sumVMax": 139
     },
     {
-      "sumStandardMin": 137,
-      "sumStandardMax": 138,
       "standard": 45,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 137,
+      "sumVMax": 138
     },
     {
-      "sumStandardMin": 139,
-      "sumStandardMax": 141,
       "standard": 46,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 139,
+      "sumVMax": 141
     },
     {
-      "sumStandardMin": 140,
-      "sumStandardMax": 145,
       "standard": 35,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 140,
+      "sumVMax": 145
     },
     {
-      "sumStandardMin": 142,
-      "sumStandardMax": 143,
       "standard": 47,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 142,
+      "sumVMax": 143
     },
     {
-      "sumStandardMin": 144,
-      "sumStandardMax": 146,
       "standard": 48,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 144,
+      "sumVMax": 146
     },
     {
-      "sumStandardMin": 146,
-      "sumStandardMax": 150,
       "standard": 36,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 146,
+      "sumVMax": 150
     },
     {
-      "sumStandardMin": 147,
-      "sumStandardMax": 148,
       "standard": 49,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 147,
+      "sumVMax": 148
     },
     {
-      "sumStandardMin": 149,
-      "sumStandardMax": 151,
       "standard": 50,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 149,
+      "sumVMax": 151
     },
     {
-      "sumStandardMin": 151,
-      "sumStandardMax": 154,
       "standard": 37,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 151,
+      "sumVMax": 154
     },
     {
-      "sumStandardMin": 152,
-      "sumStandardMax": 154,
       "standard": 51,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 152,
+      "sumVMax": 154
     },
     {
-      "sumStandardMin": 154,
-      "sumStandardMax": 156,
       "standard": 52,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 154,
+      "sumVMax": 156
     },
     {
-      "sumStandardMin": 155,
-      "sumStandardMax": 157,
       "standard": 52,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 155,
+      "sumVMax": 157
     },
     {
-      "sumStandardMin": 157,
-      "sumStandardMax": 158,
       "standard": 53,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 157,
+      "sumVMax": 158
     },
     {
-      "sumStandardMin": 158,
-      "sumStandardMax": 161,
       "standard": 53,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 158,
+      "sumVMax": 161
     },
     {
-      "sumStandardMin": 159,
-      "sumStandardMax": 161,
       "standard": 54,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 159,
+      "sumVMax": 161
     },
     {
-      "sumStandardMin": 160,
-      "sumStandardMax": 163,
       "standard": 39,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 160,
+      "sumVMax": 163
     },
     {
-      "sumStandardMin": 161,
-      "sumStandardMax": 163,
       "standard": 54,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 161,
+      "sumVMax": 163
     },
     {
-      "sumStandardMin": 162,
-      "sumStandardMax": 165,
       "standard": 54,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 162,
+      "sumVMax": 165
     },
     {
-      "sumStandardMin": 164,
-      "sumStandardMax": 166,
       "standard": 55,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 164,
+      "sumVMax": 166
     },
     {
-      "sumStandardMin": 166,
-      "sumStandardMax": 168,
       "standard": 55,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 166,
+      "sumVMax": 168
     },
     {
-      "sumStandardMin": 167,
-      "sumStandardMax": 170,
       "standard": 56,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 167,
+      "sumVMax": 170
     },
     {
-      "sumStandardMin": 169,
-      "sumStandardMax": 172,
       "standard": 56,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 169,
+      "sumVMax": 172
     },
     {
-      "sumStandardMin": 170,
-      "sumStandardMax": 173,
       "standard": 58,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 170,
+      "sumVMax": 173
     },
     {
-      "sumStandardMin": 171,
-      "sumStandardMax": 174,
       "standard": 57,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 171,
+      "sumVMax": 174
     },
     {
-      "sumStandardMin": 173,
-      "sumStandardMax": 176,
       "standard": 57,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 173,
+      "sumVMax": 176
     },
     {
-      "sumStandardMin": 174,
-      "sumStandardMax": 176,
       "standard": 59,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 174,
+      "sumVMax": 176
     },
     {
-      "sumStandardMin": 175,
-      "sumStandardMax": 177,
       "standard": 58,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 175,
+      "sumVMax": 177
     },
     {
-      "sumStandardMin": 177,
-      "sumStandardMax": 179,
       "standard": 58,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 177,
+      "sumVMax": 179
     },
     {
-      "sumStandardMin": 178,
-      "sumStandardMax": 181,
       "standard": 59,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 178,
+      "sumVMax": 181
     },
     {
-      "sumStandardMin": 179,
-      "sumStandardMax": 182,
       "standard": 43,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 179,
+      "sumVMax": 182
     },
     {
-      "sumStandardMin": 180,
-      "sumStandardMax": 183,
       "standard": 59,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 180,
+      "sumVMax": 183
     },
     {
-      "sumStandardMin": 181,
-      "sumStandardMax": 184,
       "standard": 61,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 181,
+      "sumVMax": 184
     },
     {
-      "sumStandardMin": 182,
-      "sumStandardMax": 184,
       "standard": 60,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 182,
+      "sumVMax": 184
     },
     {
-      "sumStandardMin": 183,
-      "sumStandardMax": 187,
       "standard": 44,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 183,
+      "sumVMax": 187
     },
     {
-      "sumStandardMin": 184,
-      "sumStandardMax": 186,
       "standard": 60,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 184,
+      "sumVMax": 186
     },
     {
-      "sumStandardMin": 185,
-      "sumStandardMax": 188,
       "standard": 61,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 185,
+      "sumVMax": 188
     },
     {
-      "sumStandardMin": 187,
-      "sumStandardMax": 190,
       "standard": 61,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 187,
+      "sumVMax": 190
     },
     {
-      "sumStandardMin": 188,
-      "sumStandardMax": 191,
       "standard": 63,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 188,
+      "sumVMax": 191
     },
     {
-      "sumStandardMin": 189,
-      "sumStandardMax": 191,
       "standard": 62,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 189,
+      "sumVMax": 191
     },
     {
-      "sumStandardMin": 191,
-      "sumStandardMax": 193,
       "standard": 62,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 191,
+      "sumVMax": 193
     },
     {
-      "sumStandardMin": 192,
-      "sumStandardMax": 194,
       "standard": 63,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 192,
+      "sumVMax": 194
     },
     {
-      "sumStandardMin": 194,
-      "sumStandardMax": 196,
       "standard": 63,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 194,
+      "sumVMax": 196
     },
     {
-      "sumStandardMin": 195,
-      "sumStandardMax": 198,
       "standard": 64,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 195,
+      "sumVMax": 198
     },
     {
-      "sumStandardMin": 197,
-      "sumStandardMax": 200,
       "standard": 64,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 197,
+      "sumVMax": 200
     },
     {
-      "sumStandardMin": 198,
-      "sumStandardMax": 201,
       "standard": 66,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 198,
+      "sumVMax": 201
     },
     {
-      "sumStandardMin": 199,
-      "sumStandardMax": 201,
       "standard": 65,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 199,
+      "sumVMax": 201
     },
     {
-      "sumStandardMin": 201,
-      "sumStandardMax": 203,
       "standard": 65,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 201,
+      "sumVMax": 203
     },
     {
-      "sumStandardMin": 202,
-      "sumStandardMax": 204,
       "standard": 66,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 202,
+      "sumVMax": 204
     },
     {
-      "sumStandardMin": 204,
-      "sumStandardMax": 206,
       "standard": 66,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 204,
+      "sumVMax": 206
     },
     {
-      "sumStandardMin": 205,
-      "sumStandardMax": 208,
       "standard": 67,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 205,
+      "sumVMax": 208
     },
     {
-      "sumStandardMin": 206,
-      "sumStandardMax": 209,
       "standard": 50,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 206,
+      "sumVMax": 209
     },
     {
-      "sumStandardMin": 207,
-      "sumStandardMax": 210,
       "standard": 67,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 207,
+      "sumVMax": 210
     },
     {
-      "sumStandardMin": 209,
-      "sumStandardMax": 210,
       "standard": 68,
-      "percentile": 2
+      "percentile": 2,
+      "sumVMin": 209,
+      "sumVMax": 210
     },
     {
-      "sumStandardMin": 210,
-      "sumStandardMax": 213,
       "standard": 51,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 210,
+      "sumVMax": 213
     },
     {
-      "sumStandardMin": 211,
-      "sumStandardMax": 213,
       "standard": 68,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 211,
+      "sumVMax": 213
     },
     {
-      "sumStandardMin": 212,
-      "sumStandardMax": 214,
       "standard": 69,
-      "percentile": 2
+      "percentile": 2,
+      "sumVMin": 212,
+      "sumVMax": 214
     },
     {
-      "sumStandardMin": 213,
-      "sumStandardMax": 215,
       "standard": 70,
-      "percentile": 2
+      "percentile": 2,
+      "sumVMin": 213,
+      "sumVMax": 215
     },
     {
-      "sumStandardMin": 214,
-      "sumStandardMax": 216,
       "standard": 69,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 214,
+      "sumVMax": 216
     },
     {
-      "sumStandardMin": 215,
-      "sumStandardMax": 217,
       "standard": 70,
-      "percentile": 2
+      "percentile": 2,
+      "sumVMin": 215,
+      "sumVMax": 217
     },
     {
-      "sumStandardMin": 216,
-      "sumStandardMax": 220,
       "standard": 71,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 216,
+      "sumVMax": 220
     },
     {
-      "sumStandardMin": 217,
-      "sumStandardMax": 219,
       "standard": 70,
-      "percentile": 2
+      "percentile": 2,
+      "sumVMin": 217,
+      "sumVMax": 219
     },
     {
-      "sumStandardMin": 218,
-      "sumStandardMax": 220,
       "standard": 71,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 218,
+      "sumVMax": 220
     },
     {
-      "sumStandardMin": 219,
-      "sumStandardMax": 221,
       "standard": 72,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 219,
+      "sumVMax": 221
     },
     {
-      "sumStandardMin": 220,
-      "sumStandardMax": 222,
       "standard": 71,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 220,
+      "sumVMax": 222
     },
     {
-      "sumStandardMin": 221,
-      "sumStandardMax": 224,
       "standard": 72,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 221,
+      "sumVMax": 224
     },
     {
-      "sumStandardMin": 222,
-      "sumStandardMax": 224,
       "standard": 73,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 222,
+      "sumVMax": 224
     },
     {
-      "sumStandardMin": 223,
-      "sumStandardMax": 225,
       "standard": 72,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 223,
+      "sumVMax": 225
     },
     {
-      "sumStandardMin": 224,
-      "sumStandardMax": 226,
       "standard": 73,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 224,
+      "sumVMax": 226
     },
     {
-      "sumStandardMin": 225,
-      "sumStandardMax": 228,
       "standard": 73,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 225,
+      "sumVMax": 228
     },
     {
-      "sumStandardMin": 226,
-      "sumStandardMax": 228,
       "standard": 73,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 226,
+      "sumVMax": 228
     },
     {
-      "sumStandardMin": 227,
-      "sumStandardMax": 230,
       "standard": 74,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 227,
+      "sumVMax": 230
     },
     {
-      "sumStandardMin": 229,
-      "sumStandardMax": 231,
       "standard": 74,
-      "percentile": 4
+      "percentile": 4,
+      "sumVMin": 229,
+      "sumVMax": 231
     },
     {
-      "sumStandardMin": 231,
-      "sumStandardMax": 233,
       "standard": 75,
-      "percentile": 5
+      "percentile": 5,
+      "sumVMin": 231,
+      "sumVMax": 233
     },
     {
-      "sumStandardMin": 232,
-      "sumStandardMax": 234,
       "standard": 75,
-      "percentile": 5
+      "percentile": 5,
+      "sumVMin": 232,
+      "sumVMax": 234
     },
     {
-      "sumStandardMin": 233,
-      "sumStandardMax": 236,
       "standard": 56,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 233,
+      "sumVMax": 236
     },
     {
-      "sumStandardMin": 234,
-      "sumStandardMax": 236,
       "standard": 76,
-      "percentile": 5
+      "percentile": 5,
+      "sumVMin": 234,
+      "sumVMax": 236
     },
     {
-      "sumStandardMin": 235,
-      "sumStandardMax": 237,
       "standard": 76,
-      "percentile": 5
+      "percentile": 5,
+      "sumVMin": 235,
+      "sumVMax": 237
     },
     {
-      "sumStandardMin": 236,
-      "sumStandardMax": 239,
       "standard": 76,
-      "percentile": 5
+      "percentile": 5,
+      "sumVMin": 236,
+      "sumVMax": 239
     },
     {
-      "sumStandardMin": 237,
-      "sumStandardMax": 239,
       "standard": 77,
-      "percentile": 6
+      "percentile": 6,
+      "sumVMin": 237,
+      "sumVMax": 239
     },
     {
-      "sumStandardMin": 238,
-      "sumStandardMax": 240,
       "standard": 77,
-      "percentile": 6
+      "percentile": 6,
+      "sumVMin": 238,
+      "sumVMax": 240
     },
     {
-      "sumStandardMin": 239,
-      "sumStandardMax": 242,
       "standard": 77,
-      "percentile": 6
+      "percentile": 6,
+      "sumVMin": 239,
+      "sumVMax": 242
     },
     {
-      "sumStandardMin": 240,
-      "sumStandardMax": 242,
       "standard": 77,
-      "percentile": 6
+      "percentile": 6,
+      "sumVMin": 240,
+      "sumVMax": 242
     },
     {
-      "sumStandardMin": 241,
-      "sumStandardMax": 243,
       "standard": 78,
-      "percentile": 7
+      "percentile": 7,
+      "sumVMin": 241,
+      "sumVMax": 243
     },
     {
-      "sumStandardMin": 243,
-      "sumStandardMax": 246,
       "standard": 78,
-      "percentile": 7
+      "percentile": 7,
+      "sumVMin": 243,
+      "sumVMax": 246
     },
     {
-      "sumStandardMin": 244,
-      "sumStandardMax": 246,
       "standard": 79,
-      "percentile": 8
+      "percentile": 8,
+      "sumVMin": 244,
+      "sumVMax": 246
     },
     {
-      "sumStandardMin": 245,
-      "sumStandardMax": 247,
       "standard": 80,
-      "percentile": 9
+      "percentile": 9,
+      "sumVMin": 245,
+      "sumVMax": 247
     },
     {
-      "sumStandardMin": 247,
-      "sumStandardMax": 249,
       "standard": 80,
-      "percentile": 9
+      "percentile": 9,
+      "sumVMin": 247,
+      "sumVMax": 249
     },
     {
-      "sumStandardMin": 248,
-      "sumStandardMax": 250,
       "standard": 81,
-      "percentile": 10
+      "percentile": 10,
+      "sumVMin": 248,
+      "sumVMax": 250
     },
     {
-      "sumStandardMin": 249,
-      "sumStandardMax": 252,
       "standard": 60,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 249,
+      "sumVMax": 252
     },
     {
-      "sumStandardMin": 250,
-      "sumStandardMax": 252,
       "standard": 81,
-      "percentile": 10
+      "percentile": 10,
+      "sumVMin": 250,
+      "sumVMax": 252
     },
     {
-      "sumStandardMin": 251,
-      "sumStandardMax": 253,
       "standard": 80,
-      "percentile": 9
+      "percentile": 9,
+      "sumVMin": 251,
+      "sumVMax": 253
     },
     {
-      "sumStandardMin": 253,
-      "sumStandardMax": 255,
       "standard": 82,
-      "percentile": 12
+      "percentile": 12,
+      "sumVMin": 253,
+      "sumVMax": 255
     },
     {
-      "sumStandardMin": 254,
-      "sumStandardMax": 255,
       "standard": 81,
-      "percentile": 10
+      "percentile": 10,
+      "sumVMin": 254,
+      "sumVMax": 255
     },
     {
-      "sumStandardMin": 256,
-      "sumStandardMax": 258,
       "standard": 83,
-      "percentile": 13
+      "percentile": 13,
+      "sumVMin": 256,
+      "sumVMax": 258
     },
     {
-      "sumStandardMin": 257,
-      "sumStandardMax": 259,
       "standard": 82,
-      "percentile": 12
+      "percentile": 12,
+      "sumVMin": 257,
+      "sumVMax": 259
     },
     {
-      "sumStandardMin": 258,
-      "sumStandardMax": 261,
       "standard": 62,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 258,
+      "sumVMax": 261
     },
     {
-      "sumStandardMin": 259,
-      "sumStandardMax": 261,
       "standard": 84,
-      "percentile": 14
+      "percentile": 14,
+      "sumVMin": 259,
+      "sumVMax": 261
     },
     {
-      "sumStandardMin": 260,
-      "sumStandardMax": 262,
       "standard": 83,
-      "percentile": 13
+      "percentile": 13,
+      "sumVMin": 260,
+      "sumVMax": 262
     },
     {
-      "sumStandardMin": 262,
-      "sumStandardMax": 263,
       "standard": 85,
-      "percentile": 16
+      "percentile": 16,
+      "sumVMin": 262,
+      "sumVMax": 263
     },
     {
-      "sumStandardMin": 263,
-      "sumStandardMax": 265,
       "standard": 84,
-      "percentile": 14
+      "percentile": 14,
+      "sumVMin": 263,
+      "sumVMax": 265
     },
     {
-      "sumStandardMin": 264,
-      "sumStandardMax": 265,
       "standard": 86,
-      "percentile": 18
+      "percentile": 18,
+      "sumVMin": 264,
+      "sumVMax": 265
     },
     {
-      "sumStandardMin": 265,
-      "sumStandardMax": 267,
       "standard": 87,
-      "percentile": 19
+      "percentile": 19,
+      "sumVMin": 265,
+      "sumVMax": 267
     },
     {
-      "sumStandardMin": 266,
-      "sumStandardMax": 269,
       "standard": 87,
-      "percentile": 19
+      "percentile": 19,
+      "sumVMin": 266,
+      "sumVMax": 269
     },
     {
-      "sumStandardMin": 267,
-      "sumStandardMax": 270,
       "standard": 64,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 267,
+      "sumVMax": 270
     },
     {
-      "sumStandardMin": 268,
-      "sumStandardMax": 270,
       "standard": 88,
-      "percentile": 21
+      "percentile": 21,
+      "sumVMin": 268,
+      "sumVMax": 270
     },
     {
-      "sumStandardMin": 269,
-      "sumStandardMax": 271,
       "standard": 86,
-      "percentile": 18
+      "percentile": 18,
+      "sumVMin": 269,
+      "sumVMax": 271
     },
     {
-      "sumStandardMin": 270,
-      "sumStandardMax": 273,
       "standard": 88,
-      "percentile": 21
+      "percentile": 21,
+      "sumVMin": 270,
+      "sumVMax": 273
     },
     {
-      "sumStandardMin": 271,
-      "sumStandardMax": 273,
       "standard": 89,
-      "percentile": 23
+      "percentile": 23,
+      "sumVMin": 271,
+      "sumVMax": 273
     },
     {
-      "sumStandardMin": 272,
-      "sumStandardMax": 274,
       "standard": 87,
-      "percentile": 19
+      "percentile": 19,
+      "sumVMin": 272,
+      "sumVMax": 274
     },
     {
-      "sumStandardMin": 274,
-      "sumStandardMax": 277,
       "standard": 89,
-      "percentile": 23
+      "percentile": 23,
+      "sumVMin": 274,
+      "sumVMax": 277
     },
     {
-      "sumStandardMin": 275,
-      "sumStandardMax": 277,
       "standard": 88,
-      "percentile": 21
+      "percentile": 21,
+      "sumVMin": 275,
+      "sumVMax": 277
     },
     {
-      "sumStandardMin": 276,
-      "sumStandardMax": 278,
       "standard": 91,
-      "percentile": 27
+      "percentile": 27,
+      "sumVMin": 276,
+      "sumVMax": 278
     },
     {
-      "sumStandardMin": 278,
-      "sumStandardMax": 280,
       "standard": 90,
-      "percentile": 25
+      "percentile": 25,
+      "sumVMin": 278,
+      "sumVMax": 280
     },
     {
-      "sumStandardMin": 279,
-      "sumStandardMax": 281,
       "standard": 92,
-      "percentile": 30
+      "percentile": 30,
+      "sumVMin": 279,
+      "sumVMax": 281
     },
     {
-      "sumStandardMin": 280,
-      "sumStandardMax": 282,
       "standard": 90,
-      "percentile": 25
+      "percentile": 25,
+      "sumVMin": 280,
+      "sumVMax": 282
     },
     {
-      "sumStandardMin": 281,
-      "sumStandardMax": 284,
       "standard": 91,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 281,
+      "sumVMax": 284
     },
     {
-      "sumStandardMin": 282,
-      "sumStandardMax": 283,
       "standard": 93,
-      "percentile": 32
+      "percentile": 32,
+      "sumVMin": 282,
+      "sumVMax": 283
     },
     {
-      "sumStandardMin": 283,
-      "sumStandardMax": 284,
       "standard": 91,
-      "percentile": 27
+      "percentile": 27,
+      "sumVMin": 283,
+      "sumVMax": 284
     },
     {
-      "sumStandardMin": 284,
-      "sumStandardMax": 285,
       "standard": 91,
-      "percentile": 27
+      "percentile": 27,
+      "sumVMin": 284,
+      "sumVMax": 285
     },
     {
-      "sumStandardMin": 285,
-      "sumStandardMax": 288,
       "standard": 92,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 285,
+      "sumVMax": 288
     },
     {
-      "sumStandardMin": 286,
-      "sumStandardMax": 288,
       "standard": 92,
-      "percentile": 30
+      "percentile": 30,
+      "sumVMin": 286,
+      "sumVMax": 288
     },
     {
-      "sumStandardMin": 287,
-      "sumStandardMax": 289,
       "standard": 95,
-      "percentile": 37
+      "percentile": 37,
+      "sumVMin": 287,
+      "sumVMax": 289
     },
     {
-      "sumStandardMin": 288,
-      "sumStandardMax": 290,
       "standard": 93,
-      "percentile": 32
+      "percentile": 32,
+      "sumVMin": 288,
+      "sumVMax": 290
     },
     {
-      "sumStandardMin": 289,
-      "sumStandardMax": 291,
       "standard": 93,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 289,
+      "sumVMax": 291
     },
     {
-      "sumStandardMin": 290,
-      "sumStandardMax": 291,
       "standard": 96,
-      "percentile": 39
+      "percentile": 39,
+      "sumVMin": 290,
+      "sumVMax": 291
     },
     {
-      "sumStandardMin": 291,
-      "sumStandardMax": 292,
       "standard": 94,
-      "percentile": 34
+      "percentile": 34,
+      "sumVMin": 291,
+      "sumVMax": 292
     },
     {
-      "sumStandardMin": 292,
-      "sumStandardMax": 294,
       "standard": 94,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 292,
+      "sumVMax": 294
     },
     {
-      "sumStandardMin": 293,
-      "sumStandardMax": 294,
       "standard": 95,
-      "percentile": 37
+      "percentile": 37,
+      "sumVMin": 293,
+      "sumVMax": 294
     },
     {
-      "sumStandardMin": 294,
-      "sumStandardMax": 296,
       "standard": 95,
-      "percentile": 37
+      "percentile": 37,
+      "sumVMin": 294,
+      "sumVMax": 296
     },
     {
-      "sumStandardMin": 295,
-      "sumStandardMax": 297,
       "standard": 95,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 295,
+      "sumVMax": 297
     },
     {
-      "sumStandardMin": 296,
-      "sumStandardMax": 298,
       "standard": 97,
-      "percentile": 42
+      "percentile": 42,
+      "sumVMin": 296,
+      "sumVMax": 298
     },
     {
-      "sumStandardMin": 297,
-      "sumStandardMax": 298,
       "standard": 96,
-      "percentile": 39
+      "percentile": 39,
+      "sumVMin": 297,
+      "sumVMax": 298
     },
     {
-      "sumStandardMin": 298,
-      "sumStandardMax": 298,
       "standard": 96,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 298,
+      "sumVMax": 298
     },
     {
-      "sumStandardMin": 299,
-      "sumStandardMax": 299,
       "standard": 97,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 299,
+      "sumVMax": 299
     },
     {
-      "sumStandardMin": 300,
-      "sumStandardMax": 302,
       "standard": 98,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 300,
+      "sumVMax": 302
     },
     {
-      "sumStandardMin": 301,
-      "sumStandardMax": 304,
       "standard": 72,
-      "percentile": 3
+      "percentile": 3,
+      "sumVMin": 301,
+      "sumVMax": 304
     },
     {
-      "sumStandardMin": 302,
-      "sumStandardMax": 303,
       "standard": 99,
-      "percentile": 47
+      "percentile": 47,
+      "sumVMin": 302,
+      "sumVMax": 303
     },
     {
-      "sumStandardMin": 303,
-      "sumStandardMax": 305,
       "standard": 99,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 303,
+      "sumVMax": 305
     },
     {
-      "sumStandardMin": 304,
-      "sumStandardMax": 305,
       "standard": 99,
-      "percentile": 47
+      "percentile": 47,
+      "sumVMin": 304,
+      "sumVMax": 305
     },
     {
-      "sumStandardMin": 305,
-      "sumStandardMax": 307,
       "standard": 102,
-      "percentile": 55
+      "percentile": 55,
+      "sumVMin": 305,
+      "sumVMax": 307
     },
     {
-      "sumStandardMin": 306,
-      "sumStandardMax": 308,
       "standard": 100,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 306,
+      "sumVMax": 308
     },
     {
-      "sumStandardMin": 307,
-      "sumStandardMax": 310,
       "standard": 101,
-      "percentile": 53
+      "percentile": 53,
+      "sumVMin": 307,
+      "sumVMax": 310
     },
     {
-      "sumStandardMin": 308,
-      "sumStandardMax": 309,
       "standard": 103,
-      "percentile": 58
+      "percentile": 58,
+      "sumVMin": 308,
+      "sumVMax": 309
     },
     {
-      "sumStandardMin": 309,
-      "sumStandardMax": 311,
       "standard": 101,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 309,
+      "sumVMax": 311
     },
     {
-      "sumStandardMin": 310,
-      "sumStandardMax": 312,
       "standard": 104,
-      "percentile": 61
+      "percentile": 61,
+      "sumVMin": 310,
+      "sumVMax": 312
     },
     {
-      "sumStandardMin": 311,
-      "sumStandardMax": 312,
       "standard": 102,
-      "percentile": 55
+      "percentile": 55,
+      "sumVMin": 311,
+      "sumVMax": 312
     },
     {
-      "sumStandardMin": 312,
-      "sumStandardMax": 314,
       "standard": 102,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 312,
+      "sumVMax": 314
     },
     {
-      "sumStandardMin": 313,
-      "sumStandardMax": 315,
       "standard": 103,
-      "percentile": 58
+      "percentile": 58,
+      "sumVMin": 313,
+      "sumVMax": 315
     },
     {
-      "sumStandardMin": 315,
-      "sumStandardMax": 317,
       "standard": 103,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 315,
+      "sumVMax": 317
     },
     {
-      "sumStandardMin": 316,
-      "sumStandardMax": 316,
       "standard": 104,
-      "percentile": 61
+      "percentile": 61,
+      "sumVMin": 316,
+      "sumVMax": 316
     },
     {
-      "sumStandardMin": 317,
-      "sumStandardMax": 317,
       "standard": 105,
-      "percentile": 63
+      "percentile": 63,
+      "sumVMin": 317,
+      "sumVMax": 317
     },
     {
-      "sumStandardMin": 318,
-      "sumStandardMax": 320,
       "standard": 104,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 318,
+      "sumVMax": 320
     },
     {
-      "sumStandardMin": 319,
-      "sumStandardMax": 319,
       "standard": 107,
-      "percentile": 68
+      "percentile": 68,
+      "sumVMin": 319,
+      "sumVMax": 319
     },
     {
-      "sumStandardMin": 320,
-      "sumStandardMax": 320,
       "standard": 108,
-      "percentile": 70
+      "percentile": 70,
+      "sumVMin": 320,
+      "sumVMax": 320
     },
     {
-      "sumStandardMin": 321,
-      "sumStandardMax": 323,
       "standard": 105,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 321,
+      "sumVMax": 323
     },
     {
-      "sumStandardMin": 322,
-      "sumStandardMax": 322,
       "standard": 110,
-      "percentile": 75
+      "percentile": 75,
+      "sumVMin": 322,
+      "sumVMax": 322
     },
     {
-      "sumStandardMin": 323,
-      "sumStandardMax": 323,
       "standard": 111,
-      "percentile": 77
+      "percentile": 77,
+      "sumVMin": 323,
+      "sumVMax": 323
     },
     {
-      "sumStandardMin": 324,
-      "sumStandardMax": 325,
       "standard": 106,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 324,
+      "sumVMax": 325
     },
     {
-      "sumStandardMin": 325,
-      "sumStandardMax": 325,
       "standard": 113,
-      "percentile": 81
+      "percentile": 81,
+      "sumVMin": 325,
+      "sumVMax": 325
     },
     {
-      "sumStandardMin": 326,
-      "sumStandardMax": 328,
       "standard": 107,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 326,
+      "sumVMax": 328
     },
     {
-      "sumStandardMin": 327,
-      "sumStandardMax": 327,
       "standard": 115,
-      "percentile": 84
+      "percentile": 84,
+      "sumVMin": 327,
+      "sumVMax": 327
     },
     {
-      "sumStandardMin": 328,
-      "sumStandardMax": 328,
       "standard": 116,
-      "percentile": 86
+      "percentile": 86,
+      "sumVMin": 328,
+      "sumVMax": 328
     },
     {
-      "sumStandardMin": 329,
-      "sumStandardMax": 331,
       "standard": 108,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 329,
+      "sumVMax": 331
     },
     {
-      "sumStandardMin": 330,
-      "sumStandardMax": 330,
       "standard": 118,
-      "percentile": 88
+      "percentile": 88,
+      "sumVMin": 330,
+      "sumVMax": 330
     },
     {
-      "sumStandardMin": 331,
-      "sumStandardMax": 331,
       "standard": 119,
-      "percentile": 90
+      "percentile": 90,
+      "sumVMin": 331,
+      "sumVMax": 331
     },
     {
-      "sumStandardMin": 332,
-      "sumStandardMax": 332,
       "standard": 110,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 332,
+      "sumVMax": 332
     },
     {
-      "sumStandardMin": 333,
-      "sumStandardMax": 333,
       "standard": 113,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 333,
+      "sumVMax": 333
     },
     {
-      "sumStandardMin": 334,
-      "sumStandardMax": 334,
       "standard": 116,
-      "percentile": 1
+      "percentile": 1,
+      "sumVMin": 334,
+      "sumVMax": 334
     },
     {
-      "sumStandardMin": 335,
-      "sumStandardMax": 335,
       "standard": 123,
-      "percentile": 94
+      "percentile": 94,
+      "sumVMin": 335,
+      "sumVMax": 335
     },
     {
-      "sumStandardMin": 336,
-      "sumStandardMax": 336,
       "standard": 124,
-      "percentile": 95
+      "percentile": 95,
+      "sumVMin": 336,
+      "sumVMax": 336
     },
     {
-      "sumStandardMin": 337,
-      "sumStandardMax": 337,
       "standard": 125,
-      "percentile": 95
+      "percentile": 95,
+      "sumVMin": 337,
+      "sumVMax": 337
     },
     {
-      "sumStandardMin": 338,
-      "sumStandardMax": 338,
       "standard": 126,
-      "percentile": 96
+      "percentile": 96,
+      "sumVMin": 338,
+      "sumVMax": 338
     },
     {
-      "sumStandardMin": 339,
-      "sumStandardMax": 339,
       "standard": 127,
-      "percentile": 96
+      "percentile": 96,
+      "sumVMin": 339,
+      "sumVMax": 339
     },
     {
-      "sumStandardMin": 340,
-      "sumStandardMax": 340,
       "standard": 128,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 340,
+      "sumVMax": 340
     },
     {
-      "sumStandardMin": 341,
-      "sumStandardMax": 341,
       "standard": 129,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 341,
+      "sumVMax": 341
     },
     {
-      "sumStandardMin": 342,
-      "sumStandardMax": 342,
       "standard": 130,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 342,
+      "sumVMax": 342
     },
     {
-      "sumStandardMin": 343,
-      "sumStandardMax": 343,
       "standard": 131,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 343,
+      "sumVMax": 343
     },
     {
-      "sumStandardMin": 344,
-      "sumStandardMax": 344,
       "standard": 132,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 344,
+      "sumVMax": 344
     },
     {
-      "sumStandardMin": 345,
-      "sumStandardMax": 345,
       "standard": 133,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 345,
+      "sumVMax": 345
     },
     {
-      "sumStandardMin": 346,
-      "sumStandardMax": 346,
       "standard": 134,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 346,
+      "sumVMax": 346
     },
     {
-      "sumStandardMin": 347,
-      "sumStandardMax": 347,
       "standard": 135,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 347,
+      "sumVMax": 347
     },
     {
-      "sumStandardMin": 348,
-      "sumStandardMax": 348,
       "standard": 136,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 348,
+      "sumVMax": 348
     },
     {
-      "sumStandardMin": 349,
-      "sumStandardMax": 349,
       "standard": 137,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 349,
+      "sumVMax": 349
     },
     {
-      "sumStandardMin": 350,
-      "sumStandardMax": 350,
       "standard": 138,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 350,
+      "sumVMax": 350
     },
     {
-      "sumStandardMin": 351,
-      "sumStandardMax": 351,
       "standard": 139,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 351,
+      "sumVMax": 351
     },
     {
-      "sumStandardMin": 352,
-      "sumStandardMax": 352,
       "standard": 140,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 352,
+      "sumVMax": 352
     },
     {
-      "sumStandardMin": 353,
-      "sumStandardMax": 353,
       "standard": 141,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 353,
+      "sumVMax": 353
     },
     {
-      "sumStandardMin": 354,
-      "sumStandardMax": 354,
       "standard": 142,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 354,
+      "sumVMax": 354
     },
     {
-      "sumStandardMin": 355,
-      "sumStandardMax": 355,
       "standard": 143,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 355,
+      "sumVMax": 355
     },
     {
-      "sumStandardMin": 356,
-      "sumStandardMax": 356,
       "standard": 144,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 356,
+      "sumVMax": 356
     },
     {
-      "sumStandardMin": 357,
-      "sumStandardMax": 357,
       "standard": 145,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 357,
+      "sumVMax": 357
     },
     {
-      "sumStandardMin": 358,
-      "sumStandardMax": 358,
       "standard": 146,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 358,
+      "sumVMax": 358
     },
     {
-      "sumStandardMin": 359,
-      "sumStandardMax": 359,
       "standard": 147,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 359,
+      "sumVMax": 359
     },
     {
-      "sumStandardMin": 360,
-      "sumStandardMax": 360,
       "standard": 148,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 360,
+      "sumVMax": 360
     },
     {
-      "sumStandardMin": 361,
-      "sumStandardMax": 361,
       "standard": 149,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 361,
+      "sumVMax": 361
     },
     {
-      "sumStandardMin": 362,
-      "sumStandardMax": 362,
       "standard": 150,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 362,
+      "sumVMax": 362
     },
     {
-      "sumStandardMin": 363,
-      "sumStandardMax": 363,
       "standard": 151,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 363,
+      "sumVMax": 363
     },
     {
-      "sumStandardMin": 364,
-      "sumStandardMax": 364,
       "standard": 152,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 364,
+      "sumVMax": 364
     },
     {
-      "sumStandardMin": 365,
-      "sumStandardMax": 365,
       "standard": 153,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 365,
+      "sumVMax": 365
     },
     {
-      "sumStandardMin": 366,
-      "sumStandardMax": 366,
       "standard": 154,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 366,
+      "sumVMax": 366
     },
     {
-      "sumStandardMin": 367,
-      "sumStandardMax": 367,
       "standard": 155,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 367,
+      "sumVMax": 367
     },
     {
-      "sumStandardMin": 368,
-      "sumStandardMax": 368,
       "standard": 156,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 368,
+      "sumVMax": 368
     },
     {
-      "sumStandardMin": 369,
-      "sumStandardMax": 369,
       "standard": 157,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 369,
+      "sumVMax": 369
     },
     {
-      "sumStandardMin": 370,
-      "sumStandardMax": 370,
       "standard": 158,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 370,
+      "sumVMax": 370
     },
     {
-      "sumStandardMin": 371,
-      "sumStandardMax": 371,
       "standard": 159,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 371,
+      "sumVMax": 371
     },
     {
-      "sumStandardMin": 372,
-      "sumStandardMax": 372,
       "standard": 160,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 372,
+      "sumVMax": 372
     },
     {
-      "sumStandardMin": 374,
-      "sumStandardMax": 379,
       "standard": 141,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 374,
+      "sumVMax": 379
     },
     {
-      "sumStandardMin": 377,
-      "sumStandardMax": 378,
       "standard": 132,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 377,
+      "sumVMax": 378
     },
     {
-      "sumStandardMin": 379,
-      "sumStandardMax": 380,
       "standard": 133,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 379,
+      "sumVMax": 380
     },
     {
-      "sumStandardMin": 380,
-      "sumStandardMax": 381,
       "standard": 128,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 380,
+      "sumVMax": 381
     },
     {
-      "sumStandardMin": 381,
-      "sumStandardMax": 382,
       "standard": 134,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 381,
+      "sumVMax": 382
     },
     {
-      "sumStandardMin": 382,
-      "sumStandardMax": 384,
       "standard": 129,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 382,
+      "sumVMax": 384
     },
     {
-      "sumStandardMin": 383,
-      "sumStandardMax": 385,
       "standard": 135,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 383,
+      "sumVMax": 385
     },
     {
-      "sumStandardMin": 384,
-      "sumStandardMax": 386,
       "standard": 95,
-      "percentile": 37
+      "percentile": 37,
+      "sumVMin": 384,
+      "sumVMax": 386
     },
     {
-      "sumStandardMin": 385,
-      "sumStandardMax": 386,
       "standard": 130,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 385,
+      "sumVMax": 386
     },
     {
-      "sumStandardMin": 386,
-      "sumStandardMax": 387,
       "standard": 136,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 386,
+      "sumVMax": 387
     },
     {
-      "sumStandardMin": 387,
-      "sumStandardMax": 389,
       "standard": 131,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 387,
+      "sumVMax": 389
     },
     {
-      "sumStandardMin": 388,
-      "sumStandardMax": 389,
       "standard": 137,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 388,
+      "sumVMax": 389
     },
     {
-      "sumStandardMin": 390,
-      "sumStandardMax": 392,
       "standard": 138,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 390,
+      "sumVMax": 392
     },
     {
-      "sumStandardMin": 392,
-      "sumStandardMax": 394,
       "standard": 133,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 392,
+      "sumVMax": 394
     },
     {
-      "sumStandardMin": 393,
-      "sumStandardMax": 394,
       "standard": 139,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 393,
+      "sumVMax": 394
     },
     {
-      "sumStandardMin": 394,
-      "sumStandardMax": 396,
       "standard": 98,
-      "percentile": 45
+      "percentile": 45,
+      "sumVMin": 394,
+      "sumVMax": 396
     },
     {
-      "sumStandardMin": 395,
-      "sumStandardMax": 396,
       "standard": 140,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 395,
+      "sumVMax": 396
     },
     {
-      "sumStandardMin": 397,
-      "sumStandardMax": 399,
       "standard": 141,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 397,
+      "sumVMax": 399
     },
     {
-      "sumStandardMin": 399,
-      "sumStandardMax": 401,
       "standard": 136,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 399,
+      "sumVMax": 401
     },
     {
-      "sumStandardMin": 400,
-      "sumStandardMax": 401,
       "standard": 142,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 400,
+      "sumVMax": 401
     },
     {
-      "sumStandardMin": 402,
-      "sumStandardMax": 403,
       "standard": 143,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 402,
+      "sumVMax": 403
     },
     {
-      "sumStandardMin": 403,
-      "sumStandardMax": 406,
       "standard": 101,
-      "percentile": 53
+      "percentile": 53,
+      "sumVMin": 403,
+      "sumVMax": 406
     },
     {
-      "sumStandardMin": 404,
-      "sumStandardMax": 406,
       "standard": 144,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 404,
+      "sumVMax": 406
     },
     {
-      "sumStandardMin": 407,
-      "sumStandardMax": 408,
       "standard": 145,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 407,
+      "sumVMax": 408
     },
     {
-      "sumStandardMin": 409,
-      "sumStandardMax": 410,
       "standard": 146,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 409,
+      "sumVMax": 410
     },
     {
-      "sumStandardMin": 410,
-      "sumStandardMax": 412,
       "standard": 103,
-      "percentile": 58
+      "percentile": 58,
+      "sumVMin": 410,
+      "sumVMax": 412
     },
     {
-      "sumStandardMin": 411,
-      "sumStandardMax": 412,
       "standard": 147,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 411,
+      "sumVMax": 412
     },
     {
-      "sumStandardMin": 412,
-      "sumStandardMax": 413,
       "standard": 141,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 412,
+      "sumVMax": 413
     },
     {
-      "sumStandardMin": 413,
-      "sumStandardMax": 415,
       "standard": 148,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 413,
+      "sumVMax": 415
     },
     {
-      "sumStandardMin": 414,
-      "sumStandardMax": 415,
       "standard": 142,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 414,
+      "sumVMax": 415
     },
     {
-      "sumStandardMin": 416,
-      "sumStandardMax": 417,
       "standard": 149,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 416,
+      "sumVMax": 417
     },
     {
-      "sumStandardMin": 418,
-      "sumStandardMax": 419,
       "standard": 150,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 418,
+      "sumVMax": 419
     },
     {
-      "sumStandardMin": 419,
-      "sumStandardMax": 420,
       "standard": 144,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 419,
+      "sumVMax": 420
     },
     {
-      "sumStandardMin": 420,
-      "sumStandardMax": 422,
       "standard": 151,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 420,
+      "sumVMax": 422
     },
     {
-      "sumStandardMin": 421,
-      "sumStandardMax": 423,
       "standard": 145,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 421,
+      "sumVMax": 423
     },
     {
-      "sumStandardMin": 423,
-      "sumStandardMax": 424,
       "standard": 152,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 423,
+      "sumVMax": 424
     },
     {
-      "sumStandardMin": 424,
-      "sumStandardMax": 425,
       "standard": 146,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 424,
+      "sumVMax": 425
     },
     {
-      "sumStandardMin": 425,
-      "sumStandardMax": 427,
       "standard": 153,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 425,
+      "sumVMax": 427
     },
     {
-      "sumStandardMin": 426,
-      "sumStandardMax": 427,
       "standard": 147,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 426,
+      "sumVMax": 427
     },
     {
-      "sumStandardMin": 428,
-      "sumStandardMax": 429,
       "standard": 154,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 428,
+      "sumVMax": 429
     },
     {
-      "sumStandardMin": 429,
-      "sumStandardMax": 431,
       "standard": 109,
-      "percentile": 73
+      "percentile": 73,
+      "sumVMin": 429,
+      "sumVMax": 431
     },
     {
-      "sumStandardMin": 430,
-      "sumStandardMax": 431,
       "standard": 155,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 430,
+      "sumVMax": 431
     },
     {
-      "sumStandardMin": 431,
-      "sumStandardMax": 432,
       "standard": 149,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 431,
+      "sumVMax": 432
     },
     {
-      "sumStandardMin": 432,
-      "sumStandardMax": 434,
       "standard": 156,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 432,
+      "sumVMax": 434
     },
     {
-      "sumStandardMin": 433,
-      "sumStandardMax": 434,
       "standard": 150,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 433,
+      "sumVMax": 434
     },
     {
-      "sumStandardMin": 435,
-      "sumStandardMax": 436,
       "standard": 157,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 435,
+      "sumVMax": 436
     },
     {
-      "sumStandardMin": 436,
-      "sumStandardMax": 438,
       "standard": 111,
-      "percentile": 77
+      "percentile": 77,
+      "sumVMin": 436,
+      "sumVMax": 438
     },
     {
-      "sumStandardMin": 437,
-      "sumStandardMax": 438,
       "standard": 158,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 437,
+      "sumVMax": 438
     },
     {
-      "sumStandardMin": 438,
-      "sumStandardMax": 439,
       "standard": 152,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 438,
+      "sumVMax": 439
     },
     {
-      "sumStandardMin": 439,
-      "sumStandardMax": 441,
       "standard": 159,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 439,
+      "sumVMax": 441
     },
     {
-      "sumStandardMin": 440,
-      "sumStandardMax": 441,
       "standard": 153,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 440,
+      "sumVMax": 441
     },
     {
-      "sumStandardMin": 442,
-      "sumStandardMax": 480,
       "standard": 160,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 442,
+      "sumVMax": 480
     },
     {
-      "sumStandardMin": 445,
-      "sumStandardMax": 446,
       "standard": 155,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 445,
+      "sumVMax": 446
     },
     {
-      "sumStandardMin": 447,
-      "sumStandardMax": 448,
       "standard": 156,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 447,
+      "sumVMax": 448
     },
     {
-      "sumStandardMin": 449,
-      "sumStandardMax": 451,
       "standard": 157,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 449,
+      "sumVMax": 451
     },
     {
-      "sumStandardMin": 452,
-      "sumStandardMax": 453,
       "standard": 158,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 452,
+      "sumVMax": 453
     },
     {
-      "sumStandardMin": 454,
-      "sumStandardMax": 455,
       "standard": 159,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 454,
+      "sumVMax": 455
     },
     {
-      "sumStandardMin": 455,
-      "sumStandardMax": 458,
       "standard": 117,
-      "percentile": 87
+      "percentile": 87,
+      "sumVMin": 455,
+      "sumVMax": 458
     },
     {
-      "sumStandardMin": 456,
-      "sumStandardMax": 480,
       "standard": 160,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 456,
+      "sumVMax": 480
     },
     {
-      "sumStandardMin": 459,
-      "sumStandardMax": 461,
       "standard": 118,
-      "percentile": 88
+      "percentile": 88,
+      "sumVMin": 459,
+      "sumVMax": 461
     },
     {
-      "sumStandardMin": 462,
-      "sumStandardMax": 464,
       "standard": 119,
-      "percentile": 90
+      "percentile": 90,
+      "sumVMin": 462,
+      "sumVMax": 464
     },
     {
-      "sumStandardMin": 465,
-      "sumStandardMax": 467,
       "standard": 120,
-      "percentile": 91
+      "percentile": 91,
+      "sumVMin": 465,
+      "sumVMax": 467
     },
     {
-      "sumStandardMin": 468,
-      "sumStandardMax": 471,
       "standard": 121,
-      "percentile": 92
+      "percentile": 92,
+      "sumVMin": 468,
+      "sumVMax": 471
     },
     {
-      "sumStandardMin": 472,
-      "sumStandardMax": 474,
       "standard": 122,
-      "percentile": 93
+      "percentile": 93,
+      "sumVMin": 472,
+      "sumVMax": 474
     },
     {
-      "sumStandardMin": 475,
-      "sumStandardMax": 478,
       "standard": 123,
-      "percentile": 94
+      "percentile": 94,
+      "sumVMin": 475,
+      "sumVMax": 478
     },
     {
-      "sumStandardMin": 479,
-      "sumStandardMax": 481,
       "standard": 124,
-      "percentile": 95
+      "percentile": 95,
+      "sumVMin": 479,
+      "sumVMax": 481
     },
     {
-      "sumStandardMin": 482,
-      "sumStandardMax": 484,
       "standard": 125,
-      "percentile": 95
+      "percentile": 95,
+      "sumVMin": 482,
+      "sumVMax": 484
     },
     {
-      "sumStandardMin": 485,
-      "sumStandardMax": 488,
       "standard": 126,
-      "percentile": 96
+      "percentile": 96,
+      "sumVMin": 485,
+      "sumVMax": 488
     },
     {
-      "sumStandardMin": 489,
-      "sumStandardMax": 491,
       "standard": 127,
-      "percentile": 96
+      "percentile": 96,
+      "sumVMin": 489,
+      "sumVMax": 491
     },
     {
-      "sumStandardMin": 492,
-      "sumStandardMax": 495,
       "standard": 128,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 492,
+      "sumVMax": 495
     },
     {
-      "sumStandardMin": 496,
-      "sumStandardMax": 498,
       "standard": 129,
-      "percentile": 97
+      "percentile": 97,
+      "sumVMin": 496,
+      "sumVMax": 498
     },
     {
-      "sumStandardMin": 499,
-      "sumStandardMax": 502,
       "standard": 130,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 499,
+      "sumVMax": 502
     },
     {
-      "sumStandardMin": 503,
-      "sumStandardMax": 506,
       "standard": 131,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 503,
+      "sumVMax": 506
     },
     {
-      "sumStandardMin": 507,
-      "sumStandardMax": 509,
       "standard": 132,
-      "percentile": 98
+      "percentile": 98,
+      "sumVMin": 507,
+      "sumVMax": 509
     },
     {
-      "sumStandardMin": 510,
-      "sumStandardMax": 513,
       "standard": 133,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 510,
+      "sumVMax": 513
     },
     {
-      "sumStandardMin": 514,
-      "sumStandardMax": 517,
       "standard": 134,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 514,
+      "sumVMax": 517
     },
     {
-      "sumStandardMin": 518,
-      "sumStandardMax": 520,
       "standard": 135,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 518,
+      "sumVMax": 520
     },
     {
-      "sumStandardMin": 521,
-      "sumStandardMax": 524,
       "standard": 136,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 521,
+      "sumVMax": 524
     },
     {
-      "sumStandardMin": 525,
-      "sumStandardMax": 528,
       "standard": 137,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 525,
+      "sumVMax": 528
     },
     {
-      "sumStandardMin": 529,
-      "sumStandardMax": 532,
       "standard": 138,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 529,
+      "sumVMax": 532
     },
     {
-      "sumStandardMin": 533,
-      "sumStandardMax": 536,
       "standard": 139,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 533,
+      "sumVMax": 536
     },
     {
-      "sumStandardMin": 537,
-      "sumStandardMax": 540,
       "standard": 140,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 537,
+      "sumVMax": 540
     },
     {
-      "sumStandardMin": 541,
-      "sumStandardMax": 544,
       "standard": 141,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 541,
+      "sumVMax": 544
     },
     {
-      "sumStandardMin": 545,
-      "sumStandardMax": 548,
       "standard": 142,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 545,
+      "sumVMax": 548
     },
     {
-      "sumStandardMin": 549,
-      "sumStandardMax": 552,
       "standard": 143,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 549,
+      "sumVMax": 552
     },
     {
-      "sumStandardMin": 553,
-      "sumStandardMax": 556,
       "standard": 144,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 553,
+      "sumVMax": 556
     },
     {
-      "sumStandardMin": 557,
-      "sumStandardMax": 560,
       "standard": 145,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 557,
+      "sumVMax": 560
     },
     {
-      "sumStandardMin": 561,
-      "sumStandardMax": 564,
       "standard": 146,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 561,
+      "sumVMax": 564
     },
     {
-      "sumStandardMin": 565,
-      "sumStandardMax": 569,
       "standard": 147,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 565,
+      "sumVMax": 569
     },
     {
-      "sumStandardMin": 570,
-      "sumStandardMax": 573,
       "standard": 148,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 570,
+      "sumVMax": 573
     },
     {
-      "sumStandardMin": 574,
-      "sumStandardMax": 577,
       "standard": 149,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 574,
+      "sumVMax": 577
     },
     {
-      "sumStandardMin": 578,
-      "sumStandardMax": 582,
       "standard": 150,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 578,
+      "sumVMax": 582
     },
     {
-      "sumStandardMin": 583,
-      "sumStandardMax": 586,
       "standard": 151,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 583,
+      "sumVMax": 586
     },
     {
-      "sumStandardMin": 587,
-      "sumStandardMax": 591,
       "standard": 152,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 587,
+      "sumVMax": 591
     },
     {
-      "sumStandardMin": 592,
-      "sumStandardMax": 596,
       "standard": 153,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 592,
+      "sumVMax": 596
     },
     {
-      "sumStandardMin": 597,
-      "sumStandardMax": 600,
       "standard": 154,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 597,
+      "sumVMax": 600
     },
     {
-      "sumStandardMin": 601,
-      "sumStandardMax": 605,
       "standard": 155,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 601,
+      "sumVMax": 605
     },
     {
-      "sumStandardMin": 606,
-      "sumStandardMax": 610,
       "standard": 156,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 606,
+      "sumVMax": 610
     },
     {
-      "sumStandardMin": 611,
-      "sumStandardMax": 615,
       "standard": 157,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 611,
+      "sumVMax": 615
     },
     {
-      "sumStandardMin": 616,
-      "sumStandardMax": 620,
       "standard": 158,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 616,
+      "sumVMax": 620
     },
     {
-      "sumStandardMin": 621,
-      "sumStandardMax": 625,
       "standard": 159,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 621,
+      "sumVMax": 625
     },
     {
-      "sumStandardMin": 626,
-      "sumStandardMax": 640,
       "standard": 160,
-      "percentile": 99
+      "percentile": 99,
+      "sumVMin": 626,
+      "sumVMax": 640
     }
   ]
 }

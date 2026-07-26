@@ -9,6 +9,7 @@
 // ---------------------------------------------------------------------------
 
 import type { DomainId, Edition, NormsPack, RangeRow, SubdomainId } from "../types";
+import defaultVineland2Norms from "../../docs/norms.vineland2.local.json";
 
 const KEY_PREFIX = "vineland.norms.";
 
@@ -166,8 +167,11 @@ export function saveNorms(edition: Edition, pack: NormsPack): void {
 export function loadNorms(edition: Edition): NormsPack | null {
   try {
     const raw = localStorage.getItem(KEY_PREFIX + edition);
-    return raw ? normalizeNormsPack(JSON.parse(raw) as NormsPack) : null;
+    if (raw) return normalizeNormsPack(JSON.parse(raw) as NormsPack);
+    if (edition === "vineland2") return normalizeNormsPack(defaultVineland2Norms as unknown as NormsPack);
+    return null;
   } catch {
+    if (edition === "vineland2") return normalizeNormsPack(defaultVineland2Norms as unknown as NormsPack);
     return null;
   }
 }
