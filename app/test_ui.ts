@@ -62,3 +62,6 @@ testProfile("Child 6:0 (High functioning)", "2018-06-15", { _default: 0.95 });
 
 // 4. Test ASD 5y (checking floor values)
 testProfile("Child 5:0 (ASD profile)", "2019-06-15", { _default: 0.5, socialization: 0.1, written: 0.9 });
+
+// 5. Test Toddler 2y (checking prorated sums for under-3)
+testProfile("Toddler 2:0 (Prorated test)", "2022-06-15", { _default: 0.3 });

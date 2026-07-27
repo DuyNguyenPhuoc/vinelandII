@@ -145,6 +145,22 @@ export interface DomainStandardRow {
   ci95?: [number, number];
 }
 
+/**
+ * Table B.2 broken out by age band. The domain-standard and ABC conversions are
+ * age-dependent in Vineland-II, so a single flat table cannot be correct — the
+ * engine selects the entry whose [minMonths, maxMonths] contains the examinee's age.
+ */
+export interface DomainStandardAgeBand {
+  minMonths: number;
+  maxMonths: number;
+  /** Human-readable band label from the manual (e.g. "Ages 3:0-6:11"). */
+  ageBandRaw?: string;
+  /** Sum-of-v-scales → domain standard score, per domain, for this age band. */
+  domainStandard: Partial<Record<DomainId, DomainStandardRow[]>>;
+  /** Sum of domain standard scores → ABC, for this age band. */
+  composite?: DomainStandardRow[];
+}
+
 export interface NormsPack {
   edition: Edition;
   /** Provenance: which manual/tables and who digitized + verified them. */
@@ -153,6 +169,12 @@ export interface NormsPack {
   ageBands: AgeBand[];
   /** Table B.2 per domain: sum-of-v-scales → domain standard score. */
   domainStandard: Partial<Record<DomainId, DomainStandardRow[]>>;
+  /**
+   * Table B.2 broken out by age band (preferred). When present, the engine uses
+   * the age-matched entry for domain standard scores and the ABC composite,
+   * falling back to the flat `domainStandard`/`composite` only if no band matches.
+   */
+  domainStandardByAge?: DomainStandardAgeBand[];
   /** Table C.5: subdomain raw score → age equivalent (months), per age band or global. */
   ageEquivalent?: Partial<Record<SubdomainId, RangeRow<number>[]>>;
   /** Adaptive Behavior Composite: sum of domain standard scores → ABC. */

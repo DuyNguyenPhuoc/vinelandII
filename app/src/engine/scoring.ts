@@ -28,6 +28,7 @@ import type {
   DomainDef,
   DomainId,
   DomainResult,
+  DomainStandardRow,
   ItemDef,
   ItemScore,
   ItemsPack,
@@ -194,6 +195,35 @@ function findAgeBand(norms: NormsPack | null, ageMonths: number): AgeBand | null
   return norms.ageBands.find((b) => ageMonths >= b.minMonths && ageMonths <= b.maxMonths) ?? null;
 }
 
+/**
+ * Domain-standard / ABC conversions are age-dependent (Table B.2 is 17 separate
+ * age-band tables). Prefer the age-matched entry; fall back to the flat tables.
+ */
+function domainStandardRows(
+  norms: NormsPack | null,
+  ageMonths: number,
+  domain: DomainId,
+): DomainStandardRow[] | undefined {
+  if (!norms) return undefined;
+  const band = norms.domainStandardByAge?.find(
+    (b) => ageMonths >= b.minMonths && ageMonths <= b.maxMonths,
+  );
+  if (band) return band.domainStandard[domain];
+  return norms.domainStandard?.[domain];
+}
+
+function compositeRows(
+  norms: NormsPack | null,
+  ageMonths: number,
+): DomainStandardRow[] | undefined {
+  if (!norms) return undefined;
+  const band = norms.domainStandardByAge?.find(
+    (b) => ageMonths >= b.minMonths && ageMonths <= b.maxMonths,
+  );
+  if (band && band.composite) return band.composite;
+  return norms.composite;
+}
+
 // ---- Full report ------------------------------------------------------------
 
 const COMPOSITE_DOMAINS_UNDER_7: DomainId[] = [
@@ -277,7 +307,14 @@ export function computeReport(
     );
     const vScales = subs.map((s) => s.vScale);
     const allHaveV = vScales.length > 0 && vScales.every((v) => v !== null);
-    const sumV = allHaveV ? (vScales as number[]).reduce((a, b) => a + b, 0) : null;
+
+    // Sum the v-scales of the subdomains administered at this age. The age-banded
+    // standard tables (Table B.2) are built for exactly that set of subdomains
+    // (e.g. under-3 Communication = Receptive + Expressive, anchored at sumV 30),
+    // so the raw sum is looked up directly — no proration.
+    const sumV: number | null = allHaveV
+      ? (vScales as number[]).reduce((a, b) => a + b, 0)
+      : null;
 
     let standardScore: number | null = null;
     let percentile: number | null = null;
@@ -285,7 +322,7 @@ export function computeReport(
     let normsMissing = true;
 
     if (norms && sumV !== null) {
-      const rows = norms.domainStandard?.[dom.id];
+      const rows = domainStandardRows(norms, ageMonths, dom.id);
       normsMissing = rows === undefined;
       if (rows) {
         const row = rows.find((r) => sumV >= r.sumVMin && sumV <= r.sumVMax);
@@ -320,9 +357,10 @@ export function computeReport(
   let compStandard: number | null = null;
   let compPercentile: number | null = null;
   let compNormsMissing = true;
-  if (norms?.composite && sumStandards !== null) {
+  const compRows = compositeRows(norms, ageMonths);
+  if (compRows && sumStandards !== null) {
     compNormsMissing = false;
-    const row = norms.composite.find(
+    const row = compRows.find(
       (r) => sumStandards >= r.sumVMin && sumStandards <= r.sumVMax,
     );
     if (row) {

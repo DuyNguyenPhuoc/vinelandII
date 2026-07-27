@@ -63,7 +63,26 @@ export function validateNormsPack(data: unknown, edition: Edition): ValidationRe
     });
   }
 
-  if (p.domainStandard) {
+  // Age-banded Table B.2 (preferred): domain standard scores + ABC vary by age.
+  const byAge = Array.isArray(p.domainStandardByAge) ? p.domainStandardByAge : null;
+  if (byAge) {
+    byAge.forEach((band, i) => {
+      if (!(band.minMonths <= band.maxMonths))
+        errors.push(`domainStandardByAge[${i}]: minMonths > maxMonths.`);
+      for (const did of Object.keys(band.domainStandard ?? {}) as DomainId[]) {
+        if (!DOMAIN_IDS.includes(did))
+          warnings.push(`domainStandardByAge[${i}]: unknown domain "${did}".`);
+        covDom.add(did);
+        for (const r of band.domainStandard[did]!) {
+          if (r.sumVMin > r.sumVMax)
+            errors.push(`domainStandardByAge[${i}].${did}: sumVMin>sumVMax.`);
+        }
+      }
+    });
+  }
+
+  const flatDS = p.domainStandard && Object.keys(p.domainStandard).length > 0;
+  if (flatDS) {
     for (const did of Object.keys(p.domainStandard) as DomainId[]) {
       if (!DOMAIN_IDS.includes(did)) warnings.push(`domainStandard: unknown domain "${did}".`);
       covDom.add(did);
@@ -71,11 +90,12 @@ export function validateNormsPack(data: unknown, edition: Edition): ValidationRe
         if (r.sumVMin > r.sumVMax) errors.push(`domainStandard.${did}: sumVMin>sumVMax.`);
       }
     }
-  } else {
+  } else if (!byAge) {
     warnings.push("No domainStandard table — domain standard scores will be blank.");
   }
 
-  if (!p.composite) warnings.push("No composite table — ABC will be blank.");
+  const hasComposite = !!p.composite || (byAge?.some((b) => Array.isArray(b.composite)) ?? false);
+  if (!hasComposite) warnings.push("No composite table — ABC will be blank.");
   if (!p.ageEquivalent) warnings.push("No ageEquivalent table — age-equivalents will be blank.");
   if (!p.verified) warnings.push("Pack is marked verified:false — double-check values against the manual before clinical use.");
 
