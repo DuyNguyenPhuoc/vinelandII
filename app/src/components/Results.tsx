@@ -1,7 +1,8 @@
-import { useMemo } from "react";
+import { Fragment, useMemo, useState } from "react";
 import type { AdaptiveLevel, ItemsPack, NormsPack, Session } from "../types";
 import { useLang, useT, t as tt } from "../i18n";
 import { ageLabel, computeReport } from "../engine/scoring";
+import { CompositeFlow, DomainFlow, SubdomainFlow } from "./CalcFlow";
 
 interface Props {
   session: Session;
@@ -22,6 +23,21 @@ export function Results({ session, pack, norms }: Props) {
   const tr = useT();
   const lang = useLang();
   const report = useMemo(() => computeReport(session, pack, norms), [session, pack, norms]);
+  const [openSubs, setOpenSubs] = useState<Set<string>>(new Set());
+  const [openDomains, setOpenDomains] = useState<Set<string>>(new Set());
+  const [openComposite, setOpenComposite] = useState(false);
+  const toggleSub = (id: string) =>
+    setOpenSubs((prev) => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
+  const toggleDomain = (id: string) =>
+    setOpenDomains((prev) => {
+      const next = new Set(prev);
+      next.has(id) ? next.delete(id) : next.add(id);
+      return next;
+    });
 
   const subName = (id: string) => {
     const s = pack.subdomains.find((x) => x.id === id)!;
@@ -56,6 +72,12 @@ export function Results({ session, pack, norms }: Props) {
         {report.warnings.includes("normsUnverified") && (
           <div className="banner warn">{tr("normsUnverified")}</div>
         )}
+        {norms?.source && (
+          <div className="muted small" style={{ marginTop: ".4rem" }}>
+            {lang === "vi" ? "Nguồn bảng chuẩn: " : "Norms source: "}
+            {norms.source}
+          </div>
+        )}
       </section>
 
       {report.domains.map((d) => {
@@ -79,24 +101,49 @@ export function Results({ session, pack, norms }: Props) {
                   <th>{tr("vScale")}</th>
                   <th>{tr("adaptiveLevel")}</th>
                   <th>{tr("ageEquiv")}</th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
-                {subs.map((s) => (
-                  <tr key={s.subdomain} className={!s.scorable ? "rowUnscorable" : ""}>
-                    <td>{subName(s.subdomain)}</td>
-                    <td className="num">{s.rawScore}</td>
-                    <td className="num">
-                      {s.basalItemNum ?? "—"} / {s.ceilingItemNum ?? "—"}
-                    </td>
-                    <td className="num">{s.vScale ?? "—"}</td>
-                    <td>{lvl(s.adaptiveLevel)}</td>
-                    <td className="num">{s.ageEquivalentMonths != null ? ageLabel(s.ageEquivalentMonths) : "—"}</td>
-                  </tr>
-                ))}
+                {subs.map((s) => {
+                  const sd = pack.subdomains.find((x) => x.id === s.subdomain)!;
+                  const open = openSubs.has(s.subdomain);
+                  return (
+                    <Fragment key={s.subdomain}>
+                      <tr className={!s.scorable ? "rowUnscorable" : ""}>
+                        <td>{subName(s.subdomain)}</td>
+                        <td className="num">{s.rawScore}</td>
+                        <td className="num">
+                          {s.basalItemNum ?? "—"} / {s.ceilingItemNum ?? "—"}
+                        </td>
+                        <td className="num">{s.vScale ?? "—"}</td>
+                        <td>{lvl(s.adaptiveLevel)}</td>
+                        <td className="num">{s.ageEquivalentMonths != null ? ageLabel(s.ageEquivalentMonths) : "—"}</td>
+                        <td className="num">
+                          <button className="ghost small" onClick={() => toggleSub(s.subdomain)}>
+                            {open ? "▲" : tr("howCalculated")}
+                          </button>
+                        </td>
+                      </tr>
+                      {open && (
+                        <tr>
+                          <td colSpan={7}>
+                            <SubdomainFlow session={session} norms={norms} report={report} sd={sd} />
+                          </td>
+                        </tr>
+                      )}
+                    </Fragment>
+                  );
+                })}
               </tbody>
             </table>
             {subs.some((s) => !s.scorable) && <div className="note">{tr("notScorable")}</div>}
+            <button className="ghost small" onClick={() => toggleDomain(d.domain)}>
+              {openDomains.has(d.domain) ? "▲" : tr("howCalculated")}
+            </button>
+            {openDomains.has(d.domain) && (
+              <DomainFlow norms={norms} report={report} dom={pack.domains.find((x) => x.id === d.domain)!} />
+            )}
           </section>
         );
       })}
@@ -112,6 +159,10 @@ export function Results({ session, pack, norms }: Props) {
           {lang === "vi" ? "Gồm các lĩnh vực: " : "From domains: "}
           {report.composite.contributingDomains.map((d) => pack.domains.find((x) => x.id === d)?.nameEn).join(", ")}
         </div>
+        <button className="ghost small" onClick={() => setOpenComposite((v) => !v)}>
+          {openComposite ? "▲" : tr("howCalculated")}
+        </button>
+        {openComposite && <CompositeFlow pack={pack} norms={norms} report={report} />}
       </section>
     </div>
   );

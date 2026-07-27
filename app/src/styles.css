@@ -251,6 +251,15 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .note { font-size: .8rem; color: var(--warn-ink); margin-top: .4rem; }
 .composite { border: 2px solid var(--brand); }
 
+/* Calculation flow (raw → v-scale → standard → ABC trace) */
+.calcFlow { background: var(--info-bg); border-radius: 8px; padding: .6rem .8rem; margin: .3rem 0; }
+.calcSteps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .45rem; }
+.calcSteps li { display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; font-size: .84rem; }
+.calcTag { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--info-ink); background: var(--panel); border-radius: 999px; padding: .1rem .5rem; white-space: nowrap; }
+.calcFormula { color: var(--ink); font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; font-size: .84rem; }
+.calcFormula strong { color: var(--brand); }
+.calcSource { margin-top: .5rem; padding-top: .4rem; border-top: 1px dashed var(--line); font-size: .72rem; color: var(--muted); line-height: 1.4; }
+
 /* Footer */
 .foot { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 

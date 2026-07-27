@@ -133,6 +133,12 @@ export interface AgeBand {
   /** Table B.1: subdomain raw score → v-scale score, per subdomain. */
   rawToVScale: Partial<Record<SubdomainId, RangeRow<number>[]>>;
   /**
+   * Table B.1's "90% Conf. Int." row: ± v-scale points for the 90% confidence
+   * band around a subdomain v-scale score, per subdomain, for this age band.
+   * Absent subdomain = not administered at this age (printed as "—" in the manual).
+   */
+  confidenceInterval90?: Partial<Record<SubdomainId, number>>;
+  /**
    * True only when every cell in this band was individually cross-checked
    * against the manual's PDF page (not just internally self-consistent).
    * Passing structural validation (no gaps/overlaps/non-monotonic values)

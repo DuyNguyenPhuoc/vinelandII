@@ -190,7 +190,24 @@ function lookupRange<T>(rows: RangeRow<T>[] | undefined, raw: number): T | null 
   return null;
 }
 
-function findAgeBand(norms: NormsPack | null, ageMonths: number): AgeBand | null {
+/** Same lookup as {@link lookupRange}, but returns the whole matched row (for showing the formula/trace in the UI). */
+export function lookupRangeRow<T>(rows: RangeRow<T>[] | undefined, raw: number): RangeRow<T> | null {
+  if (!Array.isArray(rows)) return null;
+  for (const r of rows) if (raw >= r.min && raw <= r.max) return r;
+  return null;
+}
+
+/** Table B.2-shaped lookup (sumVMin/sumVMax instead of min/max) — for showing the domain/ABC formula/trace in the UI. */
+export function lookupStandardRow(
+  rows: DomainStandardRow[] | undefined,
+  sumV: number,
+): DomainStandardRow | null {
+  if (!Array.isArray(rows)) return null;
+  for (const r of rows) if (sumV >= r.sumVMin && sumV <= r.sumVMax) return r;
+  return null;
+}
+
+export function findAgeBand(norms: NormsPack | null, ageMonths: number): AgeBand | null {
   if (!norms) return null;
   return norms.ageBands.find((b) => ageMonths >= b.minMonths && ageMonths <= b.maxMonths) ?? null;
 }
@@ -199,7 +216,7 @@ function findAgeBand(norms: NormsPack | null, ageMonths: number): AgeBand | null
  * Domain-standard / ABC conversions are age-dependent (Table B.2 is 17 separate
  * age-band tables). Prefer the age-matched entry; fall back to the flat tables.
  */
-function domainStandardRows(
+export function domainStandardRows(
   norms: NormsPack | null,
   ageMonths: number,
   domain: DomainId,
@@ -212,7 +229,7 @@ function domainStandardRows(
   return norms.domainStandard?.[domain];
 }
 
-function compositeRows(
+export function compositeRows(
   norms: NormsPack | null,
   ageMonths: number,
 ): DomainStandardRow[] | undefined {

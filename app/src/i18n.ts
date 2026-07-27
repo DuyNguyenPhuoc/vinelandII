@@ -54,6 +54,23 @@ export const STRINGS: Dict = {
   basal: { vi: "Sàn", en: "Basal" },
   ceiling: { vi: "Trần", en: "Ceiling" },
   composite: { vi: "Tổng hợp hành vi thích ứng (ABC)", en: "Adaptive Behavior Composite" },
+  howCalculated: { vi: "Cách tính?", en: "How calculated?" },
+  sourceRawCeiling: {
+    vi: "Quy tắc sàn/trần/điểm thô: sổ tay Vineland-II, Mẫu khảo sát phỏng vấn (Survey Interview Form)",
+    en: "Basal/ceiling/raw rules: Vineland-II manual, Survey Interview Form administration rules",
+  },
+  sourceB1: {
+    vi: "Bảng B.1 — Điểm v theo điểm thô & Khoảng tin cậy 90%, theo dải tuổi (Vineland-II scoring.pdf, Phụ lục B)",
+    en: "Table B.1 — Subdomain v-Scale Scores & 90% Conf. Int., by age band (Vineland-II scoring.pdf, Appendix B)",
+  },
+  sourceB2Domain: {
+    vi: "Bảng B.2 — Điểm chuẩn lĩnh vực theo tổng điểm v & Khoảng tin cậy 95%, theo dải tuổi (Vineland-II scoring.pdf, Phụ lục B)",
+    en: "Table B.2 — Domain Standard Scores & 95% Conf. Int., by age band (Vineland-II scoring.pdf, Appendix B)",
+  },
+  sourceB2Composite: {
+    vi: "Bảng B.2 — Điểm ABC theo tổng điểm chuẩn lĩnh vực, theo dải tuổi (Vineland-II scoring.pdf, Phụ lục B)",
+    en: "Table B.2 — ABC Composite from sum of domain standards, by age band (Vineland-II scoring.pdf, Appendix B)",
+  },
   notScorable: { vi: "Không tính điểm (quá 2 mục KB/bỏ trống)", en: "Not scorable (>2 DK/blank)" },
   normsMissing: { vi: "Chưa nạp bảng chuẩn — chỉ hiển thị điểm thô", en: "Norms not loaded — raw scores only" },
   normsUnverified: { vi: "Bảng chuẩn CHƯA được kiểm định", en: "Norms NOT verified" },
