@@ -143,6 +143,14 @@ export function NormsEditor({ edition, value, onChange }: Props) {
     return m;
   }, [band]);
 
+  // A band is "pdfVerified" only when every cell was individually cross-checked
+  // against the manual's PDF page. Passing structural validation (no gaps,
+  // overlaps, or non-monotonic values — that's what `flags` below catches)
+  // does NOT mean the values are correct: a wrong-but-plausible number still
+  // passes those checks. Unverified bands are highlighted red so they can be
+  // checked by hand against the manual.
+  const bandUnverified = !!band && !band.pdfVerified;
+
   const stats = useMemo(() => {
     let filled = 0, bad = 0, warn = 0;
     if (band) for (const s of ALL_SUBS) {
@@ -242,7 +250,7 @@ export function NormsEditor({ edition, value, onChange }: Props) {
           <select value={bandIndex} onChange={(e) => setBandIndex(Number(e.target.value))}>
             {bands.map((b, i) => (
               <option key={i} value={i}>
-                {monthsLabel(b.minMonths)}–{monthsLabel(b.maxMonths)} ({b.minMonths}-{b.maxMonths} mo)
+                {b.pdfVerified ? "✓" : "🔴"} {monthsLabel(b.minMonths)}–{monthsLabel(b.maxMonths)} ({b.minMonths}-{b.maxMonths} mo)
               </option>
             ))}
           </select>
@@ -257,11 +265,23 @@ export function NormsEditor({ edition, value, onChange }: Props) {
         <span className="statPill">{stats.filled} {T("ô", "cells")}</span>
         {stats.bad > 0 && <span className="statPill bad">⛔ {stats.bad} {T("lỗi", "errors")}</span>}
         {stats.warn > 0 && <span className="statPill warn">⚠ {stats.warn} {T("nghi ngờ", "suspect")}</span>}
+        {bandUnverified
+          ? <span className="statPill unverified">🔴 {T("chưa đối chiếu với sách hướng dẫn", "not cross-checked against manual")}</span>
+          : <span className="statPill ok">✓ {T("đã đối chiếu với PDF", "cross-checked against PDF")}</span>}
         <span className="legend">
           <span className="sw warn" /> {T("không tăng dần", "not increasing")}
           <span className="sw bad" /> {"min > max"}
+          <span className="sw unverified" /> {T("chưa kiểm tra — vui lòng đối chiếu", "unchecked — please verify")}
         </span>
       </div>
+      {bandUnverified && (
+        <div className="banner warn" style={{ marginBottom: ".5rem" }}>
+          {T(
+            "⚠ Các giá trị trong dải tuổi này chưa được đối chiếu từng ô với bản PDF gốc — chỉ mới qua kiểm tra tính nhất quán (không trùng, không giảm). Vui lòng so sánh các ô màu đỏ bên dưới với sách hướng dẫn.",
+            "⚠ The values in this age band have not been individually cross-checked against the source PDF — only checked for internal consistency (no gaps/overlaps/non-monotonic). Please compare the red cells below against the manual."
+          )}
+        </div>
+      )}
 
       <div className="gridScroll">
         <table className="pdfGrid">
@@ -281,8 +301,13 @@ export function NormsEditor({ edition, value, onChange }: Props) {
                 {ALL_SUBS.map((s) => {
                   const f = flags[`${s.id}:${v}`];
                   const val = cellText(s.id, v);
+                  const cls = f
+                    ? `cell ${f}`
+                    : val
+                      ? bandUnverified ? "cell unverified" : "cell filled"
+                      : "cell";
                   return (
-                    <td key={s.id} className={f ? `cell ${f}` : val ? "cell filled" : "cell"}>
+                    <td key={s.id} className={cls} title={!f && val && bandUnverified ? T("Chưa đối chiếu với PDF", "Not cross-checked against PDF") : undefined}>
                       <input className="cellInput" value={val} onChange={(e) => setCell(s.id, v, e.target.value)} placeholder="·" />
                     </td>
                   );

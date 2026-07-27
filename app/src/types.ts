@@ -132,6 +132,15 @@ export interface AgeBand {
   maxMonths: number;
   /** Table B.1: subdomain raw score → v-scale score, per subdomain. */
   rawToVScale: Partial<Record<SubdomainId, RangeRow<number>[]>>;
+  /**
+   * True only when every cell in this band was individually cross-checked
+   * against the manual's PDF page (not just internally self-consistent).
+   * Passing structural validation (no gaps/overlaps/non-monotonic values)
+   * does NOT imply this — a wrong-but-plausible transcribed number still
+   * passes those checks. Missing/false means "please double-check against
+   * the manual" — surfaced in the norms editor as a highlighted band.
+   */
+  pdfVerified?: boolean;
 }
 
 /** Domain standard-score lookup: sum of subdomain v-scales → standard score. */
@@ -159,6 +168,8 @@ export interface DomainStandardAgeBand {
   domainStandard: Partial<Record<DomainId, DomainStandardRow[]>>;
   /** Sum of domain standard scores → ABC, for this age band. */
   composite?: DomainStandardRow[];
+  /** True when this band's cells were individually transcribed from the PDF (see AgeBand.pdfVerified). */
+  pdfVerified?: boolean;
 }
 
 export interface NormsPack {
