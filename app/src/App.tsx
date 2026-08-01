@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+// @ts-ignore
+import html2pdf from "html2pdf.js";
 import type { Edition, Session } from "./types";
 import { LangContext, type Lang, t } from "./i18n";
 import { APP_VERSION } from "./config";
@@ -40,6 +42,33 @@ export default function App() {
     if (e !== session.edition) update({ ...session, edition: e });
   };
 
+  const handleNewSession = () => {
+    if (confirm(tr("confirmNew") || "Are you sure you want to clear all data and start a new session?")) {
+      const s = newSession(edition);
+      setSession(s);
+      setStep("setup");
+    }
+  };
+
+  const handleSavePdf = () => {
+    const element = document.querySelector('.mainContent');
+    if (!element) return;
+    
+    element.classList.add('pdf-export');
+    
+    const opt = {
+      margin:       10,
+      filename:     `Vineland_${session.examinee.name || 'Report'}.pdf`,
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2 },
+      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save().then(() => {
+      element.classList.remove('pdf-export');
+    });
+  };
+
   return (
     <LangContext.Provider value={lang}>
       <div className="app">
@@ -49,6 +78,12 @@ export default function App() {
             <span>{tr("appTitle")}</span>
           </div>
           <div className="topControls">
+            <button className="ghost" onClick={handleNewSession}>
+              {tr("newSession") || "New Session"}
+            </button>
+            <button className="ghost printBtn" onClick={handleSavePdf}>
+              {tr("savePdf") || "Save PDF"}
+            </button>
             <label className="inline">
               {tr("edition")}
               <select value={edition} onChange={(e) => changeEdition(e.target.value as Edition)}>
@@ -103,21 +138,23 @@ export default function App() {
         />
 
         {step === "results" && (
-          <>
+          <div className="no-print">
             <NormsBar edition={edition} onChange={setNorms} />
             <NormsCoverage norms={norms} />
             <NormsEditor edition={edition} value={norms} onChange={setNorms} />
-          </>
+          </div>
         )}
 
-        <main>
-          {step === "setup" && (
+        <main className="mainContent">
+          <div className={step === "setup" ? "step-screen active" : "step-screen"}>
             <Setup session={session} onChange={update} onStart={() => setStep("interview")} />
-          )}
-          {step === "interview" && (
+          </div>
+          <div className={step === "interview" ? "step-screen active" : "step-screen"}>
             <Interview session={session} pack={pack} onChange={update} onResults={() => setStep("results")} />
-          )}
-          {step === "results" && <Results session={session} pack={pack} norms={norms} />}
+          </div>
+          <div className={step === "results" ? "step-screen active" : "step-screen"}>
+            <Results session={session} pack={pack} norms={norms} />
+          </div>
         </main>
 
         <footer className="foot">

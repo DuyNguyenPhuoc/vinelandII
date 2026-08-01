@@ -210,7 +210,12 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .ghost.small { font-size: .74rem; padding: .2rem .45rem; }
 
 /* Interview */
-.interviewHint { color: var(--muted); font-size: .88rem; margin-bottom: .3rem; }
+.interviewHeader { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.interviewHint { color: var(--muted); font-size: .88rem; flex: 1; margin: 0; }
+.scoreLegend { display: flex; gap: .8rem; font-size: .8rem; color: var(--muted); background: var(--bg); padding: .4rem .8rem; border-radius: 8px; flex-wrap: wrap; }
+.scoreLegend strong { color: var(--ink); }
+.domainTabs { flex-wrap: wrap; margin-bottom: 1rem; }
+.domainTabs .stepTab { flex: 1 1 auto; padding: .5rem; font-size: .88rem; }
 .domainBlock { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: .5rem .9rem 1rem; }
 .domainHead { position: sticky; top: 0; background: var(--panel); padding: .6rem 0; border-bottom: 2px solid var(--brand); z-index: 1; }
 .subBlock { border: 1px solid var(--line); border-radius: 8px; margin-top: .8rem; padding: .3rem .6rem; }
@@ -222,17 +227,17 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
 .badge.draft { background: var(--warn-bg); color: var(--warn-ink); }
 .pending { color: var(--warn-ink); font-style: normal; }
 .pendingNote { color: var(--muted); font-size: .85rem; padding: .4rem 0; }
-.itemList { margin: .4rem 0 0; padding-left: 0; list-style: none; }
-.item { padding: .6rem; border-radius: 8px; border: 1px solid transparent; margin-bottom: .4rem; }
-.item + .item { border-top: 1px solid var(--line); }
-.startItem { background: var(--info-bg); border-color: var(--brand); }
-.itemHead { display: flex; align-items: center; gap: .6rem; }
-.itemNum { font-weight: 700; color: var(--brand); min-width: 1.5rem; }
-.startTag { font-size: .74rem; color: var(--brand); font-weight: 700; }
-.itemText { margin: .15rem 0 .5rem; }
-.itemGuide { font-size: .8rem; color: var(--muted); background: var(--bg); padding: .3rem .5rem; border-radius: 6px; margin-bottom: .5rem; }
-.scoreRow { display: flex; gap: .35rem; flex-wrap: wrap; }
-.scoreBtn { border: 1px solid var(--line); background: var(--bg); color: var(--ink); padding: .35rem .6rem; border-radius: 999px; font-size: .82rem; }
+.item { display: flex; align-items: center; gap: .8rem; padding: .5rem .6rem; border: 1px solid transparent; border-bottom: 1px solid var(--line); }
+.item:last-child { border-bottom: none; }
+.startItem { background: var(--info-bg); border-color: var(--brand); border-radius: 8px; border-bottom-color: var(--brand); }
+.itemHead { display: flex; flex-direction: column; align-items: center; gap: .2rem; flex-shrink: 0; min-width: 3rem; }
+.itemNum { font-weight: 700; color: var(--brand); }
+.startTag { font-size: .7rem; color: var(--brand); font-weight: 700; background: color-mix(in srgb, var(--brand) 15%, transparent); padding: .1rem .3rem; border-radius: 4px; white-space: nowrap; }
+.itemTextMain { flex: 1; }
+.itemText { margin: 0; font-size: .95rem; }
+.itemGuide { font-size: .8rem; color: var(--muted); background: var(--bg); padding: .3rem .5rem; border-radius: 6px; margin-top: .4rem; }
+.scoreRow { display: flex; gap: .35rem; flex-shrink: 0; }
+.scoreBtn { border: 1px solid var(--line); background: var(--bg); color: var(--ink); width: 2.2rem; height: 2.2rem; display: flex; align-items: center; justify-content: center; border-radius: 4px; font-size: .9rem; font-weight: 600; padding: 0; }
 .scoreBtn.on { background: var(--brand); color: #fff; border-color: var(--brand); }
 
 /* Results */
@@ -279,3 +284,46 @@ button.ghost { background: transparent; border: 1px solid var(--line); color: va
   .normsToolbar { flex-direction: column; align-items: stretch; }
   .tbLeft, .tbRight { width: 100%; justify-content: space-between; }
 }
+
+.step-screen { display: none; }
+.step-screen.active { display: block; }
+.no-print { display: block; }
+
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .topbar, .steps, .dummyBar, .driveBar, .normsBar, .actions, .foot, .banner, .no-print { display: none !important; }
+  .step-screen { display: block !important; }
+  .step-screen + .step-screen { page-break-before: always; margin-top: 2rem; }
+  
+  .panel, .domainBlock, .subBlock, .card { border: none; box-shadow: none; background: transparent; padding: 0; }
+  .domainBlock { display: block !important; page-break-inside: avoid; border-bottom: 2px solid #000; margin-bottom: 2rem; padding-bottom: 1rem; }
+  .domainHead { position: static; background: transparent; padding: 0.5rem 0; border-bottom: 2px solid #000; }
+  
+  .scoreBtn { border: 1px solid #999; color: #000; background: transparent; }
+  .scoreBtn.on { background: #000; color: #fff; border-color: #000; }
+  .startItem { background: transparent; border: 1px solid #000; }
+  .startTag { background: transparent; border: 1px solid #000; color: #000; }
+  .itemHead { align-items: flex-start; }
+  .item { border-bottom: 1px solid #ddd; }
+  
+  .subBlock { border: 1px solid #ddd; margin-top: 1rem; padding: 0.5rem; page-break-inside: avoid; }
+  .subBlock > summary { padding: 0; margin-bottom: 0.5rem; }
+  .itemList { page-break-inside: auto; }
+  .item { page-break-inside: avoid; }
+}
+
+/* Explicit PDF export styles for html2pdf (since it doesn't always trigger @media print) */
+.pdf-export.mainContent { background: #fff; color: #000; font-size: 11pt; padding: 20px; }
+.pdf-export .no-print, .pdf-export .actions { display: none !important; }
+.pdf-export .step-screen { display: block !important; margin-bottom: 2rem; }
+.pdf-export .panel, .pdf-export .domainBlock, .pdf-export .subBlock, .pdf-export .card { border: none; box-shadow: none; background: transparent; padding: 0; }
+.pdf-export .domainBlock { display: block !important; border-bottom: 2px solid #000; margin-bottom: 2rem; padding-bottom: 1rem; }
+.pdf-export .domainHead { position: static; background: transparent; padding: 0.5rem 0; border-bottom: 2px solid #000; }
+.pdf-export .scoreBtn { border: 1px solid #999; color: #000; background: transparent; }
+.pdf-export .scoreBtn.on { background: #000; color: #fff; border-color: #000; }
+.pdf-export .startItem { background: transparent; border: 1px solid #000; }
+.pdf-export .startTag { background: transparent; border: 1px solid #000; color: #000; }
+.pdf-export .itemHead { align-items: flex-start; }
+.pdf-export .item { border-bottom: 1px solid #ddd; }
+.pdf-export .subBlock { border: 1px solid #ddd; margin-top: 1rem; padding: 0.5rem; }
+.pdf-export .subBlock > summary { padding: 0; margin-bottom: 0.5rem; }

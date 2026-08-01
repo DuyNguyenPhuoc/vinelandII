@@ -82,6 +82,9 @@ export const STRINGS: Dict = {
   lvl_low: { vi: "Thấp", en: "Low" },
   lvl_unknown: { vi: "—", en: "—" },
   // drive / session
+  newSession: { vi: "Làm mới", en: "New Session" },
+  confirmNew: { vi: "Bạn có chắc chắn muốn xóa toàn bộ dữ liệu và bắt đầu lại từ đầu?", en: "Are you sure you want to clear all data and start a new session?" },
+  savePdf: { vi: "Lưu PDF", en: "Save PDF" },
   save: { vi: "Lưu", en: "Save" },
   saveDrive: { vi: "Lưu vào Google Drive", en: "Save to Google Drive" },
   openDrive: { vi: "Mở từ Google Drive", en: "Open from Google Drive" },

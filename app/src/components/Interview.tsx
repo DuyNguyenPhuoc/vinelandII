@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { ItemScore, ItemsPack, Session, SubdomainDef } from "../types";
 import { useLang, useT } from "../i18n";
 import { SUBDOMAIN_EXPECTED } from "../data/vineland2.pack";
@@ -22,6 +22,7 @@ export function Interview({ session, pack, onChange, onResults }: Props) {
   const tr = useT();
   const lang = useLang();
   const ageYears = Math.floor(ageInMonths(session.examinee.birthDate, session.examinee.testDate) / 12);
+  const [activeDomainId, setActiveDomainId] = useState<string>(pack.domains[0]?.id || "");
 
   const setScore = (itemId: string, value: ItemScore) => {
     const cur = session.responses[itemId];
@@ -41,14 +42,41 @@ export function Interview({ session, pack, onChange, onResults }: Props) {
 
   return (
     <div className="panel">
-      <div className="interviewHint">
-        {lang === "vi"
-          ? "Chấm điểm từng mục. Mục xuất phát theo tuổi được đánh dấu. Bấm lại để bỏ chọn."
-          : "Score each item. The age start point is marked. Click again to clear."}
+      <div className="interviewHeader">
+        <div className="interviewHint">
+          {lang === "vi"
+            ? "Chấm điểm từng mục. Mục xuất phát theo tuổi được đánh dấu. Bấm lại để bỏ chọn."
+            : "Score each item. The age start point is marked. Click again to clear."}
+        </div>
+        <div className="scoreLegend">
+          {SCORES.map((s) => {
+            const parts = tr(s.key).split(" · ");
+            return (
+              <span key={String(s.value)}>
+                <strong>{parts[0]}</strong> {parts[1]}
+              </span>
+            );
+          })}
+        </div>
       </div>
 
+      <nav className="steps domainTabs">
+        {pack.domains.map((d) => (
+          <button
+            key={d.id}
+            className={activeDomainId === d.id ? "stepTab on" : "stepTab"}
+            onClick={() => setActiveDomainId(d.id)}
+          >
+            {lang === "vi" ? d.nameVi : d.nameEn}
+          </button>
+        ))}
+      </nav>
+
       {domainsWithSubs.map(({ domain, subs }) => (
-        <section key={domain.id} className="domainBlock">
+        <section 
+          key={domain.id} 
+          className={domain.id === activeDomainId ? "domainBlock active" : "domainBlock"}
+        >
           <h2 className="domainHead">
             {domain.nameVi} <span className="muted">/ {domain.nameEn}</span>
           </h2>
@@ -125,27 +153,31 @@ function SubdomainSection({
             return (
               <li key={it.id} className={isStart ? "item startItem" : "item"}>
                 <div className="itemHead">
+                  {isStart && <span className="startTag">{"<"}{ageYears}{"->"}</span>}
                   <span className="itemNum">{it.num}</span>
-                  {isStart && <span className="startTag">▶ {tr("startPoint")} ({ageYears})</span>}
                 </div>
-                <div className="itemText">{it.textVi}</div>
-                {it.guideVi && <div className="itemGuide">{it.guideVi}</div>}
+                <div className="itemTextMain">
+                  <div className="itemText">{it.textVi}</div>
+                  {it.guideVi && <div className="itemGuide">{it.guideVi}</div>}
+                </div>
                 <div className="scoreRow">
                   {SCORES.map((s) => (
                     <button
                       key={String(s.value)}
                       className={val === s.value ? "scoreBtn on" : "scoreBtn"}
                       onClick={() => onScore(it.id, s.value)}
+                      title={tr(s.key)}
                     >
-                      {tr(s.key)}
+                      {tr(s.key).split(" · ")[0]}
                     </button>
                   ))}
                   {it.allowNO && (
                     <button
                       className={val === "NO" ? "scoreBtn on" : "scoreBtn"}
                       onClick={() => onScore(it.id, "NO")}
+                      title={tr("scoreNO")}
                     >
-                      {tr("scoreNO")}
+                      {tr("scoreNO").split(" · ")[0]}
                     </button>
                   )}
                 </div>

@@ -1,6 +1,30 @@
+import { useState } from "react";
 import type { Session } from "../types";
 import { useLang, useT } from "../i18n";
 import { ageInMonths, ageLabel } from "../engine/scoring";
+
+function CustomDateInput({ value, onChange }: { value: string, onChange: (v: string) => void }) {
+  const [focused, setFocused] = useState(false);
+  
+  let displayValue = value;
+  if (!focused && value) {
+    const parts = value.split("-");
+    if (parts.length === 3) {
+      displayValue = `${parts[2]}/${parts[1]}/${parts[0]}`;
+    }
+  }
+
+  return (
+    <input
+      type={focused ? "date" : "text"}
+      placeholder="dd/mm/yyyy"
+      value={focused ? value : displayValue}
+      onChange={(e) => onChange(e.target.value)}
+      onFocus={() => setFocused(true)}
+      onBlur={() => setFocused(false)}
+    />
+  );
+}
 
 interface Props {
   session: Session;
@@ -41,11 +65,11 @@ export function Setup({ session, onChange, onStart }: Props) {
           </label>
           <label>
             {tr("birthDate")}
-            <input type="date" value={ex.birthDate} onChange={(e) => setEx({ birthDate: e.target.value })} />
+            <CustomDateInput value={ex.birthDate} onChange={(v) => setEx({ birthDate: v })} />
           </label>
           <label>
             {tr("testDate")}
-            <input type="date" value={ex.testDate} onChange={(e) => setEx({ testDate: e.target.value })} />
+            <CustomDateInput value={ex.testDate} onChange={(v) => setEx({ testDate: v })} />
           </label>
           <label>
             {tr("idNumber")}
