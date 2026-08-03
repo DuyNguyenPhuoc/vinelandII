@@ -6,7 +6,7 @@ import time
 from PIL import Image
 import io
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC0zUZoPTUaen9qOByYG1Z-UVB-lbOXhjI")
+API_KEY = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 MODELS = ['gemini-3.5-flash', 'gemini-3.1-flash-lite', 'gemini-3.5-flash-lite']
 current_model_idx = 0

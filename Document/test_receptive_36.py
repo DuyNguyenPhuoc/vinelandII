@@ -4,7 +4,7 @@ import json
 import os
 import io
 
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyC0zUZoPTUaen9qOByYG1Z-UVB-lbOXhjI')
+API_KEY = os.environ.get('GEMINI_API_KEY')
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-3.1-flash-lite')
 

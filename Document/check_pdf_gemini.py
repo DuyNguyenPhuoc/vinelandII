@@ -4,7 +4,7 @@ import os, io, time
 from PIL import Image
 import json
 
-genai.configure(api_key=os.environ.get('GEMINI_API_KEY', 'AIzaSyC0zUZoPTUaen9qOByYG1Z-UVB-lbOXhjI'))
+genai.configure(api_key=os.environ.get('GEMINI_API_KEY'))
 model = genai.GenerativeModel('gemini-3.5-flash')
 
 doc = fitz.open('Vineland-II scoring.pdf')

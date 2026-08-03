@@ -7,7 +7,7 @@ from PIL import Image
 import io
 
 # Setup your API key here or via environment variable
-API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC0zUZoPTUaen9qOByYG1Z-UVB-lbOXhjI")
+API_KEY = os.environ.get("GEMINI_API_KEY")
 genai.configure(api_key=API_KEY)
 
 # Use the latest pro model for flawless vision reasoning
